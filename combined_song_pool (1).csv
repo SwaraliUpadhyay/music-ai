@@ -1,0 +1,2970 @@
+song_id,title,artist,valence,arousal,source
+pmemo_1,Good Drank,2 Chainz,0.575,0.4,PMEmo
+pmemo_4,X Bitch (feat. Future),21 Savage,0.287,0.263,PMEmo
+pmemo_5,No Heart,21 Savage,0.2,0.15,PMEmo
+pmemo_6,Red Opps,21 Savage,0.35,0.512,PMEmo
+pmemo_7,Girls Talk Boys,5 Seconds Of Summer,0.725,0.7,PMEmo
+pmemo_8,PRBLMS,6LACK,0.225,0.388,PMEmo
+pmemo_9,Timeless,A Boogie Wit Da Hoodie,0.287,0.45,PMEmo
+pmemo_10,Drowning,A Boogie Wit Da Hoodie,0.425,0.438,PMEmo
+pmemo_12,We The People....,A Tribe Called Quest,0.575,0.688,PMEmo
+pmemo_13,Weak,AJR,0.588,0.825,PMEmo
+pmemo_14,I’m Sorry,Adam Wakefield,0.575,0.562,PMEmo
+pmemo_15,Lonesome Broken and Blue (The Voice Performance),Adam Wakefield,0.662,0.613,PMEmo
+pmemo_16,When I Call Your Name (The Voice Performance),Adam Wakefield,0.575,0.537,PMEmo
+pmemo_17,Hello,Adele,0.675,0.825,PMEmo
+pmemo_18,Send My Love (To Your New Lover),Adele,0.838,0.8,PMEmo
+pmemo_19,Water Under The Bridge,Adele,0.75,0.762,PMEmo
+pmemo_20,We're In This Love Together,Al Jarreau,0.637,0.55,PMEmo
+pmemo_21,Faded,Alan Walker,0.775,0.863,PMEmo
+pmemo_23,How Far I'll Go(Alessia Cara Version),Alessia Cara,0.675,0.625,PMEmo
+pmemo_25,Scars To Your Beautiful,Alessia Cara,0.784,0.761,PMEmo
+pmemo_26,Wild Things(NuKid Remix),Alessia Cara,0.762,0.825,PMEmo
+pmemo_28,Not Easy,Alex Da Kid,0.575,0.487,PMEmo
+pmemo_29,Down That Road (The Voice Performance),Alisan Porter,0.675,0.7,PMEmo
+pmemo_30,Somewhere (The Voice Performance),Alisan Porter,0.537,0.613,PMEmo
+pmemo_31,Caroline,Amine,0.438,0.625,PMEmo
+pmemo_32,Rise Up,Andra Day,0.388,0.575,PMEmo
+pmemo_33,Fresh Eyes,Andy Grammer,0.75,0.637,PMEmo
+pmemo_34,It's the Most Wonderful Time of the Year,Andy Williams,0.838,0.688,PMEmo
+pmemo_35,True Colors,Anna Kendrick,0.625,0.338,PMEmo
+pmemo_37,Alarm,Anne-Marie,0.75,0.8,PMEmo
+pmemo_38,Ciao Adios,Anne-Marie,0.838,0.887,PMEmo
+pmemo_39,Thief,Ansel Elgort,0.591,0.875,PMEmo
+pmemo_40,Beauty and the Beast,Ariana Grande,0.662,0.375,PMEmo
+pmemo_42,Dangerous Woman,Ariana Grande,0.6,0.762,PMEmo
+pmemo_43,One Last Time,Ariana Grande,0.787,0.863,PMEmo
+pmemo_44,Forever Country,Artists Of Then,0.675,0.688,PMEmo
+pmemo_46,Rolex,Ayo & Teo,0.575,0.838,PMEmo
+pmemo_47,Suga Suga,Baby Bash,0.463,0.4,PMEmo
+pmemo_48,Do They Know It's Christmas?,Band Aid 20,0.838,0.725,PMEmo
+pmemo_49,Good Grief,Bastille,0.713,0.787,PMEmo
+pmemo_50,Fight For Your Right,Beastie Boys,0.588,0.838,PMEmo
+pmemo_51,I Got You,Bebe Rexha,0.762,0.825,PMEmo
+pmemo_52,Might Not,Belly,0.463,0.588,PMEmo
+pmemo_54,Brand New,Ben Rector,0.775,0.875,PMEmo
+pmemo_55,No Favors,Big Sean,0.4,0.625,PMEmo
+pmemo_56,Blessings,Big Sean,0.275,0.412,PMEmo
+pmemo_57,Bounce Back,Big Sean,0.362,0.525,PMEmo
+pmemo_58,Halfway Off the Balcony,Big Sean,0.25,0.263,PMEmo
+pmemo_59,Jump Out the Window,Big Sean,0.6,0.6,PMEmo
+pmemo_60,Light,Big Sean,0.409,0.42,PMEmo
+pmemo_61,Moves,Big Sean,0.275,0.375,PMEmo
+pmemo_63,Owe Me,Big Sean,0.463,0.375,PMEmo
+pmemo_65,Sweatshirt - Tribute to Jacob Sartorius,Billboard Masters,0.75,0.588,PMEmo
+pmemo_66,It Don't Hurt Like It Used To,Billy Currington,0.762,0.863,PMEmo
+pmemo_67,River,Bishop Briggs,0.588,0.8,PMEmo
+pmemo_68,Do Re mi,Blackbear,0.575,0.65,PMEmo
+pmemo_69,A Guy With a Girl,Blake Shelton,0.775,0.713,PMEmo
+pmemo_70,Came Here to Forget,Blake Shelton,0.525,0.575,PMEmo
+pmemo_71,Every Time I Hear That Song,Blake Shelton,0.588,0.762,PMEmo
+pmemo_72,Go Ahead and Break My Heart,Blake Shelton,0.688,0.75,PMEmo
+pmemo_73,She's Got a Way With Words,Blake Shelton,0.688,0.537,PMEmo
+pmemo_74,Bored To Death,Blink 182,0.775,0.887,PMEmo
+pmemo_75,Rabbit Hole,Blink-182,0.738,0.963,PMEmo
+pmemo_76,Is This Love (Extended Mix),Bob Marley,0.65,0.637,PMEmo
+pmemo_78,Jingle Bell Rock,韩国群星,0.659,0.5,PMEmo
+pmemo_79,Livin' On A Prayer,Bon Jovi,0.625,0.925,PMEmo
+pmemo_80,Without a Fight,Brad Paisley,0.762,0.725,PMEmo
+pmemo_81,Today,Brad Paisley,0.7,0.613,PMEmo
+pmemo_83,The Weekend,Brantley Gilbert,0.725,0.775,PMEmo
+pmemo_84,Rockin' Around The Christmas Tree (Re-Recorded Version),²¼Â×´ï.Àî(Brenda Lee),0.8,0.5,PMEmo
+pmemo_86,Somethin' I'm Good At,Brett Eldredge,0.725,0.7,PMEmo
+pmemo_87,Wanna Be That Song,Brett Eldredge,0.6,0.662,PMEmo
+pmemo_88,In Case You Didn't Know,Brett Young,0.588,0.625,PMEmo
+pmemo_89,Sleep Without You,Brett Young,0.75,0.688,PMEmo
+pmemo_90,Make Me...,Britney Spears,0.487,0.65,PMEmo
+pmemo_91,Slumber Party,Britney Spears,0.738,0.863,PMEmo
+pmemo_92,Make Me...,Britney Spears,0.575,0.65,PMEmo
+pmemo_93,Broadway+For+Orlando,Various Artists,0.65,0.613,PMEmo
+pmemo_94,Dance Like Me,Brooklyn and Bailey,0.8,0.762,PMEmo
+pmemo_96,24K Magic,Bruno Mars,0.825,0.875,PMEmo
+pmemo_97,Perm,Bruno Mars,0.75,0.85,PMEmo
+pmemo_98,That's What I Like,Bruno Mars,0.65,0.738,PMEmo
+pmemo_99,Versace On The Floor,Bruno Mars,0.688,0.688,PMEmo
+pmemo_100,Don't,Bryson Tiller,0.3,0.175,PMEmo
+pmemo_102,A Holly Jolly Christmas,Burl Ives,0.825,0.738,PMEmo
+pmemo_103,LIFTED,CL,0.775,0.588,PMEmo
+pmemo_104,Dancing On My Own(Ben Dooks Remix),Calum Scott,0.825,0.838,PMEmo
+pmemo_105,Dancing on My Own,Calum Scott,0.388,0.275,PMEmo
+pmemo_106,Slide,Calvin Harris,0.675,0.7,PMEmo
+pmemo_107,Rollin,Calvin Harris,0.613,0.6,PMEmo
+pmemo_108,This Is What You Came For,Calvin Harris,0.863,0.863,PMEmo
+pmemo_109,Heatstroke,Calvin Harris,0.787,0.8,PMEmo
+pmemo_113,Crying In The Club,Camila Cabello,0.713,0.75,PMEmo
+pmemo_114,I Have Questions,Camila Cabello,0.738,0.738,PMEmo
+pmemo_115,La Bicicleta,Carlos Vives,0.8,0.8,PMEmo
+pmemo_116,Church Bells,Carrie Underwood,0.762,0.9,PMEmo
+pmemo_117,Dirty Laundry,Carrie Underwood,0.7,0.85,PMEmo
+pmemo_119,How Does A Moment Last Forever,Céline Dion,0.662,0.487,PMEmo
+pmemo_120,No Problem,Chance The Rapper,0.762,0.762,PMEmo
+pmemo_123,The Only One Who Gets Me,Charles Kelley,0.487,0.312,PMEmo
+pmemo_124,After The Afterparty,Charli XCX,0.838,0.9,PMEmo
+pmemo_126,We Don't Talk Anymore,Charlie Puth,0.7,0.7,PMEmo
+pmemo_127,Attention,Charlie Puth,0.825,0.812,PMEmo
+pmemo_128,One Call Away,Charlie Puth,0.6,0.512,PMEmo
+pmemo_132,Everybody We Know Does,Chase Rice,0.713,0.85,PMEmo
+pmemo_133,No Promises,Cheat Codes,0.738,0.775,PMEmo
+pmemo_134,Let Me Hold You (Turn Me On),Cheat Codes,0.713,0.8,PMEmo
+pmemo_135,Me and your Mama,Childish Gambino,0.4,0.738,PMEmo
+pmemo_136,Redbone,Childish Gambino,0.525,0.625,PMEmo
+pmemo_137,Money On You,Chris Blue,0.7,0.762,PMEmo
+pmemo_138,Take Me To the King,Chris Blue,0.588,0.662,PMEmo
+pmemo_139,Party,Chris Brown,0.775,0.713,PMEmo
+pmemo_140,Back To Sleep,Chris Brown,0.65,0.562,PMEmo
+pmemo_141,chris brown - grass ain't greener,Chris Brown,0.65,0.537,PMEmo
+pmemo_142,01 Privacy,Chris Brown,0.625,0.6,PMEmo
+pmemo_143,Holdin' Her,Chris Janson,0.625,0.562,PMEmo
+pmemo_144,Fix,Chris Lane,0.825,0.863,PMEmo
+pmemo_145,For Her,Chris Lane,0.75,0.762,PMEmo
+pmemo_146,Driving Home For Christmas (2003),¿ËÀïË¹ÀûÑÇ(Chris Rea),0.738,0.662,PMEmo
+pmemo_147,Broken Halos,Chris Stapleton,0.65,0.55,PMEmo
+pmemo_148,Either Way,Chris Stapleton,0.5,0.4,PMEmo
+pmemo_149,Fire Away,Chris Stapleton,0.263,0.388,PMEmo
+pmemo_150,Parachute,Chris Stapleton,0.725,0.738,PMEmo
+pmemo_151,Tennessee Whiskey,Chris Stapleton,0.613,0.325,PMEmo
+pmemo_152,Think of You (Duet with Cassadee Pope),Chris Young,0.725,0.825,PMEmo
+pmemo_153,Sober Saturday Night (feat. Vince Gill),Chris Young,0.65,0.675,PMEmo
+pmemo_156,Change,Christina Aguilera,0.55,0.662,PMEmo
+pmemo_157,Tilted,Christine and the Queens,0.682,0.534,PMEmo
+pmemo_158,Johnny B. Goode,Chuck Berry,0.787,0.725,PMEmo
+pmemo_159,Tears (feat. Louisa Johnson),Clean Bandit,0.675,0.875,PMEmo
+pmemo_160,Rockabye (feat. Sean Paul & Anne-Marie),Sean Paul,0.812,0.825,PMEmo
+pmemo_161,Symphony,Clean Bandit,0.713,0.863,PMEmo
+pmemo_162,Rockabye (feat. Sean Paul & Anne-Marie),Sean Paul,0.738,0.875,PMEmo
+pmemo_165,Hymn For The Weekend,Coldplay,0.675,0.738,PMEmo
+pmemo_166,Hypnotised,Coldplay,0.575,0.625,PMEmo
+pmemo_167,Flatliner (feat. Dierks Bentley),Cole Swindell,0.775,0.887,PMEmo
+pmemo_168,Middle of a Memory,Cole Swindell,0.625,0.713,PMEmo
+pmemo_169,You Should Be Here,Cole Swindell,0.6,0.675,PMEmo
+pmemo_170,The Scientist,Corinne Bailey Rae,0.6,0.3,PMEmo
+pmemo_171,Ain't Giving Up,Craig David,0.812,0.85,PMEmo
+pmemo_172,BROCCOLI,D.R.A.M.,0.625,0.637,PMEmo
+pmemo_174,Wishing,DJ Drama,0.534,0.477,PMEmo
+pmemo_175,Too Much Sauce,Future,0.45,0.475,PMEmo
+pmemo_176,Shining,DJ Khaled,0.65,0.713,PMEmo
+pmemo_177,For Free,DJ Khaled,0.537,0.55,PMEmo
+pmemo_179,I Got the Keys,DJ Khaled,0.312,0.738,PMEmo
+pmemo_180,I'm the One,DJ Khaled,0.688,0.575,PMEmo
+pmemo_181,Do You Mind,DJ Khaled,0.625,0.487,PMEmo
+pmemo_184,Holy Key,DJ Khaled,0.637,0.825,PMEmo
+pmemo_185,I Got the Keys,DJ Khaled,0.475,0.662,PMEmo
+pmemo_186,Shining,DJ Khaled,0.713,0.825,PMEmo
+pmemo_187,OTW (Remix),DJ Luke Nasty,0.675,0.7,PMEmo
+pmemo_188,Key to the Streets(Chopped Not Slopped),DJ Slim K,0.4,0.312,PMEmo
+pmemo_189,Middle(4B Remix),DJ Snake,0.637,0.688,PMEmo
+pmemo_191,Let Me Love You,DJ Snake,0.825,0.762,PMEmo
+pmemo_192,Turn Down for What,DJ Snake,0.537,0.938,PMEmo
+pmemo_196,Cash Me Outside (#CashmeOutside),DJ Suede The Remix God,0.362,0.438,PMEmo
+pmemo_197,DNCE - Cake By The Ocean (From ＂Grease Live!＂ Music From The,Various Artists,0.438,0.338,PMEmo
+pmemo_198,Toothbrush,DNCE,0.75,0.864,PMEmo
+pmemo_199,Shaky Shaky,Daddy Yankee,0.688,0.787,PMEmo
+pmemo_200,"Wat U Mean (Aye, Aye, Aye)",Dae Dae,0.562,0.7,PMEmo
+pmemo_201,From the Ground Up,Dan + Shay,0.688,0.625,PMEmo
+pmemo_202,How Not To,Dan + Shay,0.762,0.85,PMEmo
+pmemo_203,When I Pray For You,Dan + Shay,0.688,0.775,PMEmo
+pmemo_204,Evermore,Dan Stevens,0.588,0.738,PMEmo
+pmemo_207,Titanium (Feat. Sia),David Guetta,0.738,0.85,PMEmo
+pmemo_209,Night's On Fire,David Nail,0.775,0.688,PMEmo
+pmemo_210,Hide Away,Daya,0.725,0.812,PMEmo
+pmemo_211,"Sit Still, Look Pretty",Daya,0.65,0.65,PMEmo
+pmemo_212,Body Say,Demi Lovato,0.6,0.662,PMEmo
+pmemo_213,Panda (#PANDATO Version),Desiigner,0.362,0.562,PMEmo
+pmemo_215,Tiimmy Turner,Desiigner,0.512,0.525,PMEmo
+pmemo_216,Different for Girls,Dierks Bentley,0.662,0.65,PMEmo
+pmemo_217,Black,Dierks Bentley,0.575,0.613,PMEmo
+pmemo_219,Drunk On A Plane,Dierks Bentley,0.75,0.838,PMEmo
+pmemo_220,Somewhere on a Beach,Dierks Bentley,0.675,0.688,PMEmo
+pmemo_221,On My Mind,Disciples,0.7,0.812,PMEmo
+pmemo_222,The Sound Of Silence,Disturbed,0.35,0.662,PMEmo
+pmemo_224,Sneakin',Drake,0.5,0.588,PMEmo
+pmemo_225,Get It Together,Drake,0.525,0.412,PMEmo
+pmemo_227,Jumpman,Drake,0.425,0.475,PMEmo
+pmemo_228,KMT,Drake,0.425,0.55,PMEmo
+pmemo_229,No Long Talk,Drake,0.4,0.45,PMEmo
+pmemo_230,Glow,Drake,0.738,0.362,PMEmo
+pmemo_231,With You,Drake,0.55,0.537,PMEmo
+pmemo_232,Faithful,Drake,0.475,0.412,PMEmo
+pmemo_233,Controlla,Drake,0.487,0.4,PMEmo
+pmemo_234,Portland,Drake,0.438,0.388,PMEmo
+pmemo_235,Too Good,Drake,0.7,0.45,PMEmo
+pmemo_236,4422,Drake,0.3,0.312,PMEmo
+pmemo_237,Pop Style,Drake,0.312,0.525,PMEmo
+pmemo_238,One Dance,Drake,0.562,0.637,PMEmo
+pmemo_239,Ice Melts,Drake,0.688,0.625,PMEmo
+pmemo_241,9,Drake,0.562,0.525,PMEmo
+pmemo_242,Blem,Drake,0.613,0.625,PMEmo
+pmemo_244,Childs Play,Drake,0.412,0.287,PMEmo
+pmemo_249,Fake Love,Drake,0.45,0.537,PMEmo
+pmemo_251,Feel No Ways,Drake,0.466,0.432,PMEmo
+pmemo_252,Fire & Desire,Drake,0.362,0.138,PMEmo
+pmemo_253,Free Smoke,Drake,0.525,0.613,PMEmo
+pmemo_257,Gyalchester,Drake,0.312,0.412,PMEmo
+pmemo_258,Hype,Drake,0.475,0.675,PMEmo
+pmemo_260,Jorja Interlude,Drake,0.3,0.463,PMEmo
+pmemo_263,Keep The Family Close,Drake,0.35,0.412,PMEmo
+pmemo_265,Madiba Riddim,Drake,0.675,0.512,PMEmo
+pmemo_267,Nothings Into Somethings,Drake,0.35,0.275,PMEmo
+pmemo_269,Passionfruit,Drake,0.637,0.588,PMEmo
+pmemo_273,Redemption,Drake,0.362,0.338,PMEmo
+pmemo_275,Since Way Back,Drake,0.412,0.338,PMEmo
+pmemo_276,Skepta Interlude,Drake,0.512,0.65,PMEmo
+pmemo_277,Sneakin’,Drake,0.388,0.2,PMEmo
+pmemo_279,Summer Sixteen,Drake,0.463,0.362,PMEmo
+pmemo_280,Teenage Fever,Drake,0.525,0.325,PMEmo
+pmemo_282,"Two Birds, One Stone",Drake,0.525,0.537,PMEmo
+pmemo_283,U With Me?,Drake,0.537,0.575,PMEmo
+pmemo_284,Views,Drake,0.487,0.463,PMEmo
+pmemo_285,Weston Road Flows,Drake,0.525,0.512,PMEmo
+pmemo_287,Body,Dreezy,0.688,0.5,PMEmo
+pmemo_292,Blow Your Mind (Mwah),Dua Lipa,0.863,0.95,PMEmo
+pmemo_293,Mind Reader,Dustin Lynch,0.637,0.637,PMEmo
+pmemo_294,Seein' Red,Dustin Lynch,0.55,0.7,PMEmo
+pmemo_295,Small Town Boy,Dustin Lynch,0.75,0.725,PMEmo
+pmemo_296,You're Welcome,Dwayne Johnson,0.8,0.812,PMEmo
+pmemo_297,My Girl,Dylan Scott,0.7,0.675,PMEmo
+pmemo_298,Castle on the Hill,Ed Sheeran,0.738,0.725,PMEmo
+pmemo_299,How Would You Feel (Paean),Ed Sheeran,0.65,0.25,PMEmo
+pmemo_300,06-ed_sheeran-photograph,Ed Sheeran,0.762,0.55,PMEmo
+pmemo_301,Shape of You,Ed Sheeran,0.787,0.825,PMEmo
+pmemo_302,Thinking Out Loud,Ed Sheeran,0.575,0.5,PMEmo
+pmemo_303,Mr. Blue Sky (Album Version),Electric Light Orchestra,0.613,0.738,PMEmo
+pmemo_304,America's Sweetheart,Elle King,0.738,0.9,PMEmo
+pmemo_305,Still Falling For You,Ellie Goulding,0.75,0.938,PMEmo
+pmemo_306,Step Into Christmas,Elton John,0.875,0.775,PMEmo
+pmemo_307,Hurts,Emeli Sandé,0.575,0.9,PMEmo
+pmemo_308,Love The Way You Lie,Eminem,0.85,0.812,PMEmo
+pmemo_309,Infinite,Eminem,0.388,0.35,PMEmo
+pmemo_310,Something There,Emma Watson,0.675,0.4,PMEmo
+pmemo_312,DUELE EL CORAZON,Enrique Iglesias,0.787,0.838,PMEmo
+pmemo_313,Kill a Word,Eric Church,0.662,0.537,PMEmo
+pmemo_314,Record Year,Eric Church,0.65,0.562,PMEmo
+pmemo_315,Bring Me To Life,Evanescence,0.65,0.85,PMEmo
+pmemo_316,Be Our Guest,Ewan McGregor,0.863,0.887,PMEmo
+pmemo_317,Be Our Guest,Ewan McGregor,0.863,0.925,PMEmo
+pmemo_318,Capsize,Emily Warren,0.825,0.725,PMEmo
+pmemo_319,Keep Your Eyes On Me,Faith Hill,0.5,0.738,PMEmo
+pmemo_321,All the Way Up,Fat Joe,0.487,0.688,PMEmo
+pmemo_323,Life Goes On,Fergie,0.725,0.863,PMEmo
+pmemo_324,M.I.L.F. $,Fergie,0.55,0.887,PMEmo
+pmemo_325,Wake Up,Fetty Wap,0.613,0.487,PMEmo
+pmemo_326,All In My Head (Flex),Fifth Harmony,0.7,0.688,PMEmo
+pmemo_327,Work From Home,Fifth Harmony,0.738,0.762,PMEmo
+pmemo_329,That's My Girl,Fifth Harmony,0.787,0.938,PMEmo
+pmemo_331,HandClap,Fitz,0.8,0.85,PMEmo
+pmemo_332,The Chain,Fleetwood Mac,0.725,0.762,PMEmo
+pmemo_333,Cake,Flo Rida,0.775,0.787,PMEmo
+pmemo_334,My House,Flo Rida,0.562,0.625,PMEmo
+pmemo_336,"God, Your Mama, And Me",Florida Georgia Line,0.725,0.75,PMEmo
+pmemo_337,May We All,Florida Georgia Line,0.812,0.675,PMEmo
+pmemo_338,Confession,Florida Georgia Line,0.713,0.825,PMEmo
+pmemo_339,H.O.L.Y,Florida Georgia Line,0.787,0.725,PMEmo
+pmemo_341,Smooth,Florida Georgia Line,0.8,0.85,PMEmo
+pmemo_342,Never Be Like You,Flume,0.688,0.75,PMEmo
+pmemo_343,Say It,Flume,0.55,0.65,PMEmo
+pmemo_347,Chanel,Frank Ocean,0.338,0.188,PMEmo
+pmemo_348,Ivy,Frank Ocean,0.3,0.463,PMEmo
+pmemo_349,Nights,Frank Ocean,0.338,0.275,PMEmo
+pmemo_350,Nikes,Frank Ocean,0.375,0.263,PMEmo
+pmemo_351,Pink + White,Frank Ocean,0.55,0.275,PMEmo
+pmemo_353,It All Started with a Beer,Frankie Ballard,0.588,0.525,PMEmo
+pmemo_354,No Shopping,French Montana,0.512,0.35,PMEmo
+pmemo_355,Lockjaw,French Montana,0.325,0.45,PMEmo
+pmemo_356,Unforgettable,French Montana,0.562,0.475,PMEmo
+pmemo_358,Wicked Version,Future Pigeon,0.688,0.388,PMEmo
+pmemo_360,Selfish,Future,0.55,0.588,PMEmo
+pmemo_361,Comin Out Strong,Future,0.55,0.613,PMEmo
+pmemo_362,Low Life (feat. The Weeknd),Future,0.463,0.4,PMEmo
+pmemo_364,Draco,Future,0.4,0.375,PMEmo
+pmemo_366,Mask Off,Future,0.287,0.263,PMEmo
+pmemo_367,New Level,Future,0.312,0.613,PMEmo
+pmemo_368,Rent Money,Future,0.575,0.6,PMEmo
+pmemo_370,Super Trapper,Future,0.25,0.4,PMEmo
+pmemo_372,Zoom,Future,0.175,0.825,PMEmo
+pmemo_373,"Me, Myself & I",Bebe Rexha,0.725,0.85,PMEmo
+pmemo_375,Good Life,G-Eazy,0.775,0.738,PMEmo
+pmemo_376,Some Kind Of Drug,G-Eazy,0.662,0.6,PMEmo
+pmemo_379,Love On Me,Galantis,0.912,0.938,PMEmo
+pmemo_381,No Money,Galantis,0.8,0.938,PMEmo
+pmemo_382,She Sets The City On Fire,Gavin DeGraw,0.864,0.886,PMEmo
+pmemo_383,Careless Whisper,George Michael,0.412,0.5,PMEmo
+pmemo_385,Freedom! '90(Remastered),George Michael,0.75,0.825,PMEmo
+pmemo_386,My Boo,Ghost Town DJ's,0.588,0.562,PMEmo
+pmemo_388,home,Gnash,0.713,0.575,PMEmo
+pmemo_389,I Hate U I Love U,Gnash,0.362,0.225,PMEmo
+pmemo_391,Come Together,Godsmack,0.6,0.85,PMEmo
+pmemo_393,Saturnz Barz,Gorillaz,0.463,0.537,PMEmo
+pmemo_394,You Don't Own Me,Grace,0.675,0.75,PMEmo
+pmemo_395,You Don't Own Me,Grace,0.675,0.713,PMEmo
+pmemo_396,If the Boot Fits,Granger Smith,0.713,0.65,PMEmo
+pmemo_397,Both,Gucci Mane,0.338,0.45,PMEmo
+pmemo_398,P**** Print (feat. Kanye West),Kanye West,0.438,0.438,PMEmo
+pmemo_399,Back On Road,Drake,0.45,0.613,PMEmo
+pmemo_401,Make Love,Gucci Mane,0.25,0.35,PMEmo
+pmemo_402,Hollaback Girl,Gwen Stefani,0.688,0.85,PMEmo
+pmemo_403,Want You Back,HAIM,0.812,0.762,PMEmo
+pmemo_405,Most Girls,Hailee Steinfeld,0.713,0.738,PMEmo
+pmemo_407,Eyes Closed,Halsey,0.562,0.787,PMEmo
+pmemo_408,Not Afraid Anymore,Halsey,0.613,0.912,PMEmo
+pmemo_409,Not Afraid Anymore,Halsey,0.662,0.912,PMEmo
+pmemo_410,Now Or Never,Halsey,0.45,0.7,PMEmo
+pmemo_411,Every Breath You Take (The Voice Performance),Hannah Huston,0.637,0.175,PMEmo
+pmemo_412,I Call the Shots (The Voice Performance),Hannah Huston,0.438,0.5,PMEmo
+pmemo_413,Sign of the Times,Harry Styles,0.675,0.575,PMEmo
+pmemo_414,Sweet Creature,Harry Styles,0.545,0.58,PMEmo
+pmemo_415,Guys My Age(Stripped),Hey Violet,0.523,0.477,PMEmo
+pmemo_417,Make You Mine,High Valley,0.775,0.863,PMEmo
+pmemo_418,13 What a Beautiful Name (Acoustic),Hillsong Worship,0.375,0.425,PMEmo
+pmemo_419,Higher Love,Hunter Plake,0.225,0.087,PMEmo
+pmemo_420,Mo Bounce,Iggy Azalea,0.55,0.775,PMEmo
+pmemo_421,Team(Young Bombs Remix),Iggy Azalea,0.725,0.85,PMEmo
+pmemo_423,Believer,Imagine Dragons,0.65,0.887,PMEmo
+pmemo_424,Not Today,Imagine Dragons,0.65,0.55,PMEmo
+pmemo_425,Radioactive,Imagine Dragons,0.812,0.95,PMEmo
+pmemo_426,Thunder,Imagine Dragons,0.713,0.825,PMEmo
+pmemo_427,Whatever It Takes,Imagine Dragons,0.7,0.775,PMEmo
+pmemo_428,Did You See,J Hus,0.562,0.487,PMEmo
+pmemo_429,4 Your Eyez Only,J. Cole,0.4,0.225,PMEmo
+pmemo_431,Deja Vu,J. Cole,0.637,0.525,PMEmo
+pmemo_432,False Prophets,J. Cole,0.4,0.375,PMEmo
+pmemo_433,Foldin Clothes,J. Cole,0.5,0.362,PMEmo
+pmemo_434,For Whom the Bell Tolls,J. Cole,0.388,0.512,PMEmo
+pmemo_435,Immortal,J. Cole,0.35,0.275,PMEmo
+pmemo_436,Neighbors,J. Cole,0.35,0.25,PMEmo
+pmemo_437,"She's Mine, Pt. 1",J. Cole,0.375,0.188,PMEmo
+pmemo_438,"She's Mine, Pt. 2",J. Cole,0.325,0.338,PMEmo
+pmemo_439,Ville Mentality,J. Cole,0.263,0.225,PMEmo
+pmemo_440,everbody dies,J. Cole,0.287,0.3,PMEmo
+pmemo_441,September Song,JP Cooper,0.688,0.675,PMEmo
+pmemo_442,Hit or Miss - Jacob Sartorius,Jacob Sartorius,0.613,0.713,PMEmo
+pmemo_443,American Country Love Song,Jake Owen,0.675,0.7,PMEmo
+pmemo_444,If He Ain't Gonna Love You,Jake Owen,0.762,0.738,PMEmo
+pmemo_445,Safe Inside,James Arthur,0.463,0.588,PMEmo
+pmemo_446,Say You Won't Let Go,James Arthur,0.487,0.425,PMEmo
+pmemo_447,Let It Go,James Bay,0.6,0.588,PMEmo
+pmemo_448,A Little More Summertime,Jason Aldean,0.738,0.775,PMEmo
+pmemo_449,Any Ol' Barstool,Jason Aldean,0.738,0.7,PMEmo
+pmemo_450,Lights Come On,Jason Aldean,0.762,0.75,PMEmo
+pmemo_451,If It Ain't Love,Jason Derulo,0.838,0.9,PMEmo
+pmemo_452,You Don't Know Me,Jax Jones,0.738,0.65,PMEmo
+pmemo_454,Love Make the World Go Round,Jennifer Lopez,0.812,0.838,PMEmo
+pmemo_455,Ain't Your Mama,Jennifer Lopez,0.738,0.875,PMEmo
+pmemo_456,Unlove You,Jennifer Nettles,0.525,0.7,PMEmo
+pmemo_457,oui,Jeremih,0.787,0.662,PMEmo
+pmemo_458,Woman,Jesse Larson,0.738,0.75,PMEmo
+pmemo_460,Love Me Now,John Legend,0.7,0.8,PMEmo
+pmemo_461,Changing,John Mayer,0.637,0.375,PMEmo
+pmemo_462,Love On The Weekend,John Mayer,0.65,0.412,PMEmo
+pmemo_463,Moving On and Getting Over,John Mayer,0.562,0.3,PMEmo
+pmemo_465,Ain't No Grave (Album Version),Johnny Cash,0.425,0.338,PMEmo
+pmemo_466,All Time Low (explicit),Jon Bellion,0.738,0.65,PMEmo
+pmemo_468,Dirt On My Boots,Jon Pardi,0.787,0.762,PMEmo
+pmemo_469,Head Over Boots,Jon Pardi,0.713,0.713,PMEmo
+pmemo_470,Perfect Strangers,JP Cooper,0.85,0.762,PMEmo
+pmemo_471,By Your Side,Jonas Blue,0.787,0.875,PMEmo
+pmemo_472,Mama,Jonas Blue,0.662,0.613,PMEmo
+pmemo_476,Feliz Navidad,José Feliciano,0.863,0.7,PMEmo
+pmemo_477,Homecoming,Josh Ritter,0.713,0.575,PMEmo
+pmemo_478,Hometown Girl,Josh Turner,0.675,0.65,PMEmo
+pmemo_479,Get Your Freedom,Joy Villa,0.388,0.225,PMEmo
+pmemo_480,I Make the Static,Joy Villa,0.637,0.787,PMEmo
+pmemo_481,The Darkness,Joy Villa,0.613,0.688,PMEmo
+pmemo_482,Vagabonds,Joy Villa,0.568,0.557,PMEmo
+pmemo_483,Ain't Nothing,Juicy J,0.512,0.575,PMEmo
+pmemo_484,Issues,Julia Michaels,0.625,0.675,PMEmo
+pmemo_485,. Company,Justin Bieber,0.7,0.713,PMEmo
+pmemo_486,. Love Yourself,Justin Bieber,0.575,0.375,PMEmo
+pmemo_487,. Sorry,Justin Bieber,0.775,0.8,PMEmo
+pmemo_488,You Look Like I Need A Drink,Justin Moore,0.6,0.662,PMEmo
+pmemo_489,justin timberlake - can't stop the feeling! (original song f,Justin Timberlake,0.795,0.909,PMEmo
+pmemo_490,Liability,KLOE,0.688,0.825,PMEmo
+pmemo_491,Way Down We Go,Kaleo,0.438,0.575,PMEmo
+pmemo_492,What Ifs,Kane Brown,0.787,0.9,PMEmo
+pmemo_493,Ain't No Stopping Us Now,Kane Brown,0.75,0.738,PMEmo
+pmemo_494,01 Champions,Kanye West,0.463,0.8,PMEmo
+pmemo_495,Kanye West Ft. Rihanna - Famous (New Version) (CDQ),Kanye West,0.475,0.838,PMEmo
+pmemo_496,Fade,Kanye West,0.537,0.662,PMEmo
+pmemo_499,Bon Appétit,Katy Perry,0.825,0.863,PMEmo
+pmemo_500,Swish Swish,Katy Perry,0.425,0.7,PMEmo
+pmemo_501,Chained To The Rhythm,Katy Perry,0.812,0.838,PMEmo
+pmemo_503,Katy Perry - Rise (CDQ),Katy Perry,0.489,0.614,PMEmo
+pmemo_504,Kehlani - CRZY,Kehlani,0.675,0.675,PMEmo
+pmemo_505,Distraction,Kehlani,0.613,0.65,PMEmo
+pmemo_506,Gangsta,Kehlani,0.375,0.275,PMEmo
+pmemo_507,8,Keith Urban,0.662,0.8,PMEmo
+pmemo_508,7,Keith Urban,0.537,0.362,PMEmo
+pmemo_510,Wasted Time,Keith Urban,0.825,0.713,PMEmo
+pmemo_511,"Michelle Obama,Kelly Clarkson,Missy Elliott - This Is For My",Michelle Obama,0.738,0.688,PMEmo
+pmemo_512,Piece By Piece (Idol Version),Kelly Clarkson,0.425,0.312,PMEmo
+pmemo_514,Peter Pan,Kelsea Ballerini,0.75,0.85,PMEmo
+pmemo_515,Yeah Boy,Kelsea Ballerini,0.787,0.613,PMEmo
+pmemo_516,LOYALTY.,Kendrick Lamar,0.463,0.4,PMEmo
+pmemo_517,XXX.,Kendrick Lamar,0.425,0.263,PMEmo
+pmemo_518,LOVE.,Kendrick Lamar,0.512,0.425,PMEmo
+pmemo_519,BLOOD.,Kendrick Lamar,0.263,0.35,PMEmo
+pmemo_520,DNA.,Kendrick Lamar,0.15,0.662,PMEmo
+pmemo_521,DUCKWORTH.,Kendrick Lamar,0.375,0.512,PMEmo
+pmemo_522,ELEMENT.,Kendrick Lamar,0.463,0.537,PMEmo
+pmemo_523,FEAR.,Kendrick Lamar,0.338,0.338,PMEmo
+pmemo_524,FEEL.,Kendrick Lamar,0.275,0.512,PMEmo
+pmemo_525,GOD.,Kendrick Lamar,0.275,0.237,PMEmo
+pmemo_526,HUMBLE.,Kendrick Lamar,0.525,0.463,PMEmo
+pmemo_530,LUST.,Kendrick Lamar,0.341,0.295,PMEmo
+pmemo_531,PRIDE.,Kendrick Lamar,0.3,0.225,PMEmo
+pmemo_532,The Heart Part 4,Kendrick Lamar,0.338,0.537,PMEmo
+pmemo_534,YAH.,Kendrick Lamar,0.287,0.163,PMEmo
+pmemo_535,Setting the World On Fire,Kenny Chesney,0.787,0.762,PMEmo
+pmemo_536,Bar at the End of the World,Kenny Chesney,0.825,0.787,PMEmo
+pmemo_537,Noise,Kenny Chesney,0.713,0.762,PMEmo
+pmemo_539,Don't Mind,Kent Jones,0.65,0.613,PMEmo
+pmemo_540,You,Keyshia Cole,0.388,0.512,PMEmo
+pmemo_541,Location,Khalid,0.35,0.275,PMEmo
+pmemo_542,Promise,KiD Ink,0.613,0.713,PMEmo
+pmemo_544,Picture,Kid Rock,0.625,0.45,PMEmo
+pmemo_546,Crank It (Woah!)(Radio Edit),Kideko,0.575,0.787,PMEmo
+pmemo_548,Gold,Kiiara,0.55,0.45,PMEmo
+pmemo_549,09 Conscience (feat. Future),Kodak Black,0.312,0.438,PMEmo
+pmemo_550,Everything 1K,Kodak Black,0.375,0.438,PMEmo
+pmemo_551,Tunnel Vision,Kodak Black,0.375,0.287,PMEmo
+pmemo_552,This Girl (Kungs Vs. Cookin' On 3 Burners),Kungs,0.812,0.85,PMEmo
+pmemo_554,First Time,Kygo,0.65,0.662,PMEmo
+pmemo_555,It Ain't Me,Kygo,0.688,0.762,PMEmo
+pmemo_558,iSpy,Kyle,0.512,0.55,PMEmo
+pmemo_560,call the police,LCD Soundsystem,0.512,0.662,PMEmo
+pmemo_561,Another Day of Sun,La La Land Cast,0.887,0.825,PMEmo
+pmemo_562,You Look Good,Lady Antebellum,0.688,0.738,PMEmo
+pmemo_563,Telephone (Feat. Beyonc?,群星쀀,0.688,0.738,PMEmo
+pmemo_564,Just Dance(Richard Vission Remix),Lady GaGa,0.475,0.9,PMEmo
+pmemo_565,A-Yo,Lady Gaga,0.637,0.725,PMEmo
+pmemo_566,Alejandro,Lady GaGa,0.725,0.775,PMEmo
+pmemo_567,Applause,Lady GaGa,0.825,0.875,PMEmo
+pmemo_568,Bad Romance,Lady GaGa,0.825,0.975,PMEmo
+pmemo_569,Born This Way,Lady Gaga,0.65,0.7,PMEmo
+pmemo_570,Million Reasons,Lady Gaga,0.537,0.738,PMEmo
+pmemo_571,Paparazzi,Lady GaGa,0.725,0.662,PMEmo
+pmemo_572,Perfect Illusion,Lady Gaga,0.525,0.738,PMEmo
+pmemo_573,Poker Face,Lady GaGa,0.762,0.762,PMEmo
+pmemo_574,Lady Gaga - The Cure,Lady Gaga,0.775,0.787,PMEmo
+pmemo_575,The Edge Of Glory (Lady Gaga Tribute) - Instrumental,Pure Music,0.787,0.825,PMEmo
+pmemo_576,You And I,Lady GaGa,0.713,0.713,PMEmo
+pmemo_577,Morning Light (The Voice Performance),Laith Al-Saadi,0.575,0.637,PMEmo
+pmemo_578,Lust for Life,Lana Del Rey,0.625,0.463,PMEmo
+pmemo_579,Love,Lana Del Rey,0.225,0.263,PMEmo
+pmemo_580,Road Less Traveled,Lauren Alaina,0.787,0.85,PMEmo
+pmemo_582,Lauren_Duski_-_Ghost_In_This_House_-_Studio_Version_-_The_Vo,Lauren Duski,0.5,0.412,PMEmo
+pmemo_583,The Dance,Lauren Duski,0.5,0.512,PMEmo
+pmemo_584,Boy,Lee Brice,0.463,0.375,PMEmo
+pmemo_585,That Don't Sound Like You,Lee Brice,0.463,0.525,PMEmo
+pmemo_587,Hallelujah((Album Version),Leonard Cohen,0.6,0.388,PMEmo
+pmemo_588,Strip That Down,Liam Payne,0.775,0.7,PMEmo
+pmemo_589,03 Money Longer,Lil Uzi Vert,0.487,0.55,PMEmo
+pmemo_590,XO TOUR Llif3,Lil Uzi Vert,0.362,0.463,PMEmo
+pmemo_591,05 You Was Right,Lil Uzi Vert,0.35,0.25,PMEmo
+pmemo_592,Sucker For Pain,Lil Wayne,0.412,0.412,PMEmo
+pmemo_594,Peek A Boo,Lil Yachty,0.438,0.512,PMEmo
+pmemo_595,One Night (Extended),Lil Yachty,0.4,0.388,PMEmo
+pmemo_597,Heavy,Linkin Park,0.7,0.8,PMEmo
+pmemo_598,Battle Symphony,Linkin Park,0.812,0.85,PMEmo
+pmemo_599,Better Man,Little Big Town,0.55,0.55,PMEmo
+pmemo_600,Girl Crush,Little Big Town,0.65,0.412,PMEmo
+pmemo_601,One of Those Days,Little Big Town,0.7,0.688,PMEmo
+pmemo_602,When Someone Stops Loving You,Little Big Town,0.537,0.613,PMEmo
+pmemo_603,No More Sad Songs,Little Mix,0.713,0.812,PMEmo
+pmemo_605,Shout Out to My Ex,Little Mix,0.875,0.938,PMEmo
+pmemo_606,Touch,Little Mix,0.8,0.875,PMEmo
+pmemo_607,I Know Somebody,Locash,0.637,0.713,PMEmo
+pmemo_608,Help Me Help You,Logan Paul,0.562,0.637,PMEmo
+pmemo_609,"Logic,Alessia Cara,Khalid - 1-800-273-8255",Logic,0.512,0.438,PMEmo
+pmemo_611,Everybody,Logic,0.475,0.675,PMEmo
+pmemo_612,Flexicution,Logic,0.375,0.463,PMEmo
+pmemo_613,BRANDY,Looking Glass,0.688,0.588,PMEmo
+pmemo_614,The Night We Met,Lord Huron,0.487,0.287,PMEmo
+pmemo_615,Green Light,Lorde,0.675,0.738,PMEmo
+pmemo_616,So Good,Louisa Johnson,0.787,0.863,PMEmo
+pmemo_617,Despacito,Luis Fonsi,0.812,0.887,PMEmo
+pmemo_621,7 Years,Lukas Graham,0.55,0.362,PMEmo
+pmemo_622,Mama Said,Lukas Graham,0.675,0.812,PMEmo
+pmemo_623,Country Girl (Shake It For Me),Luke Bryan,0.775,0.85,PMEmo
+pmemo_624,Fast,Luke Bryan,0.55,0.575,PMEmo
+pmemo_625,"Huntin', Fishin' and Lovin' Every Day",Luke Bryan,0.65,0.75,PMEmo
+pmemo_626,Move,Luke Bryan,0.775,0.938,PMEmo
+pmemo_627,Hurricane,Luke Combs,0.675,0.613,PMEmo
+pmemo_628,One Number Away,Luke Combs,0.625,0.613,PMEmo
+pmemo_629,Jump,Lupe Fiasco,0.562,0.713,PMEmo
+pmemo_630,Sweet Home Alabama,Lynyrd Skynyrd,0.775,0.65,PMEmo
+pmemo_631,Bad Things,Machine Gun Kelly,0.562,0.55,PMEmo
+pmemo_632,At My Best,Machine Gun Kelly,0.688,0.863,PMEmo
+pmemo_634,Uber Everywhere,MadeinTYO,0.237,0.225,PMEmo
+pmemo_635,Pretty Girl,Maggie Lindemann,0.825,0.637,PMEmo
+pmemo_636,Red Dress,Magic!,0.75,0.762,PMEmo
+pmemo_637,Cold Water (feat. Justin Bieber & MØ),Major Lazer,0.65,0.775,PMEmo
+pmemo_638,Light It Up (Remix),Major Lazer,0.775,0.775,PMEmo
+pmemo_639,Run Up,Major Lazer,0.688,0.775,PMEmo
+pmemo_643,Felices los 4,Maluma,0.588,0.55,PMEmo
+pmemo_644,You & Me,Marc E. Bassy,0.762,0.738,PMEmo
+pmemo_645,You & Me,Marc E. Bassy,0.613,0.6,PMEmo
+pmemo_646,80s Mercedes,Maren Morris,0.787,0.863,PMEmo
+pmemo_647,I Could Use a Love Song,Maren Morris,0.613,0.562,PMEmo
+pmemo_648,My Church,Maren Morris,0.7,0.688,PMEmo
+pmemo_649,Once,Maren Morris,0.312,0.438,PMEmo
+pmemo_650,I Don't,Mariah Carey,0.537,0.637,PMEmo
+pmemo_651,All I Want For Christmas Is You(Original Version),Mariah Carey,0.775,0.825,PMEmo
+pmemo_652,Down,Marian Hill,0.675,0.55,PMEmo
+pmemo_653,Return Of The Mack,Various Artists©,0.662,0.575,PMEmo
+pmemo_654,Uptown Funk,Mark Ronson,0.875,0.887,PMEmo
+pmemo_656,Cold,Maroon 5,0.412,0.487,PMEmo
+pmemo_657,Don't Wanna Know,Maroon 5,0.512,0.6,PMEmo
+pmemo_659,She Will Be Loved,Maroon 5,0.375,0.388,PMEmo
+pmemo_660,Alone (Original Mix),Marshmello,0.825,0.838,PMEmo
+pmemo_661,In The Name Of Love,Bebe Rexha,0.55,0.637,PMEmo
+pmemo_662,Scared To Be Lonely,Martin Garrix,0.525,0.675,PMEmo
+pmemo_665,Solo Dance,Martin Jensen,0.75,0.75,PMEmo
+pmemo_666,Places,Martin Solveig,0.7,0.675,PMEmo
+pmemo_668,False Alarm,Matoma,0.65,0.725,PMEmo
+pmemo_670,When Christmas Comes Around,Matt Terry,0.425,0.35,PMEmo
+pmemo_671,Litty (feat. Tory Lanez),Meek Mill,0.412,0.675,PMEmo
+pmemo_672,Blessed Up,Meek Mill,0.463,0.55,PMEmo
+pmemo_673,Blue Notes,Meek Mill,0.2,0.512,PMEmo
+pmemo_674,Froze (feat. Lil Uzi Vert & Nicki Minaj),Nicki Minaj,0.25,0.388,PMEmo
+pmemo_675,Offended (feat. Young Thug & 21 Savage),Meek Mill,0.3,0.312,PMEmo
+pmemo_676,On The Regular,Meek Mill,0.475,0.55,PMEmo
+pmemo_677,The Difference (feat. Quavo),Meek Mill,0.362,0.562,PMEmo
+pmemo_678,Mom,Meghan Trainor,0.863,0.787,PMEmo
+pmemo_679,Me Too (Live At Macy's 4th of July),Various Artists,0.6,0.7,PMEmo
+pmemo_681,NO,Meghan Trainor,0.7,0.8,PMEmo
+pmemo_682,Even If,MercyME,0.613,0.775,PMEmo
+pmemo_683,It's Beginning To Look A Lot Like Christmas,Michael Bublé,0.738,0.237,PMEmo
+pmemo_684,Cold Little Heart,Michael Kiwanuka,0.45,0.375,PMEmo
+pmemo_685,Think A Little Less,Michael Ray,0.738,0.625,PMEmo
+pmemo_686,Drinkin' Problem,Midland,0.725,0.6,PMEmo
+pmemo_688,Bad and Boujee,Migos,0.463,0.463,PMEmo
+pmemo_689,Kelly Price,Migos,0.35,0.425,PMEmo
+pmemo_692,Call Casting,Migos,0.512,0.5,PMEmo
+pmemo_693,Culture,Migos,0.4,0.6,PMEmo
+pmemo_694,Get Right Witcha,Migos,0.338,0.388,PMEmo
+pmemo_697,T-Shirt,Migos,0.487,0.7,PMEmo
+pmemo_698,What the Price,Migos,0.263,0.362,PMEmo
+pmemo_699,The Ocean,Mike Perry,0.775,0.713,PMEmo
+pmemo_700,I Took a Pill In Ibiza,Mike Posner,0.475,0.35,PMEmo
+pmemo_703,Nothing Is Promised,Mike Will Made-It,0.545,0.545,PMEmo
+pmemo_704,Malibu,Miley Cyrus,0.7,0.625,PMEmo
+pmemo_705,Tin Man,Miranda Lambert,0.438,0.188,PMEmo
+pmemo_706,Vice,Miranda Lambert,0.613,0.4,PMEmo
+pmemo_707,I'm Better,Missy Elliott,0.3,0.312,PMEmo
+pmemo_708,Get Ur Freak On,Missy Elliott,0.588,0.662,PMEmo
+pmemo_710,Final Song,MØ,0.775,0.787,PMEmo
+pmemo_711,Sexual,NEIKED,0.675,0.525,PMEmo
+pmemo_713,The Mack,Nevada,0.738,0.688,PMEmo
+pmemo_715,Can You Stand the Rain,New Edition,0.525,0.325,PMEmo
+pmemo_716,Starboy(Originally Performed ByThe Weeknd Feat. Daft Punk),New Tribute Kings,0.525,0.5,PMEmo
+pmemo_717,Slow Hands,Niall Horan,0.688,0.537,PMEmo
+pmemo_718,This Town,Niall Horan,0.588,0.512,PMEmo
+pmemo_719,Bom Bidi Bom,Nick Jonas,0.562,0.525,PMEmo
+pmemo_720,Close,Nick Jonas,0.637,0.738,PMEmo
+pmemo_722,Bacon,Nick Jonas,0.65,0.575,PMEmo
+pmemo_726,Jealous,Nick Jonas,0.713,0.738,PMEmo
+pmemo_727,No Frauds,Nicki Minaj,0.475,0.55,PMEmo
+pmemo_728,Changed It,Nicki Minaj,0.275,0.438,PMEmo
+pmemo_729,Black Barbies,Nicki Minaj,0.4,0.525,PMEmo
+pmemo_730,Regret In Your Tears,Nicki Minaj,0.575,0.55,PMEmo
+pmemo_731,El Amante,Nicky Jam,0.7,0.688,PMEmo
+pmemo_732,Hasta el Amanecer,Nicky Jam,0.613,0.637,PMEmo
+pmemo_733,Make Me (Cry),Noah Cyrus,0.6,0.5,PMEmo
+pmemo_734,I'm Stuck,Noah Cyrus,0.825,0.838,PMEmo
+pmemo_736,Cut It (feat. Young Dolph),O.T. Genasis,0.412,0.487,PMEmo
+pmemo_738,No Such Thing as a Broken Heart,Old Dominion,0.713,0.588,PMEmo
+pmemo_739,Snapback,Old Dominion,0.688,0.688,PMEmo
+pmemo_740,Song for Another Time,Old Dominion,0.75,0.795,PMEmo
+pmemo_741,Hate U Love U,Olivia O'Brien,0.425,0.475,PMEmo
+pmemo_742,Grow Up,Olly Murs,0.725,0.725,PMEmo
+pmemo_743,You Don't Know Love,Olly Murs,0.725,0.85,PMEmo
+pmemo_744,Kids,OneRepublic,0.725,0.812,PMEmo
+pmemo_745,OneRepublic - Wherever I Go (CDQ) (HipHopStoners.com),OneRepublic,0.613,0.75,PMEmo
+pmemo_746,We Know The Way,Opetaia Foa'i,0.787,0.662,PMEmo
+pmemo_747,Just Like Fire,P!NK,0.775,0.8,PMEmo
+pmemo_748,Come and See Me,PARTYNEXTDOOR,0.463,0.362,PMEmo
+pmemo_749,Not Nice,PARTYNEXTDOOR,0.487,0.525,PMEmo
+pmemo_750,Magnolia,PLAYBOI CARTI,0.263,0.4,PMEmo
+pmemo_751,Woke Up Like This,PLAYBOI CARTI,0.525,0.588,PMEmo
+pmemo_752,Bohemian Rhapsody,Panic! At The Disco,0.787,0.838,PMEmo
+pmemo_753,Death Of A Bachelor,Panic! At The Disco,0.625,0.762,PMEmo
+pmemo_754,Hard Times,Paramore,0.8,0.65,PMEmo
+pmemo_755,Wonderful Christmastime [Edited Version],Paul McCartney,0.625,0.512,PMEmo
+pmemo_757,"Mary, Did You Know?",Pentatonix,0.375,0.662,PMEmo
+pmemo_758,Pen Pineapple Apple Pen,Piko-Taro,0.625,0.838,PMEmo
+pmemo_759,Pen Pineapple Apple Pen,Piko-Taro,0.838,0.738,PMEmo
+pmemo_760,Messin' Around,Pitbull,0.738,0.787,PMEmo
+pmemo_761,Greenlight,Pitbull,0.787,0.775,PMEmo
+pmemo_763,Hey There Delilah (Bonus),Plain White T's,0.55,0.388,PMEmo
+pmemo_765,Feel It Still,Portugal. The Man,0.762,0.8,PMEmo
+pmemo_767,Congratulations,Post Malone,0.512,0.475,PMEmo
+pmemo_769,Go Flex,Post Malone,0.475,0.525,PMEmo
+pmemo_770,1999 (LP Version),Prince,0.613,0.562,PMEmo
+pmemo_771,I Would Die 4 U,Prince,0.562,0.425,PMEmo
+pmemo_772,Kiss (LP Version),Prince,0.613,0.838,PMEmo
+pmemo_773,Let's Go Crazy (LP Version),Prince,0.65,0.75,PMEmo
+pmemo_774,Little Red Corvette,Prince,0.75,0.637,PMEmo
+pmemo_775,Purple Rain (LP Version),Prince,0.475,0.338,PMEmo
+pmemo_776,Raspberry Beret,Prince,0.512,0.637,PMEmo
+pmemo_777,When Doves Cry (LP Version),Prince,0.475,0.525,PMEmo
+pmemo_778,Fight Song,Rachel Platten,0.812,0.912,PMEmo
+pmemo_779,Creep,Radiohead,0.412,0.75,PMEmo
+pmemo_780,Black Beatles,Rae Sremmurd,0.438,0.512,PMEmo
+pmemo_783,Look Alive,Rae Sremmurd,0.45,0.475,PMEmo
+pmemo_784,Swang,Rae Sremmurd,0.35,0.45,PMEmo
+pmemo_786,Human,Rag'N'Bone Man,0.45,0.725,PMEmo
+pmemo_788,Skin,Rag'N'Bone Man,0.525,0.613,PMEmo
+pmemo_789,Light of the Seven,Ramin Djawadi,0.125,0.35,PMEmo
+pmemo_790,I Like The Sound Of That,Rascal Flatts,0.725,0.688,PMEmo
+pmemo_791,Yours If You Want It,Rascal Flatts,0.713,0.787,PMEmo
+pmemo_792,Back to God,Reba McEntire,0.625,0.85,PMEmo
+pmemo_793,Dark Necessities,Red Hot Chili Peppers,0.637,0.713,PMEmo
+pmemo_794,We Turn Red,Red Hot Chili Peppers,0.575,0.575,PMEmo
+pmemo_796,Trap Trap Trap,Rick Ross,0.375,0.6,PMEmo
+pmemo_797,"Rihanna,Lost Kings - Work (Lost Kings Remix)",Rihanna,0.775,0.637,PMEmo
+pmemo_798,Needed Me,Rihanna,0.6,0.738,PMEmo
+pmemo_799,Sledgehammer,Rihanna,0.537,0.762,PMEmo
+pmemo_801,Chill Bill,Rob $tone,0.287,0.338,PMEmo
+pmemo_803,Love My Life,Robbie Williams,0.75,0.688,PMEmo
+pmemo_804,Shed A Light,David Guetta,0.65,0.675,PMEmo
+pmemo_806,Héroe Favorito,Romeo Santos,0.725,0.613,PMEmo
+pmemo_807,Losin Control,Russ,0.362,0.338,PMEmo
+pmemo_808,What They Want,Russ,0.25,0.325,PMEmo
+pmemo_809,Lost Boy,Ruth B,0.65,0.188,PMEmo
+pmemo_810,City Of Stars,Ryan Gosling,0.65,0.412,PMEmo
+pmemo_812,Thumbs,Sabrina Carpenter,0.688,0.8,PMEmo
+pmemo_813,Now and Later,Sage the Gemini,0.675,0.675,PMEmo
+pmemo_814,Body Like A Back Road,Sam Hunt,0.738,0.713,PMEmo
+pmemo_815,Drinkin' Too Much (8pm),Sam Hunt,0.312,0.287,PMEmo
+pmemo_816,Make You Miss Me(Acoustic Mixtape),Sam Hunt,0.425,0.3,PMEmo
+pmemo_818,THat Part,Schoolboy Q,0.138,0.275,PMEmo
+pmemo_820,Five More Minutes,Scotty McCreery,0.6,0.662,PMEmo
+pmemo_821,No Lie,Sean Paul,0.75,0.787,PMEmo
+pmemo_823,Bad Liar,Selena Gomez,0.662,0.675,PMEmo
+pmemo_824,Kill Em With Kindness,Selena Gomez,0.825,0.863,PMEmo
+pmemo_825,It Wasn't Me,Shaggy,0.838,0.537,PMEmo
+pmemo_827,Merry Christmas Everyone,Shakin' Stevens,0.825,0.6,PMEmo
+pmemo_828,Chantaje,Shakira,0.6,0.65,PMEmo
+pmemo_829,Hips Don't Lie (2006 FIFA World Cup Mix),Shakira,0.812,0.8,PMEmo
+pmemo_830,Me Enamoré,Shakira,0.6,0.775,PMEmo
+pmemo_831,Try Everything,Shakira,0.912,0.838,PMEmo
+pmemo_832,Mercy,Shawn Mendes,0.625,0.85,PMEmo
+pmemo_833,"Stitches(From ""Dance Camp"" Original Motion Picture Soundtrac",Shawn Mendes,0.7,0.8,PMEmo
+pmemo_834,There's Nothing Holdin' Me Back,Shawn Mendes,0.812,0.887,PMEmo
+pmemo_835,Treat You Better,Shawn Mendes,0.613,0.662,PMEmo
+pmemo_836,The Greatest,Sia,0.787,0.887,PMEmo
+pmemo_837,Cheap Thrills,Sia,0.725,0.738,PMEmo
+pmemo_839,California Dreamin',Sia,0.625,0.75,PMEmo
+pmemo_842,Helium,Sia,0.35,0.6,PMEmo
+pmemo_844,Find Me,Sigma,0.75,0.787,PMEmo
+pmemo_846,Purple Lamborghini,Skrillex,0.537,0.925,PMEmo
+pmemo_847,Merry Xmas Everybody,Various Artists,0.762,0.512,PMEmo
+pmemo_848,Don't Leave,Snakehips,0.512,0.713,PMEmo
+pmemo_850,Kush Ups,Snoop Dogg,0.613,0.775,PMEmo
+pmemo_851,Don't Touch My Hair,Solange,0.412,0.463,PMEmo
+pmemo_852,Cranes in the Sky,Solange,0.45,0.487,PMEmo
+pmemo_853,Call On Me,Starley,0.625,0.65,PMEmo
+pmemo_854,Call on Me,Starley,0.787,0.838,PMEmo
+pmemo_855,Just Hold On,Steve Aoki,0.775,0.875,PMEmo
+pmemo_857,Big For Your Boots,Stormzy,0.212,0.675,PMEmo
+pmemo_858,All Around You,Sturgill Simpson,0.613,0.625,PMEmo
+pmemo_859,At Last,Sundance Head,0.725,0.588,PMEmo
+pmemo_860,Darlin' Don't Go,Sundance Head,0.637,0.675,PMEmo
+pmemo_861,Giants,Take That,0.762,0.762,PMEmo
+pmemo_862,I'm Still Standing,Taron Egerton,0.85,0.887,PMEmo
+pmemo_863,Southern Land—Taylor Ray Holbrook & Ryan Upchurch,Taylor Ray Holbrook,0.625,0.575,PMEmo
+pmemo_864,First Day Out,Tee Grizzley,0.409,0.489,PMEmo
+pmemo_865,Something Just Like This,The Chainsmokers,0.787,0.887,PMEmo
+pmemo_868,Closer,The Chainsmokers,0.625,0.7,PMEmo
+pmemo_869,All We Know,The Chainsmokers,0.512,0.45,PMEmo
+pmemo_870,Roses,The Chainsmokers,0.562,0.65,PMEmo
+pmemo_871,Setting Fires,The Chainsmokers,0.65,0.75,PMEmo
+pmemo_876,Paris,The Chainsmokers,0.775,0.775,PMEmo
+pmemo_879,The One,The Chainsmokers,0.637,0.487,PMEmo
+pmemo_880,Glad All Over,The Dave Clark Five,0.537,0.675,PMEmo
+pmemo_881,All Eyez (Feat. Jeremih),The Game,0.6,0.588,PMEmo
+pmemo_882,Mr. Brightside,The Killers,0.6,0.85,PMEmo
+pmemo_883,Kiss The Sky (feat. Wyclef Jean),Wyclef Jean,0.725,0.863,PMEmo
+pmemo_884,Ophelia,The Lumineers,0.762,0.713,PMEmo
+pmemo_885,Hypnotize,The Notorious BIG,0.487,0.425,PMEmo
+pmemo_886,Fairytale Of New York,The Pogues,0.725,0.525,PMEmo
+pmemo_888,02 Wish I Knew You,The Revivalists,0.675,0.675,PMEmo
+pmemo_889,Spirits,The Strumbellas,0.75,0.838,PMEmo
+pmemo_890,All Night,The Vamps,0.787,0.787,PMEmo
+pmemo_892,I Feel It Coming,The Weeknd,0.65,0.662,PMEmo
+pmemo_894,All I Know,The Weeknd,0.375,0.375,PMEmo
+pmemo_895,Sidewalks,The Weeknd,0.512,0.637,PMEmo
+pmemo_896,A Lonely Night,The Weeknd,0.636,0.761,PMEmo
+pmemo_897,Acquainted,The Weeknd,0.562,0.388,PMEmo
+pmemo_900,Die For You,The Weeknd,0.537,0.65,PMEmo
+pmemo_903,Love To Lay,The Weeknd,0.6,0.762,PMEmo
+pmemo_904,Nothing Without You,The Weeknd,0.562,0.7,PMEmo
+pmemo_905,Ordinary Life,The Weeknd,0.575,0.475,PMEmo
+pmemo_906,Party Monster,The Weeknd,0.438,0.325,PMEmo
+pmemo_907,Reminder,The Weeknd,0.562,0.5,PMEmo
+pmemo_908,Rockin',The Weeknd,0.662,0.75,PMEmo
+pmemo_909,Secrets,The Weeknd,0.662,0.825,PMEmo
+pmemo_911,Six Feet Under,The Weeknd,0.388,0.525,PMEmo
+pmemo_913,Stargirl Interlude,The Weeknd,0.275,0.35,PMEmo
+pmemo_915,Seven Nation Army,The White Stripes,0.575,0.688,PMEmo
+pmemo_916,On Hold,The xx,0.338,0.212,PMEmo
+pmemo_917,"Thomas Rhett,Maren Morris - Craving You",Thomas Rhett,0.662,0.738,PMEmo
+pmemo_918,Die A Happy Man,Thomas Rhett,0.637,0.4,PMEmo
+pmemo_919,Star Of The Show,Thomas Rhett,0.738,0.6,PMEmo
+pmemo_921,Vacation,Thomas Rhett,0.562,0.475,PMEmo
+pmemo_922,Sunshine (Radio Edit),Various Artists,0.738,0.762,PMEmo
+pmemo_924,Speak to a Girl,Tim Mcgraw,0.65,0.613,PMEmo
+pmemo_925,How I'll Always Be,Tim Mcgraw,0.613,0.588,PMEmo
+pmemo_926,Humble and Kind,Tim Mcgraw,0.487,0.25,PMEmo
+pmemo_927,Tinashé - Superlove,Tinashe,0.65,0.562,PMEmo
+pmemo_928,Text from Your Ex,Tinie Tempah,0.825,0.838,PMEmo
+pmemo_929,You Want Me,Tom Zanetti,0.338,0.6,PMEmo
+pmemo_931,LUV,Tory Lanez,0.5,0.438,PMEmo
+pmemo_932,Cool Girl,Tove Lo,0.662,0.7,PMEmo
+pmemo_933,Play That Song,Train,0.738,0.812,PMEmo
+pmemo_934,Beibs in the Trap,Travis Scott,0.388,0.487,PMEmo
+pmemo_935,Goosebumps,Travis Scott,0.386,0.511,PMEmo
+pmemo_936,Nobody Else But You,Trey Songz,0.45,0.412,PMEmo
+pmemo_937,WILD,Troye Sivan,0.588,0.6,PMEmo
+pmemo_938,YOUTH,Troye Sivan,0.75,0.725,PMEmo
+pmemo_939,Rock On,Tucker Beathard,0.662,0.725,PMEmo
+pmemo_940,Heathens,Twenty One Pilots,0.5,0.625,PMEmo
+pmemo_941,Cancer,Twenty One Pilots,0.3,0.125,PMEmo
+pmemo_943,Ride,Twenty One Pilots,0.487,0.625,PMEmo
+pmemo_945,02 - Stressed Out,Twenty One Pilots,0.575,0.675,PMEmo
+pmemo_946,Feel Me,Tyga,0.4,0.425,PMEmo
+pmemo_948,No Limit [dirty],Usher,0.4,0.487,PMEmo
+pmemo_950,Yeah,Usher,0.688,0.7,PMEmo
+pmemo_951,Hands,Various Artists,0.75,0.625,PMEmo
+pmemo_952,Running Back (feat. Lil Wayne),Lil Wayne,0.487,0.525,PMEmo
+pmemo_953,My PYT,Wale,0.55,0.338,PMEmo
+pmemo_957,Pull Up (feat. Lil Uzi Vert),Wiz Khalifa,0.338,0.525,PMEmo
+pmemo_958,I Wish It Could Be Christmas Everyday,Wizzard,0.863,0.825,PMEmo
+pmemo_959,X Ambassadors - Unsteady (Erich Lee Gravity Remix),Various Artists,0.45,0.8,PMEmo
+pmemo_962,Look At Me!,XXXTENTACION,0.2,0.637,PMEmo
+pmemo_964,Everyday We Lit,YFN Lucci,0.6,0.537,PMEmo
+pmemo_965,Why You Always Hatin?,YG,0.537,0.5,PMEmo
+pmemo_966,Law,Yo Gotti,0.45,0.575,PMEmo
+pmemo_967,Law,Yo Gotti,0.512,0.675,PMEmo
+pmemo_968,Moolah,Young Greatness,0.4,0.487,PMEmo
+pmemo_969,YOUNG MA - OOOUUU (intro),Young M.a.,0.175,0.512,PMEmo
+pmemo_970,Pick Up the Phone,Travis Scott,0.487,0.7,PMEmo
+pmemo_971,Gang Up,Young Thug,0.55,0.588,PMEmo
+pmemo_973,PILLOWTALK REMIX,ZAYN,0.6,0.575,PMEmo
+pmemo_974,Still Got Time,ZAYN,0.588,0.625,PMEmo
+pmemo_978,Castaway,Zac Brown Band,0.725,0.688,PMEmo
+pmemo_979,My Old Man,Zac Brown Band,0.512,0.362,PMEmo
+pmemo_980,Roots,Zac Brown Band,0.725,0.637,PMEmo
+pmemo_981,Never Forget You,MNEK,0.6,0.8,PMEmo
+pmemo_983,Ain't My Fault,Zara Larsson,0.5,0.775,PMEmo
+pmemo_984,I Would Like,Zara Larsson,0.738,0.825,PMEmo
+pmemo_985,Lush Life,Zara Larsson,0.7,0.75,PMEmo
+pmemo_989,Juju On That Beat (TZ Anthem),Zay Hilfigerrr,0.312,0.575,PMEmo
+pmemo_992,JuJu On Dat Beat,Zayion McCall,0.362,0.463,PMEmo
+pmemo_993,Stay,Zedd,0.762,0.863,PMEmo
+pmemo_996,Trouble,offaiah,0.562,0.875,PMEmo
+pmemo_997,A Supplementary Story : You Never Walk Alone,방탄소년단,0.662,0.713,PMEmo
+pmemo_999,Outro : Wings,방탄소년단,0.775,0.875,PMEmo
+pmemo_1000,Spring Day,방탄소년단,0.575,0.662,PMEmo
+deam_2,DEAM_song_2,,0.2625,0.25,DEAM
+deam_3,DEAM_song_3,,0.3125,0.2875,DEAM
+deam_4,DEAM_song_4,,0.5875,0.5625,DEAM
+deam_5,DEAM_song_5,,0.425,0.5375,DEAM
+deam_7,DEAM_song_7,,0.6,0.675,DEAM
+deam_8,DEAM_song_8,,0.275,0.475,DEAM
+deam_10,DEAM_song_10,,0.375,0.4625,DEAM
+deam_12,DEAM_song_12,,0.5625,0.6,DEAM
+deam_13,DEAM_song_13,,0.275,0.375,DEAM
+deam_17,DEAM_song_17,,0.425,0.625,DEAM
+deam_18,DEAM_song_18,,0.475,0.3625,DEAM
+deam_19,DEAM_song_19,,0.6125,0.4125,DEAM
+deam_20,DEAM_song_20,,0.55,0.6875,DEAM
+deam_21,DEAM_song_21,,0.7,0.6625,DEAM
+deam_22,DEAM_song_22,,0.375,0.475,DEAM
+deam_24,DEAM_song_24,,0.5375,0.3625,DEAM
+deam_25,DEAM_song_25,,0.8625,0.4625,DEAM
+deam_31,DEAM_song_31,,0.4625,0.35,DEAM
+deam_32,DEAM_song_32,,0.4,0.2875,DEAM
+deam_35,DEAM_song_35,,0.475,0.6875,DEAM
+deam_37,DEAM_song_37,,0.7,0.5375,DEAM
+deam_39,DEAM_song_39,,0.7875,0.55,DEAM
+deam_40,DEAM_song_40,,0.4499999999999999,0.475,DEAM
+deam_41,DEAM_song_41,,0.4125,0.5125,DEAM
+deam_42,DEAM_song_42,,0.6375,0.5125,DEAM
+deam_43,DEAM_song_43,,0.7125,0.3125,DEAM
+deam_44,DEAM_song_44,,0.3625,0.4875,DEAM
+deam_45,DEAM_song_45,,0.5125,0.1375,DEAM
+deam_46,DEAM_song_46,,0.5375,0.375,DEAM
+deam_47,DEAM_song_47,,0.425,0.425,DEAM
+deam_48,DEAM_song_48,,0.4375,0.475,DEAM
+deam_49,DEAM_song_49,,0.3625,0.5375,DEAM
+deam_50,DEAM_song_50,,0.325,0.475,DEAM
+deam_51,DEAM_song_51,,0.325,0.275,DEAM
+deam_52,DEAM_song_52,,0.4499999999999999,0.5125,DEAM
+deam_53,DEAM_song_53,,0.4125,0.5125,DEAM
+deam_54,DEAM_song_54,,0.2625,0.2875,DEAM
+deam_55,DEAM_song_55,,0.6,0.55,DEAM
+deam_56,DEAM_song_56,,0.675,0.6,DEAM
+deam_58,DEAM_song_58,,0.2875,0.3,DEAM
+deam_59,DEAM_song_59,,0.5375,0.3874999999999999,DEAM
+deam_60,DEAM_song_60,,0.4125,0.675,DEAM
+deam_62,DEAM_song_62,,0.65,0.3625,DEAM
+deam_64,DEAM_song_64,,0.325,0.4875,DEAM
+deam_65,DEAM_song_65,,0.675,0.6,DEAM
+deam_67,DEAM_song_67,,0.775,0.725,DEAM
+deam_68,DEAM_song_68,,0.35,0.4875,DEAM
+deam_69,DEAM_song_69,,0.275,0.3625,DEAM
+deam_70,DEAM_song_70,,0.425,0.325,DEAM
+deam_71,DEAM_song_71,,0.6125,0.3375,DEAM
+deam_72,DEAM_song_72,,0.7125,0.575,DEAM
+deam_73,DEAM_song_73,,0.6,0.575,DEAM
+deam_74,DEAM_song_74,,0.25,0.4125,DEAM
+deam_76,DEAM_song_76,,0.4125,0.275,DEAM
+deam_77,DEAM_song_77,,0.4,0.2375,DEAM
+deam_78,DEAM_song_78,,0.3,0.3625,DEAM
+deam_79,DEAM_song_79,,0.5625,0.5625,DEAM
+deam_80,DEAM_song_80,,0.625,0.5125,DEAM
+deam_81,DEAM_song_81,,0.6375,0.3625,DEAM
+deam_82,DEAM_song_82,,0.2375,0.3125,DEAM
+deam_83,DEAM_song_83,,0.6375,0.6,DEAM
+deam_84,DEAM_song_84,,0.6125,0.575,DEAM
+deam_85,DEAM_song_85,,0.7625,0.65,DEAM
+deam_86,DEAM_song_86,,0.55,0.575,DEAM
+deam_87,DEAM_song_87,,0.5375,0.2,DEAM
+deam_88,DEAM_song_88,,0.7125,0.5625,DEAM
+deam_89,DEAM_song_89,,0.4375,0.475,DEAM
+deam_90,DEAM_song_90,,0.4125,0.4,DEAM
+deam_91,DEAM_song_91,,0.4375,0.5625,DEAM
+deam_92,DEAM_song_92,,0.6,0.4625,DEAM
+deam_93,DEAM_song_93,,0.775,0.625,DEAM
+deam_95,DEAM_song_95,,0.2875,0.4499999999999999,DEAM
+deam_96,DEAM_song_96,,0.725,0.7375,DEAM
+deam_98,DEAM_song_98,,0.4125,0.2125,DEAM
+deam_99,DEAM_song_99,,0.4125,0.3874999999999999,DEAM
+deam_101,DEAM_song_101,,0.3,0.2249999999999999,DEAM
+deam_102,DEAM_song_102,,0.6875,0.55,DEAM
+deam_103,DEAM_song_103,,0.575,0.2875,DEAM
+deam_104,DEAM_song_104,,0.6375,0.2875,DEAM
+deam_105,DEAM_song_105,,0.6875,0.5,DEAM
+deam_106,DEAM_song_106,,0.4499999999999999,0.2875,DEAM
+deam_107,DEAM_song_107,,0.625,0.475,DEAM
+deam_108,DEAM_song_108,,0.4375,0.4,DEAM
+deam_109,DEAM_song_109,,0.425,0.4375,DEAM
+deam_110,DEAM_song_110,,0.425,0.2249999999999999,DEAM
+deam_111,DEAM_song_111,,0.5375,0.5375,DEAM
+deam_112,DEAM_song_112,,0.725,0.675,DEAM
+deam_113,DEAM_song_113,,0.55,0.35,DEAM
+deam_114,DEAM_song_114,,0.475,0.5875,DEAM
+deam_115,DEAM_song_115,,0.925,0.85,DEAM
+deam_116,DEAM_song_116,,0.425,0.3625,DEAM
+deam_117,DEAM_song_117,,0.3625,0.5,DEAM
+deam_118,DEAM_song_118,,0.4875,0.4499999999999999,DEAM
+deam_119,DEAM_song_119,,0.4125,0.275,DEAM
+deam_120,DEAM_song_120,,0.35,0.5,DEAM
+deam_121,DEAM_song_121,,0.2625,0.3625,DEAM
+deam_122,DEAM_song_122,,0.5625,0.4499999999999999,DEAM
+deam_123,DEAM_song_123,,0.6375,0.65,DEAM
+deam_124,DEAM_song_124,,0.3375,0.2249999999999999,DEAM
+deam_125,DEAM_song_125,,0.4375,0.4,DEAM
+deam_126,DEAM_song_126,,0.5125,0.6375,DEAM
+deam_127,DEAM_song_127,,0.25,0.5375,DEAM
+deam_128,DEAM_song_128,,0.325,0.375,DEAM
+deam_129,DEAM_song_129,,0.4,0.625,DEAM
+deam_130,DEAM_song_130,,0.2875,0.4,DEAM
+deam_131,DEAM_song_131,,0.6375,0.4875,DEAM
+deam_133,DEAM_song_133,,0.2249999999999999,0.15,DEAM
+deam_134,DEAM_song_134,,0.55,0.625,DEAM
+deam_135,DEAM_song_135,,0.3375,0.3125,DEAM
+deam_136,DEAM_song_136,,0.725,0.65,DEAM
+deam_137,DEAM_song_137,,0.4125,0.6,DEAM
+deam_138,DEAM_song_138,,0.35,0.175,DEAM
+deam_140,DEAM_song_140,,0.4,0.4375,DEAM
+deam_142,DEAM_song_142,,0.4499999999999999,0.475,DEAM
+deam_143,DEAM_song_143,,0.375,0.4875,DEAM
+deam_144,DEAM_song_144,,0.3,0.4625,DEAM
+deam_145,DEAM_song_145,,0.2625,0.55,DEAM
+deam_146,DEAM_song_146,,0.175,0.3125,DEAM
+deam_148,DEAM_song_148,,0.4625,0.5,DEAM
+deam_149,DEAM_song_149,,0.3,0.2625,DEAM
+deam_150,DEAM_song_150,,0.5,0.55,DEAM
+deam_151,DEAM_song_151,,0.375,0.4375,DEAM
+deam_152,DEAM_song_152,,0.425,0.575,DEAM
+deam_153,DEAM_song_153,,0.3625,0.4375,DEAM
+deam_154,DEAM_song_154,,0.4,0.3874999999999999,DEAM
+deam_155,DEAM_song_155,,0.325,0.55,DEAM
+deam_156,DEAM_song_156,,0.675,0.7125,DEAM
+deam_157,DEAM_song_157,,0.375,0.65,DEAM
+deam_158,DEAM_song_158,,0.1375,0.325,DEAM
+deam_159,DEAM_song_159,,0.35,0.2625,DEAM
+deam_160,DEAM_song_160,,0.3125,0.3125,DEAM
+deam_161,DEAM_song_161,,0.6625,0.3125,DEAM
+deam_162,DEAM_song_162,,0.3375,0.4499999999999999,DEAM
+deam_163,DEAM_song_163,,0.325,0.4375,DEAM
+deam_164,DEAM_song_164,,0.3874999999999999,0.2375,DEAM
+deam_166,DEAM_song_166,,0.2625,0.4,DEAM
+deam_167,DEAM_song_167,,0.2125,0.2875,DEAM
+deam_168,DEAM_song_168,,0.2875,0.3,DEAM
+deam_169,DEAM_song_169,,0.175,0.2249999999999999,DEAM
+deam_170,DEAM_song_170,,0.25,0.5,DEAM
+deam_171,DEAM_song_171,,0.1375,0.325,DEAM
+deam_172,DEAM_song_172,,0.35,0.5,DEAM
+deam_173,DEAM_song_173,,0.4499999999999999,0.15,DEAM
+deam_174,DEAM_song_174,,0.375,0.35,DEAM
+deam_175,DEAM_song_175,,0.3375,0.4125,DEAM
+deam_176,DEAM_song_176,,0.175,0.3625,DEAM
+deam_177,DEAM_song_177,,0.475,0.575,DEAM
+deam_178,DEAM_song_178,,0.2249999999999999,0.3375,DEAM
+deam_179,DEAM_song_179,,0.525,0.625,DEAM
+deam_180,DEAM_song_180,,0.475,0.6125,DEAM
+deam_181,DEAM_song_181,,0.3375,0.1875,DEAM
+deam_182,DEAM_song_182,,0.15,0.3375,DEAM
+deam_184,DEAM_song_184,,0.325,0.3,DEAM
+deam_185,DEAM_song_185,,0.4875,0.4499999999999999,DEAM
+deam_186,DEAM_song_186,,0.3375,0.375,DEAM
+deam_187,DEAM_song_187,,0.1875,0.3375,DEAM
+deam_188,DEAM_song_188,,0.375,0.2875,DEAM
+deam_189,DEAM_song_189,,0.6875,0.7625,DEAM
+deam_190,DEAM_song_190,,0.2249999999999999,0.2625,DEAM
+deam_191,DEAM_song_191,,0.5125,0.6625,DEAM
+deam_192,DEAM_song_192,,0.6,0.6375,DEAM
+deam_193,DEAM_song_193,,0.3874999999999999,0.25,DEAM
+deam_194,DEAM_song_194,,0.2125,0.4625,DEAM
+deam_195,DEAM_song_195,,0.4,0.2125,DEAM
+deam_196,DEAM_song_196,,0.4125,0.4375,DEAM
+deam_197,DEAM_song_197,,0.15,0.2249999999999999,DEAM
+deam_198,DEAM_song_198,,0.1124999999999999,0.2875,DEAM
+deam_199,DEAM_song_199,,0.5375,0.5875,DEAM
+deam_201,DEAM_song_201,,0.3375,0.475,DEAM
+deam_202,DEAM_song_202,,0.4499999999999999,0.525,DEAM
+deam_203,DEAM_song_203,,0.3125,0.475,DEAM
+deam_204,DEAM_song_204,,0.325,0.15,DEAM
+deam_205,DEAM_song_205,,0.25,0.4375,DEAM
+deam_206,DEAM_song_206,,0.1624999999999999,0.2,DEAM
+deam_207,DEAM_song_207,,0.475,0.475,DEAM
+deam_208,DEAM_song_208,,0.475,0.6875,DEAM
+deam_209,DEAM_song_209,,0.2625,0.4499999999999999,DEAM
+deam_210,DEAM_song_210,,0.4,0.5625,DEAM
+deam_211,DEAM_song_211,,0.2625,0.4875,DEAM
+deam_212,DEAM_song_212,,0.4499999999999999,0.55,DEAM
+deam_213,DEAM_song_213,,0.2,0.1875,DEAM
+deam_214,DEAM_song_214,,0.325,0.3874999999999999,DEAM
+deam_215,DEAM_song_215,,0.275,0.2,DEAM
+deam_216,DEAM_song_216,,0.4375,0.5375,DEAM
+deam_217,DEAM_song_217,,0.3125,0.475,DEAM
+deam_218,DEAM_song_218,,0.2375,0.375,DEAM
+deam_219,DEAM_song_219,,0.175,0.35,DEAM
+deam_220,DEAM_song_220,,0.3874999999999999,0.3,DEAM
+deam_221,DEAM_song_221,,0.4125,0.3,DEAM
+deam_222,DEAM_song_222,,0.35,0.4125,DEAM
+deam_223,DEAM_song_223,,0.15,0.3125,DEAM
+deam_224,DEAM_song_224,,0.5625,0.5875,DEAM
+deam_225,DEAM_song_225,,0.3375,0.4,DEAM
+deam_226,DEAM_song_226,,0.4875,0.5,DEAM
+deam_227,DEAM_song_227,,0.2625,0.3125,DEAM
+deam_228,DEAM_song_228,,0.3125,0.375,DEAM
+deam_229,DEAM_song_229,,0.475,0.475,DEAM
+deam_231,DEAM_song_231,,0.3874999999999999,0.575,DEAM
+deam_232,DEAM_song_232,,0.1875,0.2125,DEAM
+deam_233,DEAM_song_233,,0.4625,0.4375,DEAM
+deam_234,DEAM_song_234,,0.3125,0.3625,DEAM
+deam_235,DEAM_song_235,,0.25,0.3375,DEAM
+deam_236,DEAM_song_236,,0.1875,0.175,DEAM
+deam_237,DEAM_song_237,,0.4,0.3625,DEAM
+deam_238,DEAM_song_238,,0.25,0.4499999999999999,DEAM
+deam_239,DEAM_song_239,,0.1624999999999999,0.2875,DEAM
+deam_240,DEAM_song_240,,0.675,0.7,DEAM
+deam_241,DEAM_song_241,,0.3874999999999999,0.4499999999999999,DEAM
+deam_242,DEAM_song_242,,0.3125,0.4625,DEAM
+deam_243,DEAM_song_243,,0.775,0.3874999999999999,DEAM
+deam_244,DEAM_song_244,,0.4125,0.4,DEAM
+deam_245,DEAM_song_245,,0.4,0.6375,DEAM
+deam_246,DEAM_song_246,,0.4875,0.275,DEAM
+deam_247,DEAM_song_247,,0.3625,0.4375,DEAM
+deam_248,DEAM_song_248,,0.3,0.3375,DEAM
+deam_250,DEAM_song_250,,0.3,0.325,DEAM
+deam_253,DEAM_song_253,,0.7,0.1875,DEAM
+deam_254,DEAM_song_254,,0.5375,0.8,DEAM
+deam_257,DEAM_song_257,,0.825,0.7375,DEAM
+deam_258,DEAM_song_258,,0.4125,0.4125,DEAM
+deam_260,DEAM_song_260,,0.5375,0.325,DEAM
+deam_262,DEAM_song_262,,0.575,0.7375,DEAM
+deam_264,DEAM_song_264,,0.5375,0.5625,DEAM
+deam_265,DEAM_song_265,,0.4375,0.675,DEAM
+deam_266,DEAM_song_266,,0.325,0.475,DEAM
+deam_269,DEAM_song_269,,0.4125,0.475,DEAM
+deam_270,DEAM_song_270,,0.6375,0.7625,DEAM
+deam_272,DEAM_song_272,,0.6125,0.675,DEAM
+deam_273,DEAM_song_273,,0.55,0.775,DEAM
+deam_274,DEAM_song_274,,0.8375,0.625,DEAM
+deam_275,DEAM_song_275,,0.5375,0.5625,DEAM
+deam_276,DEAM_song_276,,0.6375,0.5375,DEAM
+deam_278,DEAM_song_278,,0.5625,0.5125,DEAM
+deam_279,DEAM_song_279,,0.325,0.4625,DEAM
+deam_280,DEAM_song_280,,0.4,0.2875,DEAM
+deam_281,DEAM_song_281,,0.55,0.75,DEAM
+deam_282,DEAM_song_282,,0.275,0.4,DEAM
+deam_284,DEAM_song_284,,0.425,0.525,DEAM
+deam_285,DEAM_song_285,,0.3125,0.5125,DEAM
+deam_286,DEAM_song_286,,0.5875,0.7375,DEAM
+deam_288,DEAM_song_288,,0.3125,0.525,DEAM
+deam_289,DEAM_song_289,,0.5875,0.7125,DEAM
+deam_290,DEAM_song_290,,0.1375,0.3625,DEAM
+deam_292,DEAM_song_292,,0.7875,0.8,DEAM
+deam_293,DEAM_song_293,,0.6625,0.4,DEAM
+deam_294,DEAM_song_294,,0.5625,0.6875,DEAM
+deam_296,DEAM_song_296,,0.6125,0.5875,DEAM
+deam_297,DEAM_song_297,,0.2625,0.325,DEAM
+deam_298,DEAM_song_298,,0.375,0.55,DEAM
+deam_299,DEAM_song_299,,0.2249999999999999,0.4125,DEAM
+deam_300,DEAM_song_300,,0.725,0.4375,DEAM
+deam_301,DEAM_song_301,,0.275,0.3375,DEAM
+deam_302,DEAM_song_302,,0.7,0.75,DEAM
+deam_303,DEAM_song_303,,0.75,0.675,DEAM
+deam_304,DEAM_song_304,,0.35,0.4499999999999999,DEAM
+deam_305,DEAM_song_305,,0.675,0.725,DEAM
+deam_306,DEAM_song_306,,0.5875,0.7125,DEAM
+deam_307,DEAM_song_307,,0.6375,0.725,DEAM
+deam_308,DEAM_song_308,,0.4125,0.7,DEAM
+deam_309,DEAM_song_309,,0.5375,0.6,DEAM
+deam_310,DEAM_song_310,,0.1375,0.2125,DEAM
+deam_311,DEAM_song_311,,0.6,0.7375,DEAM
+deam_312,DEAM_song_312,,0.4499999999999999,0.6,DEAM
+deam_313,DEAM_song_313,,0.325,0.5375,DEAM
+deam_314,DEAM_song_314,,0.6,0.6125,DEAM
+deam_315,DEAM_song_315,,0.675,0.8125,DEAM
+deam_316,DEAM_song_316,,0.2249999999999999,0.3125,DEAM
+deam_317,DEAM_song_317,,0.6375,0.4125,DEAM
+deam_318,DEAM_song_318,,0.6125,0.6125,DEAM
+deam_319,DEAM_song_319,,0.4375,0.7,DEAM
+deam_320,DEAM_song_320,,0.8,0.7,DEAM
+deam_321,DEAM_song_321,,0.7875,0.625,DEAM
+deam_322,DEAM_song_322,,0.6375,0.825,DEAM
+deam_323,DEAM_song_323,,0.4775,0.59125,DEAM
+deam_324,DEAM_song_324,,0.2875,0.4625,DEAM
+deam_325,DEAM_song_325,,0.5625,0.55,DEAM
+deam_326,DEAM_song_326,,0.55,0.775,DEAM
+deam_327,DEAM_song_327,,0.625,0.7625,DEAM
+deam_328,DEAM_song_328,,0.525,0.4,DEAM
+deam_329,DEAM_song_329,,0.2875,0.4,DEAM
+deam_330,DEAM_song_330,,0.6125,0.2625,DEAM
+deam_332,DEAM_song_332,,0.5625,0.7375,DEAM
+deam_333,DEAM_song_333,,0.7125,0.6375,DEAM
+deam_334,DEAM_song_334,,0.6125,0.6125,DEAM
+deam_335,DEAM_song_335,,0.725,0.725,DEAM
+deam_336,DEAM_song_336,,0.6375,0.7,DEAM
+deam_338,DEAM_song_338,,0.25,0.35,DEAM
+deam_339,DEAM_song_339,,0.6125,0.7375,DEAM
+deam_340,DEAM_song_340,,0.35,0.4499999999999999,DEAM
+deam_341,DEAM_song_341,,0.35,0.425,DEAM
+deam_342,DEAM_song_342,,0.375,0.5125,DEAM
+deam_343,DEAM_song_343,,0.75,0.8875,DEAM
+deam_344,DEAM_song_344,,0.4499999999999999,0.525,DEAM
+deam_345,DEAM_song_345,,0.775,0.6875,DEAM
+deam_346,DEAM_song_346,,0.7125,0.7875,DEAM
+deam_347,DEAM_song_347,,0.3525,0.6025,DEAM
+deam_348,DEAM_song_348,,0.5,0.5875,DEAM
+deam_349,DEAM_song_349,,0.4499999999999999,0.6,DEAM
+deam_350,DEAM_song_350,,0.625,0.6875,DEAM
+deam_352,DEAM_song_352,,0.5625,0.4375,DEAM
+deam_353,DEAM_song_353,,0.375,0.475,DEAM
+deam_354,DEAM_song_354,,0.7625,0.675,DEAM
+deam_355,DEAM_song_355,,0.5125,0.6875,DEAM
+deam_356,DEAM_song_356,,0.4499999999999999,0.575,DEAM
+deam_357,DEAM_song_357,,0.475,0.6875,DEAM
+deam_358,DEAM_song_358,,0.575,0.4,DEAM
+deam_359,DEAM_song_359,,0.1875,0.3375,DEAM
+deam_360,DEAM_song_360,,0.1875,0.5625,DEAM
+deam_361,DEAM_song_361,,0.1937499999999999,0.295,DEAM
+deam_362,DEAM_song_362,,0.375,0.6125,DEAM
+deam_364,DEAM_song_364,,0.5625,0.6875,DEAM
+deam_365,DEAM_song_365,,0.625,0.7625,DEAM
+deam_366,DEAM_song_366,,0.7375,0.6375,DEAM
+deam_367,DEAM_song_367,,0.2625,0.2125,DEAM
+deam_368,DEAM_song_368,,0.475,0.6375,DEAM
+deam_369,DEAM_song_369,,0.2375,0.3,DEAM
+deam_370,DEAM_song_370,,0.35,0.3,DEAM
+deam_371,DEAM_song_371,,0.525,0.7,DEAM
+deam_372,DEAM_song_372,,0.325,0.475,DEAM
+deam_374,DEAM_song_374,,0.75,0.4875,DEAM
+deam_375,DEAM_song_375,,0.1124999999999999,0.2249999999999999,DEAM
+deam_376,DEAM_song_376,,0.5,0.6125,DEAM
+deam_378,DEAM_song_378,,0.5625,0.6125,DEAM
+deam_379,DEAM_song_379,,0.1124999999999999,0.2375,DEAM
+deam_380,DEAM_song_380,,0.575,0.475,DEAM
+deam_381,DEAM_song_381,,0.625,0.7125,DEAM
+deam_383,DEAM_song_383,,0.4,0.325,DEAM
+deam_384,DEAM_song_384,,0.325,0.3874999999999999,DEAM
+deam_386,DEAM_song_386,,0.5,0.5625,DEAM
+deam_387,DEAM_song_387,,0.65,0.65,DEAM
+deam_390,DEAM_song_390,,0.5875,0.65,DEAM
+deam_391,DEAM_song_391,,0.5625,0.6375,DEAM
+deam_392,DEAM_song_392,,0.3,0.475,DEAM
+deam_393,DEAM_song_393,,0.625,0.675,DEAM
+deam_395,DEAM_song_395,,0.7125,0.65,DEAM
+deam_397,DEAM_song_397,,0.75,0.75,DEAM
+deam_399,DEAM_song_399,,0.7125,0.75,DEAM
+deam_400,DEAM_song_400,,0.5125,0.575,DEAM
+deam_401,DEAM_song_401,,0.5625,0.675,DEAM
+deam_402,DEAM_song_402,,0.7625,0.7625,DEAM
+deam_403,DEAM_song_403,,0.5125,0.525,DEAM
+deam_404,DEAM_song_404,,0.7375,0.725,DEAM
+deam_405,DEAM_song_405,,0.6375,0.8,DEAM
+deam_406,DEAM_song_406,,0.5375,0.4125,DEAM
+deam_407,DEAM_song_407,,0.4125,0.4375,DEAM
+deam_408,DEAM_song_408,,0.7,0.6375,DEAM
+deam_410,DEAM_song_410,,0.35,0.5125,DEAM
+deam_415,DEAM_song_415,,0.625,0.525,DEAM
+deam_416,DEAM_song_416,,0.5625,0.525,DEAM
+deam_419,DEAM_song_419,,0.2875,0.375,DEAM
+deam_420,DEAM_song_420,,0.4375,0.55,DEAM
+deam_422,DEAM_song_422,,0.2249999999999999,0.3375,DEAM
+deam_423,DEAM_song_423,,0.525,0.4375,DEAM
+deam_425,DEAM_song_425,,0.7625,0.725,DEAM
+deam_426,DEAM_song_426,,0.5375,0.5375,DEAM
+deam_427,DEAM_song_427,,0.525,0.6,DEAM
+deam_428,DEAM_song_428,,0.7,0.7,DEAM
+deam_429,DEAM_song_429,,0.2875,0.4125,DEAM
+deam_430,DEAM_song_430,,0.375,0.2375,DEAM
+deam_431,DEAM_song_431,,0.6375,0.5625,DEAM
+deam_432,DEAM_song_432,,0.5375,0.5375,DEAM
+deam_435,DEAM_song_435,,0.4375,0.6125,DEAM
+deam_436,DEAM_song_436,,0.4125,0.525,DEAM
+deam_437,DEAM_song_437,,0.525,0.4125,DEAM
+deam_440,DEAM_song_440,,0.5375,0.6625,DEAM
+deam_441,DEAM_song_441,,0.4499999999999999,0.5125,DEAM
+deam_442,DEAM_song_442,,0.3874999999999999,0.4375,DEAM
+deam_444,DEAM_song_444,,0.1624999999999999,0.1875,DEAM
+deam_445,DEAM_song_445,,0.175,0.4499999999999999,DEAM
+deam_448,DEAM_song_448,,0.7125,0.6875,DEAM
+deam_449,DEAM_song_449,,0.325,0.35,DEAM
+deam_450,DEAM_song_450,,0.3874999999999999,0.5,DEAM
+deam_451,DEAM_song_451,,0.4875,0.425,DEAM
+deam_452,DEAM_song_452,,0.55625,0.71875,DEAM
+deam_453,DEAM_song_453,,0.4499999999999999,0.575,DEAM
+deam_454,DEAM_song_454,,0.5,0.475,DEAM
+deam_455,DEAM_song_455,,0.55,0.5875,DEAM
+deam_456,DEAM_song_456,,0.6375,0.1624999999999999,DEAM
+deam_458,DEAM_song_458,,0.3,0.5,DEAM
+deam_459,DEAM_song_459,,0.6625,0.6375,DEAM
+deam_460,DEAM_song_460,,0.35,0.35,DEAM
+deam_461,DEAM_song_461,,0.475,0.425,DEAM
+deam_462,DEAM_song_462,,0.6,0.4499999999999999,DEAM
+deam_463,DEAM_song_463,,0.5,0.5875,DEAM
+deam_464,DEAM_song_464,,0.5125,0.575,DEAM
+deam_466,DEAM_song_466,,0.7,0.6125,DEAM
+deam_467,DEAM_song_467,,0.5875,0.725,DEAM
+deam_468,DEAM_song_468,,0.325,0.3,DEAM
+deam_469,DEAM_song_469,,0.5125,0.5375,DEAM
+deam_472,DEAM_song_472,,0.6875,0.525,DEAM
+deam_473,DEAM_song_473,,0.7625,0.5625,DEAM
+deam_475,DEAM_song_475,,0.575,0.5,DEAM
+deam_477,DEAM_song_477,,0.7625,0.775,DEAM
+deam_478,DEAM_song_478,,0.2249999999999999,0.275,DEAM
+deam_479,DEAM_song_479,,0.4375,0.5875,DEAM
+deam_480,DEAM_song_480,,0.2125,0.3874999999999999,DEAM
+deam_481,DEAM_song_481,,0.3,0.4625,DEAM
+deam_482,DEAM_song_482,,0.1124999999999999,0.3125,DEAM
+deam_484,DEAM_song_484,,0.675,0.6875,DEAM
+deam_485,DEAM_song_485,,0.2,0.3375,DEAM
+deam_486,DEAM_song_486,,0.65,0.5875,DEAM
+deam_487,DEAM_song_487,,0.4375,0.5375,DEAM
+deam_488,DEAM_song_488,,0.075,0.3,DEAM
+deam_489,DEAM_song_489,,0.4499999999999999,0.525,DEAM
+deam_490,DEAM_song_490,,0.3625,0.3375,DEAM
+deam_492,DEAM_song_492,,0.425,0.475,DEAM
+deam_493,DEAM_song_493,,0.3375,0.4875,DEAM
+deam_494,DEAM_song_494,,0.3375,0.3874999999999999,DEAM
+deam_496,DEAM_song_496,,0.4625,0.6125,DEAM
+deam_497,DEAM_song_497,,0.65,0.5875,DEAM
+deam_498,DEAM_song_498,,0.2375,0.2249999999999999,DEAM
+deam_499,DEAM_song_499,,0.325,0.325,DEAM
+deam_500,DEAM_song_500,,0.625,0.525,DEAM
+deam_501,DEAM_song_501,,0.1875,0.425,DEAM
+deam_502,DEAM_song_502,,0.475,0.4499999999999999,DEAM
+deam_503,DEAM_song_503,,0.6,0.675,DEAM
+deam_504,DEAM_song_504,,0.475,0.375,DEAM
+deam_506,DEAM_song_506,,0.2375,0.3874999999999999,DEAM
+deam_507,DEAM_song_507,,0.4875,0.475,DEAM
+deam_512,DEAM_song_512,,0.5125,0.55,DEAM
+deam_513,DEAM_song_513,,0.2625,0.4,DEAM
+deam_514,DEAM_song_514,,0.4125,0.6,DEAM
+deam_515,DEAM_song_515,,0.35,0.3,DEAM
+deam_518,DEAM_song_518,,0.3874999999999999,0.3,DEAM
+deam_519,DEAM_song_519,,0.725,0.5375,DEAM
+deam_520,DEAM_song_520,,0.375,0.5625,DEAM
+deam_521,DEAM_song_521,,0.35,0.4499999999999999,DEAM
+deam_522,DEAM_song_522,,0.3125,0.2125,DEAM
+deam_523,DEAM_song_523,,0.5125,0.6125,DEAM
+deam_524,DEAM_song_524,,0.2875,0.375,DEAM
+deam_525,DEAM_song_525,,0.4125,0.475,DEAM
+deam_527,DEAM_song_527,,0.375,0.5875,DEAM
+deam_529,DEAM_song_529,,0.4625,0.6,DEAM
+deam_530,DEAM_song_530,,0.2875,0.3125,DEAM
+deam_535,DEAM_song_535,,0.6375,0.6875,DEAM
+deam_536,DEAM_song_536,,0.5125,0.4375,DEAM
+deam_537,DEAM_song_537,,0.5,0.2,DEAM
+deam_540,DEAM_song_540,,0.3874999999999999,0.425,DEAM
+deam_544,DEAM_song_544,,0.475,0.4375,DEAM
+deam_547,DEAM_song_547,,0.3,0.475,DEAM
+deam_550,DEAM_song_550,,0.4,0.6125,DEAM
+deam_551,DEAM_song_551,,0.275,0.375,DEAM
+deam_554,DEAM_song_554,,0.2249999999999999,0.5,DEAM
+deam_555,DEAM_song_555,,0.525,0.475,DEAM
+deam_556,DEAM_song_556,,0.575,0.6375,DEAM
+deam_558,DEAM_song_558,,0.2249999999999999,0.275,DEAM
+deam_560,DEAM_song_560,,0.2375,0.4499999999999999,DEAM
+deam_561,DEAM_song_561,,0.7375,0.75,DEAM
+deam_564,DEAM_song_564,,0.4625,0.4875,DEAM
+deam_565,DEAM_song_565,,0.2625,0.25,DEAM
+deam_568,DEAM_song_568,,0.55,0.2625,DEAM
+deam_574,DEAM_song_574,,0.4375,0.475,DEAM
+deam_577,DEAM_song_577,,0.575,0.5625,DEAM
+deam_579,DEAM_song_579,,0.2625,0.275,DEAM
+deam_580,DEAM_song_580,,0.175,0.425,DEAM
+deam_581,DEAM_song_581,,0.5375,0.625,DEAM
+deam_582,DEAM_song_582,,0.2625,0.4875,DEAM
+deam_584,DEAM_song_584,,0.1875,0.175,DEAM
+deam_585,DEAM_song_585,,0.375,0.4,DEAM
+deam_586,DEAM_song_586,,0.525,0.6125,DEAM
+deam_591,DEAM_song_591,,0.5875,0.65,DEAM
+deam_592,DEAM_song_592,,0.55625,0.51125,DEAM
+deam_594,DEAM_song_594,,0.4,0.2625,DEAM
+deam_597,DEAM_song_597,,0.475,0.675,DEAM
+deam_598,DEAM_song_598,,0.375,0.575,DEAM
+deam_600,DEAM_song_600,,0.3125,0.375,DEAM
+deam_605,DEAM_song_605,,0.425,0.625,DEAM
+deam_606,DEAM_song_606,,0.3874999999999999,0.575,DEAM
+deam_607,DEAM_song_607,,0.425,0.6375,DEAM
+deam_608,DEAM_song_608,,0.2375,0.35,DEAM
+deam_609,DEAM_song_609,,0.5375,0.56875,DEAM
+deam_610,DEAM_song_610,,0.6625,0.6875,DEAM
+deam_611,DEAM_song_611,,0.5125,0.475,DEAM
+deam_612,DEAM_song_612,,0.575,0.7,DEAM
+deam_613,DEAM_song_613,,0.525,0.725,DEAM
+deam_614,DEAM_song_614,,0.4125,0.3375,DEAM
+deam_615,DEAM_song_615,,0.275,0.5,DEAM
+deam_616,DEAM_song_616,,0.3125,0.5,DEAM
+deam_617,DEAM_song_617,,0.6875,0.25,DEAM
+deam_620,DEAM_song_620,,0.6,0.425,DEAM
+deam_621,DEAM_song_621,,0.2375,0.425,DEAM
+deam_622,DEAM_song_622,,0.4375,0.5,DEAM
+deam_623,DEAM_song_623,,0.35,0.6125,DEAM
+deam_625,DEAM_song_625,,0.2625,0.425,DEAM
+deam_628,DEAM_song_628,,0.4875,0.725,DEAM
+deam_629,DEAM_song_629,,0.8,0.825,DEAM
+deam_631,DEAM_song_631,,0.825,0.2625,DEAM
+deam_632,DEAM_song_632,,0.4,0.55,DEAM
+deam_634,DEAM_song_634,,0.4625,0.6,DEAM
+deam_635,DEAM_song_635,,0.7,0.825,DEAM
+deam_637,DEAM_song_637,,0.15,0.325,DEAM
+deam_638,DEAM_song_638,,0.275,0.425,DEAM
+deam_639,DEAM_song_639,,0.6375,0.6625,DEAM
+deam_640,DEAM_song_640,,0.825,0.85,DEAM
+deam_643,DEAM_song_643,,0.3125,0.4,DEAM
+deam_644,DEAM_song_644,,0.4125,0.575,DEAM
+deam_645,DEAM_song_645,,0.4499999999999999,0.5875,DEAM
+deam_646,DEAM_song_646,,0.2625,0.35,DEAM
+deam_647,DEAM_song_647,,0.25,0.6,DEAM
+deam_648,DEAM_song_648,,0.5125,0.725,DEAM
+deam_649,DEAM_song_649,,0.65,0.7125,DEAM
+deam_650,DEAM_song_650,,0.625,0.4,DEAM
+deam_651,DEAM_song_651,,0.675,0.7625,DEAM
+deam_652,DEAM_song_652,,0.275,0.4125,DEAM
+deam_653,DEAM_song_653,,0.5375,0.6875,DEAM
+deam_654,DEAM_song_654,,0.5125,0.425,DEAM
+deam_656,DEAM_song_656,,0.2,0.3874999999999999,DEAM
+deam_657,DEAM_song_657,,0.5125,0.575,DEAM
+deam_658,DEAM_song_658,,0.425,0.5875,DEAM
+deam_660,DEAM_song_660,,0.1375,0.2249999999999999,DEAM
+deam_661,DEAM_song_661,,0.15,0.2249999999999999,DEAM
+deam_662,DEAM_song_662,,0.6125,0.5125,DEAM
+deam_663,DEAM_song_663,,0.2875,0.4125,DEAM
+deam_664,DEAM_song_664,,0.75,0.7,DEAM
+deam_665,DEAM_song_665,,0.5875,0.65,DEAM
+deam_666,DEAM_song_666,,0.5375,0.5,DEAM
+deam_667,DEAM_song_667,,0.4,0.4875,DEAM
+deam_668,DEAM_song_668,,0.5,0.5375,DEAM
+deam_671,DEAM_song_671,,0.2625,0.3375,DEAM
+deam_672,DEAM_song_672,,0.425,0.6625,DEAM
+deam_673,DEAM_song_673,,0.7,0.7125,DEAM
+deam_674,DEAM_song_674,,0.725,0.8,DEAM
+deam_675,DEAM_song_675,,0.5125,0.6,DEAM
+deam_676,DEAM_song_676,,0.7,0.7,DEAM
+deam_677,DEAM_song_677,,0.6875,0.5375,DEAM
+deam_681,DEAM_song_681,,0.4875,0.7,DEAM
+deam_682,DEAM_song_682,,0.475,0.625,DEAM
+deam_684,DEAM_song_684,,0.4125,0.4875,DEAM
+deam_685,DEAM_song_685,,0.4375,0.325,DEAM
+deam_686,DEAM_song_686,,0.3,0.5625,DEAM
+deam_687,DEAM_song_687,,0.7875,0.8,DEAM
+deam_688,DEAM_song_688,,0.4125,0.5,DEAM
+deam_689,DEAM_song_689,,0.35,0.4499999999999999,DEAM
+deam_690,DEAM_song_690,,0.175,0.425,DEAM
+deam_691,DEAM_song_691,,0.5,0.3375,DEAM
+deam_692,DEAM_song_692,,0.7375,0.6375,DEAM
+deam_693,DEAM_song_693,,0.65,0.5375,DEAM
+deam_695,DEAM_song_695,,0.6125,0.65,DEAM
+deam_696,DEAM_song_696,,0.5375,0.6,DEAM
+deam_697,DEAM_song_697,,0.475,0.6,DEAM
+deam_698,DEAM_song_698,,0.3625,0.3375,DEAM
+deam_699,DEAM_song_699,,0.3375,0.4375,DEAM
+deam_700,DEAM_song_700,,0.475,0.575,DEAM
+deam_702,DEAM_song_702,,0.8125,0.2875,DEAM
+deam_703,DEAM_song_703,,0.5125,0.625,DEAM
+deam_704,DEAM_song_704,,0.3874999999999999,0.4,DEAM
+deam_706,DEAM_song_706,,0.5625,0.625,DEAM
+deam_707,DEAM_song_707,,0.275,0.2625,DEAM
+deam_708,DEAM_song_708,,0.275,0.275,DEAM
+deam_709,DEAM_song_709,,0.6,0.5,DEAM
+deam_710,DEAM_song_710,,0.55,0.5125,DEAM
+deam_711,DEAM_song_711,,0.2375,0.2625,DEAM
+deam_712,DEAM_song_712,,0.3,0.5375,DEAM
+deam_713,DEAM_song_713,,0.4875,0.6625,DEAM
+deam_714,DEAM_song_714,,0.425,0.475,DEAM
+deam_715,DEAM_song_715,,0.2375,0.4125,DEAM
+deam_717,DEAM_song_717,,0.4375,0.4875,DEAM
+deam_718,DEAM_song_718,,0.6125,0.6875,DEAM
+deam_719,DEAM_song_719,,0.7625,0.775,DEAM
+deam_721,DEAM_song_721,,0.5875,0.5625,DEAM
+deam_722,DEAM_song_722,,0.5875,0.75,DEAM
+deam_723,DEAM_song_723,,0.6875,0.775,DEAM
+deam_724,DEAM_song_724,,0.625,0.6375,DEAM
+deam_725,DEAM_song_725,,0.5125,0.5125,DEAM
+deam_726,DEAM_song_726,,0.75,0.325,DEAM
+deam_727,DEAM_song_727,,0.4125,0.4375,DEAM
+deam_728,DEAM_song_728,,0.7375,0.8125,DEAM
+deam_729,DEAM_song_729,,0.675,0.3125,DEAM
+deam_730,DEAM_song_730,,0.3375,0.4375,DEAM
+deam_731,DEAM_song_731,,0.7875,0.6,DEAM
+deam_732,DEAM_song_732,,0.575,0.6625,DEAM
+deam_733,DEAM_song_733,,0.4125,0.5,DEAM
+deam_734,DEAM_song_734,,0.5875,0.6625,DEAM
+deam_735,DEAM_song_735,,0.4125,0.4875,DEAM
+deam_736,DEAM_song_736,,0.2125,0.3375,DEAM
+deam_737,DEAM_song_737,,0.3874999999999999,0.4875,DEAM
+deam_738,DEAM_song_738,,0.5625,0.65,DEAM
+deam_739,DEAM_song_739,,0.65,0.7375,DEAM
+deam_740,DEAM_song_740,,0.3375,0.375,DEAM
+deam_741,DEAM_song_741,,0.4499999999999999,0.425,DEAM
+deam_742,DEAM_song_742,,0.6375,0.6875,DEAM
+deam_743,DEAM_song_743,,0.2625,0.5,DEAM
+deam_744,DEAM_song_744,,0.6375,0.5625,DEAM
+deam_745,DEAM_song_745,,0.4,0.075,DEAM
+deam_746,DEAM_song_746,,0.3375,0.4499999999999999,DEAM
+deam_747,DEAM_song_747,,0.325,0.4875,DEAM
+deam_748,DEAM_song_748,,0.5125,0.425,DEAM
+deam_749,DEAM_song_749,,0.4,0.4875,DEAM
+deam_750,DEAM_song_750,,0.5375,0.5875,DEAM
+deam_756,DEAM_song_756,,0.6125,0.725,DEAM
+deam_757,DEAM_song_757,,0.625,0.6375,DEAM
+deam_758,DEAM_song_758,,0.475,0.6125,DEAM
+deam_759,DEAM_song_759,,0.7125,0.6125,DEAM
+deam_763,DEAM_song_763,,0.3125,0.5625,DEAM
+deam_764,DEAM_song_764,,0.6625,0.8125,DEAM
+deam_767,DEAM_song_767,,0.525,0.6875,DEAM
+deam_769,DEAM_song_769,,0.65,0.5,DEAM
+deam_773,DEAM_song_773,,0.4375,0.4625,DEAM
+deam_775,DEAM_song_775,,0.3375,0.425,DEAM
+deam_776,DEAM_song_776,,0.3125,0.4375,DEAM
+deam_777,DEAM_song_777,,0.65,0.5125,DEAM
+deam_779,DEAM_song_779,,0.2249999999999999,0.5375,DEAM
+deam_780,DEAM_song_780,,0.6,0.65,DEAM
+deam_781,DEAM_song_781,,0.4875,0.6625,DEAM
+deam_782,DEAM_song_782,,0.775,0.4625,DEAM
+deam_784,DEAM_song_784,,0.4625,0.5875,DEAM
+deam_787,DEAM_song_787,,0.6375,0.6625,DEAM
+deam_789,DEAM_song_789,,0.3625,0.525,DEAM
+deam_790,DEAM_song_790,,0.775,0.55,DEAM
+deam_791,DEAM_song_791,,0.2125,0.4499999999999999,DEAM
+deam_794,DEAM_song_794,,0.1875,0.4,DEAM
+deam_795,DEAM_song_795,,0.15,0.3125,DEAM
+deam_796,DEAM_song_796,,0.525,0.5125,DEAM
+deam_797,DEAM_song_797,,0.4875,0.55,DEAM
+deam_798,DEAM_song_798,,0.6875,0.6125,DEAM
+deam_799,DEAM_song_799,,0.3874999999999999,0.575,DEAM
+deam_800,DEAM_song_800,,0.4375,0.4375,DEAM
+deam_801,DEAM_song_801,,0.2875,0.3125,DEAM
+deam_804,DEAM_song_804,,0.7375,0.725,DEAM
+deam_805,DEAM_song_805,,0.15,0.3125,DEAM
+deam_806,DEAM_song_806,,0.675,0.7,DEAM
+deam_807,DEAM_song_807,,0.475,0.6875,DEAM
+deam_808,DEAM_song_808,,0.2625,0.4125,DEAM
+deam_810,DEAM_song_810,,0.6875,0.7,DEAM
+deam_811,DEAM_song_811,,0.3874999999999999,0.4875,DEAM
+deam_813,DEAM_song_813,,0.65,0.7125,DEAM
+deam_814,DEAM_song_814,,0.6375,0.5375,DEAM
+deam_815,DEAM_song_815,,0.5625,0.6125,DEAM
+deam_818,DEAM_song_818,,0.6125,0.725,DEAM
+deam_819,DEAM_song_819,,0.375,0.5875,DEAM
+deam_820,DEAM_song_820,,0.675,0.675,DEAM
+deam_823,DEAM_song_823,,0.475,0.475,DEAM
+deam_824,DEAM_song_824,,0.775,0.75,DEAM
+deam_825,DEAM_song_825,,0.3874999999999999,0.5875,DEAM
+deam_826,DEAM_song_826,,0.375,0.4625,DEAM
+deam_829,DEAM_song_829,,0.1624999999999999,0.4375,DEAM
+deam_830,DEAM_song_830,,0.5375,0.6125,DEAM
+deam_831,DEAM_song_831,,0.525,0.65,DEAM
+deam_833,DEAM_song_833,,0.5,0.6,DEAM
+deam_834,DEAM_song_834,,0.4625,0.4125,DEAM
+deam_836,DEAM_song_836,,0.7625,0.5875,DEAM
+deam_839,DEAM_song_839,,0.5875,0.425,DEAM
+deam_841,DEAM_song_841,,0.4,0.4625,DEAM
+deam_844,DEAM_song_844,,0.35,0.3,DEAM
+deam_845,DEAM_song_845,,0.5125,0.375,DEAM
+deam_846,DEAM_song_846,,0.625,0.5625,DEAM
+deam_848,DEAM_song_848,,0.15,0.2125,DEAM
+deam_850,DEAM_song_850,,0.325,0.2625,DEAM
+deam_851,DEAM_song_851,,0.5,0.425,DEAM
+deam_852,DEAM_song_852,,0.4375,0.4625,DEAM
+deam_854,DEAM_song_854,,0.2375,0.35,DEAM
+deam_855,DEAM_song_855,,0.2375,0.4375,DEAM
+deam_856,DEAM_song_856,,0.7125,0.575,DEAM
+deam_857,DEAM_song_857,,0.4875,0.5375,DEAM
+deam_858,DEAM_song_858,,0.425,0.4375,DEAM
+deam_859,DEAM_song_859,,0.325,0.5125,DEAM
+deam_860,DEAM_song_860,,0.7,0.7125,DEAM
+deam_863,DEAM_song_863,,0.675,0.75,DEAM
+deam_864,DEAM_song_864,,0.5875,0.6125,DEAM
+deam_865,DEAM_song_865,,0.2249999999999999,0.4499999999999999,DEAM
+deam_866,DEAM_song_866,,0.6,0.5125,DEAM
+deam_867,DEAM_song_867,,0.6,0.6875,DEAM
+deam_869,DEAM_song_869,,0.2,0.3874999999999999,DEAM
+deam_871,DEAM_song_871,,0.675,0.625,DEAM
+deam_872,DEAM_song_872,,0.3,0.5625,DEAM
+deam_873,DEAM_song_873,,0.725,0.75,DEAM
+deam_874,DEAM_song_874,,0.6625,0.425,DEAM
+deam_876,DEAM_song_876,,0.6625,0.7125,DEAM
+deam_879,DEAM_song_879,,0.575,0.625,DEAM
+deam_880,DEAM_song_880,,0.4875,0.35,DEAM
+deam_882,DEAM_song_882,,0.5375,0.525,DEAM
+deam_884,DEAM_song_884,,0.5625,0.5,DEAM
+deam_886,DEAM_song_886,,0.6125,0.55,DEAM
+deam_887,DEAM_song_887,,0.5125,0.575,DEAM
+deam_889,DEAM_song_889,,0.7375,0.775,DEAM
+deam_890,DEAM_song_890,,0.325,0.4625,DEAM
+deam_891,DEAM_song_891,,0.3,0.5625,DEAM
+deam_892,DEAM_song_892,,0.3625,0.2375,DEAM
+deam_893,DEAM_song_893,,0.7875,0.2875,DEAM
+deam_897,DEAM_song_897,,0.4875,0.4125,DEAM
+deam_898,DEAM_song_898,,0.675,0.5625,DEAM
+deam_899,DEAM_song_899,,0.5375,0.6625,DEAM
+deam_902,DEAM_song_902,,0.75,0.2875,DEAM
+deam_903,DEAM_song_903,,0.6125,0.575,DEAM
+deam_904,DEAM_song_904,,0.5875,0.4,DEAM
+deam_908,DEAM_song_908,,0.5625,0.4875,DEAM
+deam_909,DEAM_song_909,,0.625,0.5625,DEAM
+deam_910,DEAM_song_910,,0.75,0.7,DEAM
+deam_911,DEAM_song_911,,0.7625,0.375,DEAM
+deam_913,DEAM_song_913,,0.475,0.2875,DEAM
+deam_915,DEAM_song_915,,0.5,0.525,DEAM
+deam_921,DEAM_song_921,,0.6125,0.6375,DEAM
+deam_924,DEAM_song_924,,0.55,0.65,DEAM
+deam_925,DEAM_song_925,,0.4875,0.5875,DEAM
+deam_926,DEAM_song_926,,0.375,0.5625,DEAM
+deam_928,DEAM_song_928,,0.5,0.375,DEAM
+deam_931,DEAM_song_931,,0.6625,0.6875,DEAM
+deam_932,DEAM_song_932,,0.4375,0.4875,DEAM
+deam_934,DEAM_song_934,,0.65,0.675,DEAM
+deam_936,DEAM_song_936,,0.55,0.4625,DEAM
+deam_938,DEAM_song_938,,0.7875,0.4,DEAM
+deam_939,DEAM_song_939,,0.65,0.2125,DEAM
+deam_941,DEAM_song_941,,0.775,0.6125,DEAM
+deam_942,DEAM_song_942,,0.475,0.3874999999999999,DEAM
+deam_944,DEAM_song_944,,0.7625,0.6875,DEAM
+deam_945,DEAM_song_945,,0.1624999999999999,0.2249999999999999,DEAM
+deam_949,DEAM_song_949,,0.5875,0.6375,DEAM
+deam_952,DEAM_song_952,,0.4,0.3375,DEAM
+deam_954,DEAM_song_954,,0.5125,0.5625,DEAM
+deam_955,DEAM_song_955,,0.35,0.575,DEAM
+deam_956,DEAM_song_956,,0.4375,0.55,DEAM
+deam_957,DEAM_song_957,,0.2249999999999999,0.4625,DEAM
+deam_958,DEAM_song_958,,0.5625,0.5125,DEAM
+deam_959,DEAM_song_959,,0.65,0.675,DEAM
+deam_960,DEAM_song_960,,0.8375,0.8375,DEAM
+deam_961,DEAM_song_961,,0.575,0.5625,DEAM
+deam_962,DEAM_song_962,,0.8,0.3,DEAM
+deam_964,DEAM_song_964,,0.825,0.75,DEAM
+deam_967,DEAM_song_967,,0.2249999999999999,0.425,DEAM
+deam_968,DEAM_song_968,,0.35,0.275,DEAM
+deam_970,DEAM_song_970,,0.7,0.7,DEAM
+deam_973,DEAM_song_973,,0.6875,0.4499999999999999,DEAM
+deam_974,DEAM_song_974,,0.3874999999999999,0.4,DEAM
+deam_976,DEAM_song_976,,0.65,0.6125,DEAM
+deam_977,DEAM_song_977,,0.7875,0.3125,DEAM
+deam_978,DEAM_song_978,,0.8375,0.6375,DEAM
+deam_979,DEAM_song_979,,0.2625,0.5625,DEAM
+deam_980,DEAM_song_980,,0.6,0.4125,DEAM
+deam_981,DEAM_song_981,,0.7125,0.7,DEAM
+deam_983,DEAM_song_983,,0.475,0.6625,DEAM
+deam_985,DEAM_song_985,,0.3625,0.6375,DEAM
+deam_986,DEAM_song_986,,0.6,0.4375,DEAM
+deam_987,DEAM_song_987,,0.6625,0.325,DEAM
+deam_988,DEAM_song_988,,0.55,0.6125,DEAM
+deam_989,DEAM_song_989,,0.6625,0.675,DEAM
+deam_990,DEAM_song_990,,0.625,0.6375,DEAM
+deam_991,DEAM_song_991,,0.2625,0.3125,DEAM
+deam_993,DEAM_song_993,,0.425,0.35,DEAM
+deam_994,DEAM_song_994,,0.7,0.5375,DEAM
+deam_995,DEAM_song_995,,0.4625,0.175,DEAM
+deam_996,DEAM_song_996,,0.625,0.7125,DEAM
+deam_997,DEAM_song_997,,0.675,0.7125,DEAM
+deam_999,DEAM_song_999,,0.3874999999999999,0.6125,DEAM
+deam_1000,DEAM_song_1000,,0.725,0.575,DEAM
+deam_1001,DEAM_song_1001,,0.425,0.35,DEAM
+deam_1002,DEAM_song_1002,,0.4375,0.275,DEAM
+deam_1003,DEAM_song_1003,,0.5375,0.2875,DEAM
+deam_1004,DEAM_song_1004,,0.35,0.4625,DEAM
+deam_1005,DEAM_song_1005,,0.55,0.5125,DEAM
+deam_1006,DEAM_song_1006,,0.4499999999999999,0.425,DEAM
+deam_1007,DEAM_song_1007,,0.525,0.55,DEAM
+deam_1008,DEAM_song_1008,,0.625,0.55,DEAM
+deam_1009,DEAM_song_1009,,0.3125,0.3375,DEAM
+deam_1010,DEAM_song_1010,,0.6875,0.6875,DEAM
+deam_1011,DEAM_song_1011,,0.4375,0.25,DEAM
+deam_1012,DEAM_song_1012,,0.4125,0.2375,DEAM
+deam_1013,DEAM_song_1013,,0.275,0.3125,DEAM
+deam_1014,DEAM_song_1014,,0.4875,0.4375,DEAM
+deam_1015,DEAM_song_1015,,0.6125,0.6625,DEAM
+deam_1016,DEAM_song_1016,,0.2875,0.1124999999999999,DEAM
+deam_1017,DEAM_song_1017,,0.3874999999999999,0.35,DEAM
+deam_1018,DEAM_song_1018,,0.3375,0.1875,DEAM
+deam_1019,DEAM_song_1019,,0.4125,0.2249999999999999,DEAM
+deam_1020,DEAM_song_1020,,0.3,0.1875,DEAM
+deam_1021,DEAM_song_1021,,0.65,0.475,DEAM
+deam_1022,DEAM_song_1022,,0.2875,0.2875,DEAM
+deam_1023,DEAM_song_1023,,0.2375,0.1624999999999999,DEAM
+deam_1024,DEAM_song_1024,,0.275,0.2375,DEAM
+deam_1025,DEAM_song_1025,,0.5125,0.6375,DEAM
+deam_1026,DEAM_song_1026,,0.3375,0.2249999999999999,DEAM
+deam_1027,DEAM_song_1027,,0.4499999999999999,0.35,DEAM
+deam_1028,DEAM_song_1028,,0.4375,0.475,DEAM
+deam_1029,DEAM_song_1029,,0.3625,0.4375,DEAM
+deam_1030,DEAM_song_1030,,0.5875,0.525,DEAM
+deam_1031,DEAM_song_1031,,0.475,0.5,DEAM
+deam_1032,DEAM_song_1032,,0.2875,0.3874999999999999,DEAM
+deam_1033,DEAM_song_1033,,0.5375,0.575,DEAM
+deam_1034,DEAM_song_1034,,0.2875,0.2249999999999999,DEAM
+deam_1035,DEAM_song_1035,,0.4125,0.4,DEAM
+deam_1036,DEAM_song_1036,,0.475,0.25,DEAM
+deam_1037,DEAM_song_1037,,0.5,0.425,DEAM
+deam_1038,DEAM_song_1038,,0.5,0.3874999999999999,DEAM
+deam_1039,DEAM_song_1039,,0.6625,0.4499999999999999,DEAM
+deam_1040,DEAM_song_1040,,0.65,0.5375,DEAM
+deam_1041,DEAM_song_1041,,0.575,0.55,DEAM
+deam_1042,DEAM_song_1042,,0.5,0.4125,DEAM
+deam_1043,DEAM_song_1043,,0.4875,0.5,DEAM
+deam_1044,DEAM_song_1044,,0.7625,0.6375,DEAM
+deam_1045,DEAM_song_1045,,0.425,0.2625,DEAM
+deam_1046,DEAM_song_1046,,0.575,0.5,DEAM
+deam_1047,DEAM_song_1047,,0.5375,0.425,DEAM
+deam_1048,DEAM_song_1048,,0.5,0.7125,DEAM
+deam_1049,DEAM_song_1049,,0.5375,0.7125,DEAM
+deam_1050,DEAM_song_1050,,0.625,0.6,DEAM
+deam_1051,DEAM_song_1051,,0.525,0.5375,DEAM
+deam_1052,DEAM_song_1052,,0.5625,0.7,DEAM
+deam_1053,DEAM_song_1053,,0.4375,0.6625,DEAM
+deam_1054,DEAM_song_1054,,0.3375,0.6625,DEAM
+deam_1055,DEAM_song_1055,,0.3375,0.6625,DEAM
+deam_1056,DEAM_song_1056,,0.4,0.5,DEAM
+deam_1057,DEAM_song_1057,,0.4625,0.7625,DEAM
+deam_1058,DEAM_song_1058,,0.375,0.6,DEAM
+deam_1059,DEAM_song_1059,,0.4625,0.8125,DEAM
+deam_1060,DEAM_song_1060,,0.525,0.6375,DEAM
+deam_1061,DEAM_song_1061,,0.6875,0.65,DEAM
+deam_1062,DEAM_song_1062,,0.3874999999999999,0.4125,DEAM
+deam_1063,DEAM_song_1063,,0.525,0.675,DEAM
+deam_1064,DEAM_song_1064,,0.525,0.7625,DEAM
+deam_1065,DEAM_song_1065,,0.625,0.675,DEAM
+deam_1066,DEAM_song_1066,,0.6375,0.5625,DEAM
+deam_1067,DEAM_song_1067,,0.375,0.3,DEAM
+deam_1068,DEAM_song_1068,,0.6125,0.5375,DEAM
+deam_1069,DEAM_song_1069,,0.4125,0.575,DEAM
+deam_1070,DEAM_song_1070,,0.525,0.6,DEAM
+deam_1071,DEAM_song_1071,,0.6875,0.5375,DEAM
+deam_1072,DEAM_song_1072,,0.6625,0.5625,DEAM
+deam_1073,DEAM_song_1073,,0.525,0.35,DEAM
+deam_1074,DEAM_song_1074,,0.725,0.675,DEAM
+deam_1075,DEAM_song_1075,,0.675,0.7,DEAM
+deam_1076,DEAM_song_1076,,0.625,0.5,DEAM
+deam_1077,DEAM_song_1077,,0.675,0.475,DEAM
+deam_1078,DEAM_song_1078,,0.725,0.625,DEAM
+deam_1079,DEAM_song_1079,,0.7375,0.575,DEAM
+deam_1080,DEAM_song_1080,,0.625,0.5,DEAM
+deam_1081,DEAM_song_1081,,0.5,0.3125,DEAM
+deam_1082,DEAM_song_1082,,0.7125,0.675,DEAM
+deam_1083,DEAM_song_1083,,0.6375,0.7,DEAM
+deam_1084,DEAM_song_1084,,0.5125,0.3,DEAM
+deam_1085,DEAM_song_1085,,0.6375,0.525,DEAM
+deam_1086,DEAM_song_1086,,0.6125,0.4125,DEAM
+deam_1087,DEAM_song_1087,,0.625,0.675,DEAM
+deam_1088,DEAM_song_1088,,0.7875,0.7,DEAM
+deam_1089,DEAM_song_1089,,0.675,0.7,DEAM
+deam_1090,DEAM_song_1090,,0.575,0.7,DEAM
+deam_1091,DEAM_song_1091,,0.5875,0.6,DEAM
+deam_1092,DEAM_song_1092,,0.6,0.6625,DEAM
+deam_1093,DEAM_song_1093,,0.6,0.625,DEAM
+deam_1094,DEAM_song_1094,,0.675,0.6625,DEAM
+deam_1095,DEAM_song_1095,,0.65,0.65,DEAM
+deam_1096,DEAM_song_1096,,0.35,0.325,DEAM
+deam_1097,DEAM_song_1097,,0.5625,0.55,DEAM
+deam_1098,DEAM_song_1098,,0.725,0.6625,DEAM
+deam_1099,DEAM_song_1099,,0.5875,0.6125,DEAM
+deam_1100,DEAM_song_1100,,0.6625,0.575,DEAM
+deam_1101,DEAM_song_1101,,0.3375,0.175,DEAM
+deam_1102,DEAM_song_1102,,0.1624999999999999,0.4375,DEAM
+deam_1103,DEAM_song_1103,,0.325,0.3125,DEAM
+deam_1104,DEAM_song_1104,,0.4,0.425,DEAM
+deam_1105,DEAM_song_1105,,0.35,0.3375,DEAM
+deam_1106,DEAM_song_1106,,0.25,0.3625,DEAM
+deam_1107,DEAM_song_1107,,0.25,0.275,DEAM
+deam_1108,DEAM_song_1108,,0.475,0.3375,DEAM
+deam_1109,DEAM_song_1109,,0.4,0.175,DEAM
+deam_1110,DEAM_song_1110,,0.5125,0.55,DEAM
+deam_1111,DEAM_song_1111,,0.275,0.2375,DEAM
+deam_1112,DEAM_song_1112,,0.2625,0.1624999999999999,DEAM
+deam_1113,DEAM_song_1113,,0.3,0.25,DEAM
+deam_1114,DEAM_song_1114,,0.3,0.2875,DEAM
+deam_1115,DEAM_song_1115,,0.425,0.3625,DEAM
+deam_1116,DEAM_song_1116,,0.5875,0.25,DEAM
+deam_1117,DEAM_song_1117,,0.4,0.3,DEAM
+deam_1118,DEAM_song_1118,,0.375,0.1124999999999999,DEAM
+deam_1119,DEAM_song_1119,,0.3,0.1375,DEAM
+deam_1120,DEAM_song_1120,,0.3,0.2249999999999999,DEAM
+deam_1121,DEAM_song_1121,,0.3625,0.1624999999999999,DEAM
+deam_1122,DEAM_song_1122,,0.725,0.55,DEAM
+deam_1123,DEAM_song_1123,,0.2625,0.2625,DEAM
+deam_1124,DEAM_song_1124,,0.55,0.5125,DEAM
+deam_1125,DEAM_song_1125,,0.4875,0.25,DEAM
+deam_1126,DEAM_song_1126,,0.3625,0.275,DEAM
+deam_1127,DEAM_song_1127,,0.3,0.25,DEAM
+deam_1128,DEAM_song_1128,,0.3375,0.2125,DEAM
+deam_1129,DEAM_song_1129,,0.3125,0.175,DEAM
+deam_1130,DEAM_song_1130,,0.35,0.2625,DEAM
+deam_1131,DEAM_song_1131,,0.4375,0.3,DEAM
+deam_1132,DEAM_song_1132,,0.4499999999999999,0.3,DEAM
+deam_1133,DEAM_song_1133,,0.5,0.175,DEAM
+deam_1134,DEAM_song_1134,,0.3874999999999999,0.1375,DEAM
+deam_1135,DEAM_song_1135,,0.2625,0.2125,DEAM
+deam_1136,DEAM_song_1136,,0.4375,0.3,DEAM
+deam_1137,DEAM_song_1137,,0.4125,0.4,DEAM
+deam_1138,DEAM_song_1138,,0.425,0.3375,DEAM
+deam_1139,DEAM_song_1139,,0.5125,0.1875,DEAM
+deam_1140,DEAM_song_1140,,0.6125,0.55,DEAM
+deam_1141,DEAM_song_1141,,0.4375,0.325,DEAM
+deam_1142,DEAM_song_1142,,0.275,0.1375,DEAM
+deam_1143,DEAM_song_1143,,0.35,0.5125,DEAM
+deam_1144,DEAM_song_1144,,0.3375,0.4499999999999999,DEAM
+deam_1145,DEAM_song_1145,,0.4625,0.175,DEAM
+deam_1146,DEAM_song_1146,,0.2,0.3,DEAM
+deam_1147,DEAM_song_1147,,0.4499999999999999,0.325,DEAM
+deam_1148,DEAM_song_1148,,0.3,0.25,DEAM
+deam_1149,DEAM_song_1149,,0.375,0.2,DEAM
+deam_1150,DEAM_song_1150,,0.3874999999999999,0.1624999999999999,DEAM
+deam_1151,DEAM_song_1151,,0.5,0.575,DEAM
+deam_1152,DEAM_song_1152,,0.6375,0.575,DEAM
+deam_1153,DEAM_song_1153,,0.3625,0.1875,DEAM
+deam_1154,DEAM_song_1154,,0.3625,0.425,DEAM
+deam_1155,DEAM_song_1155,,0.4,0.4125,DEAM
+deam_1156,DEAM_song_1156,,0.75,0.575,DEAM
+deam_1157,DEAM_song_1157,,0.7375,0.6375,DEAM
+deam_1158,DEAM_song_1158,,0.65,0.65,DEAM
+deam_1159,DEAM_song_1159,,0.6,0.625,DEAM
+deam_1160,DEAM_song_1160,,0.675,0.55,DEAM
+deam_1161,DEAM_song_1161,,0.3874999999999999,0.1875,DEAM
+deam_1162,DEAM_song_1162,,0.325,0.35,DEAM
+deam_1163,DEAM_song_1163,,0.65,0.5375,DEAM
+deam_1164,DEAM_song_1164,,0.325,0.2625,DEAM
+deam_1165,DEAM_song_1165,,0.3125,0.2249999999999999,DEAM
+deam_1166,DEAM_song_1166,,0.4499999999999999,0.2875,DEAM
+deam_1167,DEAM_song_1167,,0.325,0.2249999999999999,DEAM
+deam_1168,DEAM_song_1168,,0.425,0.2875,DEAM
+deam_1169,DEAM_song_1169,,0.3625,0.2249999999999999,DEAM
+deam_1170,DEAM_song_1170,,0.2625,0.1375,DEAM
+deam_1171,DEAM_song_1171,,0.325,0.1124999999999999,DEAM
+deam_1172,DEAM_song_1172,,0.3625,0.1875,DEAM
+deam_1173,DEAM_song_1173,,0.4125,0.375,DEAM
+deam_1174,DEAM_song_1174,,0.325,0.2875,DEAM
+deam_1175,DEAM_song_1175,,0.3375,0.3,DEAM
+deam_1176,DEAM_song_1176,,0.4875,0.2125,DEAM
+deam_1177,DEAM_song_1177,,0.525,0.2875,DEAM
+deam_1178,DEAM_song_1178,,0.4875,0.4375,DEAM
+deam_1179,DEAM_song_1179,,0.3,0.3874999999999999,DEAM
+deam_1180,DEAM_song_1180,,0.2875,0.2,DEAM
+deam_1181,DEAM_song_1181,,0.3375,0.425,DEAM
+deam_1182,DEAM_song_1182,,0.2125,0.15,DEAM
+deam_1183,DEAM_song_1183,,0.3375,0.275,DEAM
+deam_1184,DEAM_song_1184,,0.4,0.1624999999999999,DEAM
+deam_1185,DEAM_song_1185,,0.65,0.475,DEAM
+deam_1186,DEAM_song_1186,,0.3375,0.1124999999999999,DEAM
+deam_1187,DEAM_song_1187,,0.425,0.3874999999999999,DEAM
+deam_1188,DEAM_song_1188,,0.4625,0.2875,DEAM
+deam_1189,DEAM_song_1189,,0.475,0.275,DEAM
+deam_1190,DEAM_song_1190,,0.3125,0.15,DEAM
+deam_1191,DEAM_song_1191,,0.425,0.2,DEAM
+deam_1192,DEAM_song_1192,,0.3375,0.2375,DEAM
+deam_1193,DEAM_song_1193,,0.425,0.3625,DEAM
+deam_1194,DEAM_song_1194,,0.3,0.1875,DEAM
+deam_1195,DEAM_song_1195,,0.4,0.375,DEAM
+deam_1196,DEAM_song_1196,,0.35,0.2125,DEAM
+deam_1197,DEAM_song_1197,,0.3625,0.2249999999999999,DEAM
+deam_1198,DEAM_song_1198,,0.3125,0.1,DEAM
+deam_1199,DEAM_song_1199,,0.4375,0.3125,DEAM
+deam_1200,DEAM_song_1200,,0.275,0.325,DEAM
+deam_1201,DEAM_song_1201,,0.625,0.5625,DEAM
+deam_1202,DEAM_song_1202,,0.3874999999999999,0.2125,DEAM
+deam_1203,DEAM_song_1203,,0.375,0.3,DEAM
+deam_1204,DEAM_song_1204,,0.7,0.5625,DEAM
+deam_1205,DEAM_song_1205,,0.625,0.5875,DEAM
+deam_1206,DEAM_song_1206,,0.5125,0.6,DEAM
+deam_1207,DEAM_song_1207,,0.4625,0.3,DEAM
+deam_1208,DEAM_song_1208,,0.65,0.4499999999999999,DEAM
+deam_1209,DEAM_song_1209,,0.425,0.2125,DEAM
+deam_1210,DEAM_song_1210,,0.35,0.175,DEAM
+deam_1211,DEAM_song_1211,,0.5625,0.4625,DEAM
+deam_1212,DEAM_song_1212,,0.3125,0.2125,DEAM
+deam_1213,DEAM_song_1213,,0.2625,0.2249999999999999,DEAM
+deam_1214,DEAM_song_1214,,0.65,0.5375,DEAM
+deam_1215,DEAM_song_1215,,0.65,0.575,DEAM
+deam_1216,DEAM_song_1216,,0.5625,0.5375,DEAM
+deam_1217,DEAM_song_1217,,0.3625,0.2,DEAM
+deam_1218,DEAM_song_1218,,0.3625,0.3874999999999999,DEAM
+deam_1219,DEAM_song_1219,,0.4125,0.15,DEAM
+deam_1220,DEAM_song_1220,,0.325,0.15,DEAM
+deam_1221,DEAM_song_1221,,0.55,0.5375,DEAM
+deam_1222,DEAM_song_1222,,0.3874999999999999,0.275,DEAM
+deam_1223,DEAM_song_1223,,0.4499999999999999,0.575,DEAM
+deam_1224,DEAM_song_1224,,0.65,0.725,DEAM
+deam_1225,DEAM_song_1225,,0.3,0.4499999999999999,DEAM
+deam_1226,DEAM_song_1226,,0.3625,0.35,DEAM
+deam_1227,DEAM_song_1227,,0.4625,0.5875,DEAM
+deam_1228,DEAM_song_1228,,0.55,0.2875,DEAM
+deam_1229,DEAM_song_1229,,0.525,0.4125,DEAM
+deam_1230,DEAM_song_1230,,0.5375,0.3375,DEAM
+deam_1231,DEAM_song_1231,,0.5625,0.6875,DEAM
+deam_1232,DEAM_song_1232,,0.7375,0.6625,DEAM
+deam_1233,DEAM_song_1233,,0.5625,0.475,DEAM
+deam_1234,DEAM_song_1234,,0.4499999999999999,0.25,DEAM
+deam_1235,DEAM_song_1235,,0.4875,0.6,DEAM
+deam_1236,DEAM_song_1236,,0.4375,0.4875,DEAM
+deam_1237,DEAM_song_1237,,0.3874999999999999,0.2875,DEAM
+deam_1238,DEAM_song_1238,,0.5625,0.5125,DEAM
+deam_1239,DEAM_song_1239,,0.6625,0.7125,DEAM
+deam_1240,DEAM_song_1240,,0.2125,0.2,DEAM
+deam_1241,DEAM_song_1241,,0.3874999999999999,0.3375,DEAM
+deam_1242,DEAM_song_1242,,0.4625,0.4125,DEAM
+deam_1243,DEAM_song_1243,,0.6,0.5875,DEAM
+deam_1244,DEAM_song_1244,,0.4499999999999999,0.3375,DEAM
+deam_1245,DEAM_song_1245,,0.675,0.5375,DEAM
+deam_1246,DEAM_song_1246,,0.4375,0.2625,DEAM
+deam_1247,DEAM_song_1247,,0.425,0.6625,DEAM
+deam_1248,DEAM_song_1248,,0.3375,0.25,DEAM
+deam_1249,DEAM_song_1249,,0.5125,0.575,DEAM
+deam_1250,DEAM_song_1250,,0.75,0.8,DEAM
+deam_1251,DEAM_song_1251,,0.7375,0.6625,DEAM
+deam_1252,DEAM_song_1252,,0.525,0.5125,DEAM
+deam_1253,DEAM_song_1253,,0.3874999999999999,0.25,DEAM
+deam_1254,DEAM_song_1254,,0.4625,0.65,DEAM
+deam_1255,DEAM_song_1255,,0.3,0.125,DEAM
+deam_1256,DEAM_song_1256,,0.5875,0.5625,DEAM
+deam_1257,DEAM_song_1257,,0.5,0.35,DEAM
+deam_1258,DEAM_song_1258,,0.5875,0.575,DEAM
+deam_1259,DEAM_song_1259,,0.325,0.2249999999999999,DEAM
+deam_1260,DEAM_song_1260,,0.775,0.6875,DEAM
+deam_1261,DEAM_song_1261,,0.35,0.2625,DEAM
+deam_1262,DEAM_song_1262,,0.4375,0.475,DEAM
+deam_1263,DEAM_song_1263,,0.6,0.5125,DEAM
+deam_1264,DEAM_song_1264,,0.4499999999999999,0.325,DEAM
+deam_1265,DEAM_song_1265,,0.6,0.5625,DEAM
+deam_1266,DEAM_song_1266,,0.575,0.5125,DEAM
+deam_1267,DEAM_song_1267,,0.4375,0.3375,DEAM
+deam_1268,DEAM_song_1268,,0.5375,0.3375,DEAM
+deam_1269,DEAM_song_1269,,0.3125,0.425,DEAM
+deam_1270,DEAM_song_1270,,0.4499999999999999,0.5375,DEAM
+deam_1271,DEAM_song_1271,,0.4499999999999999,0.4625,DEAM
+deam_1272,DEAM_song_1272,,0.375,0.275,DEAM
+deam_1273,DEAM_song_1273,,0.475,0.575,DEAM
+deam_1274,DEAM_song_1274,,0.625,0.55,DEAM
+deam_1275,DEAM_song_1275,,0.3125,0.2249999999999999,DEAM
+deam_1276,DEAM_song_1276,,0.475,0.5625,DEAM
+deam_1277,DEAM_song_1277,,0.2375,0.15,DEAM
+deam_1278,DEAM_song_1278,,0.5125,0.3874999999999999,DEAM
+deam_1279,DEAM_song_1279,,0.575,0.4,DEAM
+deam_1280,DEAM_song_1280,,0.6125,0.55,DEAM
+deam_1281,DEAM_song_1281,,0.55,0.4375,DEAM
+deam_1282,DEAM_song_1282,,0.725,0.675,DEAM
+deam_1283,DEAM_song_1283,,0.2875,0.525,DEAM
+deam_1284,DEAM_song_1284,,0.6625,0.7,DEAM
+deam_1285,DEAM_song_1285,,0.5125,0.4875,DEAM
+deam_1286,DEAM_song_1286,,0.35,0.25,DEAM
+deam_1287,DEAM_song_1287,,0.4375,0.4125,DEAM
+deam_1288,DEAM_song_1288,,0.525,0.3,DEAM
+deam_1289,DEAM_song_1289,,0.5,0.425,DEAM
+deam_1290,DEAM_song_1290,,0.7,0.7,DEAM
+deam_1291,DEAM_song_1291,,0.325,0.1875,DEAM
+deam_1292,DEAM_song_1292,,0.575,0.525,DEAM
+deam_1293,DEAM_song_1293,,0.5875,0.5125,DEAM
+deam_1294,DEAM_song_1294,,0.6125,0.5625,DEAM
+deam_1295,DEAM_song_1295,,0.7375,0.675,DEAM
+deam_1296,DEAM_song_1296,,0.5,0.6125,DEAM
+deam_1297,DEAM_song_1297,,0.475,0.3375,DEAM
+deam_1298,DEAM_song_1298,,0.7375,0.575,DEAM
+deam_1299,DEAM_song_1299,,0.4375,0.4625,DEAM
+deam_1300,DEAM_song_1300,,0.625,0.4375,DEAM
+deam_1301,DEAM_song_1301,,0.425,0.2249999999999999,DEAM
+deam_1302,DEAM_song_1302,,0.425,0.35,DEAM
+deam_1303,DEAM_song_1303,,0.6375,0.6875,DEAM
+deam_1304,DEAM_song_1304,,0.525,0.6625,DEAM
+deam_1305,DEAM_song_1305,,0.4625,0.65,DEAM
+deam_1306,DEAM_song_1306,,0.5375,0.5375,DEAM
+deam_1307,DEAM_song_1307,,0.5125,0.55,DEAM
+deam_1308,DEAM_song_1308,,0.6,0.5375,DEAM
+deam_1309,DEAM_song_1309,,0.6875,0.8,DEAM
+deam_1310,DEAM_song_1310,,0.5125,0.425,DEAM
+deam_1311,DEAM_song_1311,,0.3874999999999999,0.3125,DEAM
+deam_1312,DEAM_song_1312,,0.5375,0.375,DEAM
+deam_1313,DEAM_song_1313,,0.4,0.25,DEAM
+deam_1314,DEAM_song_1314,,0.3874999999999999,0.3874999999999999,DEAM
+deam_1315,DEAM_song_1315,,0.75,0.675,DEAM
+deam_1316,DEAM_song_1316,,0.525,0.375,DEAM
+deam_1317,DEAM_song_1317,,0.5375,0.65,DEAM
+deam_1318,DEAM_song_1318,,0.475,0.4125,DEAM
+deam_1319,DEAM_song_1319,,0.6875,0.575,DEAM
+deam_1320,DEAM_song_1320,,0.35,0.6875,DEAM
+deam_1321,DEAM_song_1321,,0.4375,0.5875,DEAM
+deam_1322,DEAM_song_1322,,0.6875,0.5625,DEAM
+deam_1323,DEAM_song_1323,,0.5625,0.5,DEAM
+deam_1324,DEAM_song_1324,,0.6375,0.7125,DEAM
+deam_1325,DEAM_song_1325,,0.6125,0.6,DEAM
+deam_1326,DEAM_song_1326,,0.6375,0.5,DEAM
+deam_1327,DEAM_song_1327,,0.5625,0.2249999999999999,DEAM
+deam_1328,DEAM_song_1328,,0.425,0.2125,DEAM
+deam_1329,DEAM_song_1329,,0.5375,0.4,DEAM
+deam_1330,DEAM_song_1330,,0.5875,0.775,DEAM
+deam_1331,DEAM_song_1331,,0.5375,0.425,DEAM
+deam_1332,DEAM_song_1332,,0.1875,0.1624999999999999,DEAM
+deam_1333,DEAM_song_1333,,0.4375,0.5875,DEAM
+deam_1334,DEAM_song_1334,,0.35,0.85,DEAM
+deam_1335,DEAM_song_1335,,0.55,0.575,DEAM
+deam_1336,DEAM_song_1336,,0.325,0.2125,DEAM
+deam_1337,DEAM_song_1337,,0.5,0.6875,DEAM
+deam_1338,DEAM_song_1338,,0.65,0.675,DEAM
+deam_1339,DEAM_song_1339,,0.775,0.725,DEAM
+deam_1340,DEAM_song_1340,,0.675,0.5875,DEAM
+deam_1341,DEAM_song_1341,,0.3125,0.275,DEAM
+deam_1342,DEAM_song_1342,,0.6875,0.675,DEAM
+deam_1343,DEAM_song_1343,,0.625,0.55,DEAM
+deam_1344,DEAM_song_1344,,0.6625,0.5625,DEAM
+deam_1345,DEAM_song_1345,,0.4375,0.2375,DEAM
+deam_1346,DEAM_song_1346,,0.6875,0.575,DEAM
+deam_1347,DEAM_song_1347,,0.4499999999999999,0.375,DEAM
+deam_1348,DEAM_song_1348,,0.6,0.6625,DEAM
+deam_1349,DEAM_song_1349,,0.525,0.525,DEAM
+deam_1350,DEAM_song_1350,,0.375,0.2,DEAM
+deam_1351,DEAM_song_1351,,0.6625,0.6125,DEAM
+deam_1352,DEAM_song_1352,,0.7125,0.675,DEAM
+deam_1353,DEAM_song_1353,,0.5375,0.675,DEAM
+deam_1354,DEAM_song_1354,,0.4499999999999999,0.125,DEAM
+deam_1355,DEAM_song_1355,,0.6625,0.35,DEAM
+deam_1356,DEAM_song_1356,,0.525,0.525,DEAM
+deam_1357,DEAM_song_1357,,0.4375,0.625,DEAM
+deam_1358,DEAM_song_1358,,0.625,0.625,DEAM
+deam_1359,DEAM_song_1359,,0.325,0.3,DEAM
+deam_1360,DEAM_song_1360,,0.5625,0.2375,DEAM
+deam_1361,DEAM_song_1361,,0.425,0.1875,DEAM
+deam_1362,DEAM_song_1362,,0.425,0.55,DEAM
+deam_1363,DEAM_song_1363,,0.5125,0.325,DEAM
+deam_1364,DEAM_song_1364,,0.4125,0.65,DEAM
+deam_1365,DEAM_song_1365,,0.6875,0.675,DEAM
+deam_1366,DEAM_song_1366,,0.55,0.6625,DEAM
+deam_1367,DEAM_song_1367,,0.7625,0.775,DEAM
+deam_1368,DEAM_song_1368,,0.3,0.2875,DEAM
+deam_1369,DEAM_song_1369,,0.725,0.7,DEAM
+deam_1370,DEAM_song_1370,,0.4125,0.3874999999999999,DEAM
+deam_1371,DEAM_song_1371,,0.5875,0.55,DEAM
+deam_1372,DEAM_song_1372,,0.475,0.525,DEAM
+deam_1373,DEAM_song_1373,,0.7,0.5875,DEAM
+deam_1374,DEAM_song_1374,,0.625,0.3874999999999999,DEAM
+deam_1375,DEAM_song_1375,,0.575,0.575,DEAM
+deam_1376,DEAM_song_1376,,0.75,0.7,DEAM
+deam_1377,DEAM_song_1377,,0.3375,0.2625,DEAM
+deam_1378,DEAM_song_1378,,0.5625,0.5875,DEAM
+deam_1379,DEAM_song_1379,,0.6,0.5875,DEAM
+deam_1380,DEAM_song_1380,,0.3874999999999999,0.4375,DEAM
+deam_1381,DEAM_song_1381,,0.6375,0.7625,DEAM
+deam_1382,DEAM_song_1382,,0.475,0.4625,DEAM
+deam_1383,DEAM_song_1383,,0.575,0.25,DEAM
+deam_1384,DEAM_song_1384,,0.6,0.55,DEAM
+deam_1385,DEAM_song_1385,,0.625,0.625,DEAM
+deam_1386,DEAM_song_1386,,0.6125,0.5,DEAM
+deam_1387,DEAM_song_1387,,0.6375,0.4375,DEAM
+deam_1388,DEAM_song_1388,,0.725,0.85,DEAM
+deam_1389,DEAM_song_1389,,0.4,0.2875,DEAM
+deam_1390,DEAM_song_1390,,0.6375,0.6625,DEAM
+deam_1391,DEAM_song_1391,,0.4125,0.5875,DEAM
+deam_1392,DEAM_song_1392,,0.65,0.7125,DEAM
+deam_1393,DEAM_song_1393,,0.65,0.3874999999999999,DEAM
+deam_1394,DEAM_song_1394,,0.625,0.3874999999999999,DEAM
+deam_1395,DEAM_song_1395,,0.4625,0.3125,DEAM
+deam_1396,DEAM_song_1396,,0.6375,0.625,DEAM
+deam_1397,DEAM_song_1397,,0.4125,0.2875,DEAM
+deam_1398,DEAM_song_1398,,0.7375,0.825,DEAM
+deam_1399,DEAM_song_1399,,0.6375,0.675,DEAM
+deam_1400,DEAM_song_1400,,0.575,0.6,DEAM
+deam_1401,DEAM_song_1401,,0.6,0.5375,DEAM
+deam_1402,DEAM_song_1402,,0.575,0.1875,DEAM
+deam_1403,DEAM_song_1403,,0.575,0.5125,DEAM
+deam_1404,DEAM_song_1404,,0.35,0.2125,DEAM
+deam_1405,DEAM_song_1405,,0.3375,0.15,DEAM
+deam_1406,DEAM_song_1406,,0.3625,0.3375,DEAM
+deam_1407,DEAM_song_1407,,0.325,0.35,DEAM
+deam_1408,DEAM_song_1408,,0.4,0.5,DEAM
+deam_1409,DEAM_song_1409,,0.4875,0.3375,DEAM
+deam_1410,DEAM_song_1410,,0.625,0.425,DEAM
+deam_1411,DEAM_song_1411,,0.3625,0.2125,DEAM
+deam_1412,DEAM_song_1412,,0.4499999999999999,0.275,DEAM
+deam_1413,DEAM_song_1413,,0.4125,0.3874999999999999,DEAM
+deam_1414,DEAM_song_1414,,0.3375,0.375,DEAM
+deam_1415,DEAM_song_1415,,0.5875,0.4625,DEAM
+deam_1416,DEAM_song_1416,,0.425,0.2125,DEAM
+deam_1417,DEAM_song_1417,,0.4499999999999999,0.175,DEAM
+deam_1418,DEAM_song_1418,,0.4125,0.35,DEAM
+deam_1419,DEAM_song_1419,,0.3375,0.1875,DEAM
+deam_1420,DEAM_song_1420,,0.475,0.2625,DEAM
+deam_1421,DEAM_song_1421,,0.4,0.275,DEAM
+deam_1422,DEAM_song_1422,,0.3874999999999999,0.2249999999999999,DEAM
+deam_1423,DEAM_song_1423,,0.4,0.5625,DEAM
+deam_1424,DEAM_song_1424,,0.4375,0.3125,DEAM
+deam_1425,DEAM_song_1425,,0.5125,0.525,DEAM
+deam_1426,DEAM_song_1426,,0.7,0.675,DEAM
+deam_1427,DEAM_song_1427,,0.5,0.4875,DEAM
+deam_1428,DEAM_song_1428,,0.4625,0.3125,DEAM
+deam_1429,DEAM_song_1429,,0.25,0.1624999999999999,DEAM
+deam_1430,DEAM_song_1430,,0.4499999999999999,0.275,DEAM
+deam_1431,DEAM_song_1431,,0.3874999999999999,0.3874999999999999,DEAM
+deam_1432,DEAM_song_1432,,0.3375,0.2,DEAM
+deam_1433,DEAM_song_1433,,0.375,0.325,DEAM
+deam_1434,DEAM_song_1434,,0.3375,0.2249999999999999,DEAM
+deam_1435,DEAM_song_1435,,0.325,0.5375,DEAM
+deam_1436,DEAM_song_1436,,0.4625,0.35,DEAM
+deam_1437,DEAM_song_1437,,0.5125,0.4375,DEAM
+deam_1438,DEAM_song_1438,,0.325,0.2375,DEAM
+deam_1439,DEAM_song_1439,,0.3874999999999999,0.2375,DEAM
+deam_1440,DEAM_song_1440,,0.5125,0.4875,DEAM
+deam_1441,DEAM_song_1441,,0.5,0.375,DEAM
+deam_1442,DEAM_song_1442,,0.5375,0.2249999999999999,DEAM
+deam_1443,DEAM_song_1443,,0.6,0.2375,DEAM
+deam_1444,DEAM_song_1444,,0.4499999999999999,0.2625,DEAM
+deam_1445,DEAM_song_1445,,0.5125,0.325,DEAM
+deam_1446,DEAM_song_1446,,0.6,0.275,DEAM
+deam_1447,DEAM_song_1447,,0.425,0.3874999999999999,DEAM
+deam_1448,DEAM_song_1448,,0.425,0.425,DEAM
+deam_1449,DEAM_song_1449,,0.4499999999999999,0.3874999999999999,DEAM
+deam_1450,DEAM_song_1450,,0.5875,0.5,DEAM
+deam_1451,DEAM_song_1451,,0.5125,0.475,DEAM
+deam_1452,DEAM_song_1452,,0.4,0.3625,DEAM
+deam_1453,DEAM_song_1453,,0.375,0.35,DEAM
+deam_1454,DEAM_song_1454,,0.525,0.325,DEAM
+deam_1455,DEAM_song_1455,,0.3874999999999999,0.4,DEAM
+deam_1456,DEAM_song_1456,,0.4125,0.15,DEAM
+deam_1457,DEAM_song_1457,,0.55,0.475,DEAM
+deam_1458,DEAM_song_1458,,0.4,0.4625,DEAM
+deam_1459,DEAM_song_1459,,0.55,0.5125,DEAM
+deam_1460,DEAM_song_1460,,0.475,0.3625,DEAM
+deam_1461,DEAM_song_1461,,0.5375,0.4,DEAM
+deam_1462,DEAM_song_1462,,0.475,0.3625,DEAM
+deam_1463,DEAM_song_1463,,0.2875,0.25,DEAM
+deam_1464,DEAM_song_1464,,0.475,0.425,DEAM
+deam_1465,DEAM_song_1465,,0.525,0.3375,DEAM
+deam_1466,DEAM_song_1466,,0.6375,0.4375,DEAM
+deam_1467,DEAM_song_1467,,0.375,0.4,DEAM
+deam_1468,DEAM_song_1468,,0.3375,0.125,DEAM
+deam_1469,DEAM_song_1469,,0.2625,0.275,DEAM
+deam_1470,DEAM_song_1470,,0.5125,0.275,DEAM
+deam_1471,DEAM_song_1471,,0.7875,0.725,DEAM
+deam_1472,DEAM_song_1472,,0.5,0.525,DEAM
+deam_1473,DEAM_song_1473,,0.6375,0.625,DEAM
+deam_1474,DEAM_song_1474,,0.7,0.675,DEAM
+deam_1475,DEAM_song_1475,,0.4125,0.275,DEAM
+deam_1476,DEAM_song_1476,,0.4375,0.5125,DEAM
+deam_1477,DEAM_song_1477,,0.5125,0.4375,DEAM
+deam_1478,DEAM_song_1478,,0.5125,0.3125,DEAM
+deam_1479,DEAM_song_1479,,0.5,0.5125,DEAM
+deam_1480,DEAM_song_1480,,0.475,0.5375,DEAM
+deam_1481,DEAM_song_1481,,0.3625,0.3375,DEAM
+deam_1482,DEAM_song_1482,,0.4125,0.3,DEAM
+deam_1483,DEAM_song_1483,,0.3625,0.35,DEAM
+deam_1484,DEAM_song_1484,,0.425,0.35,DEAM
+deam_1485,DEAM_song_1485,,0.4625,0.35,DEAM
+deam_1486,DEAM_song_1486,,0.3375,0.2375,DEAM
+deam_1487,DEAM_song_1487,,0.4125,0.175,DEAM
+deam_1488,DEAM_song_1488,,0.4875,0.3625,DEAM
+deam_1489,DEAM_song_1489,,0.4875,0.4499999999999999,DEAM
+deam_1490,DEAM_song_1490,,0.35,0.2625,DEAM
+deam_1491,DEAM_song_1491,,0.475,0.525,DEAM
+deam_1492,DEAM_song_1492,,0.2875,0.2249999999999999,DEAM
+deam_1493,DEAM_song_1493,,0.375,0.6375,DEAM
+deam_1494,DEAM_song_1494,,0.4875,0.35,DEAM
+deam_1495,DEAM_song_1495,,0.425,0.3625,DEAM
+deam_1496,DEAM_song_1496,,0.6375,0.6,DEAM
+deam_1497,DEAM_song_1497,,0.425,0.325,DEAM
+deam_1498,DEAM_song_1498,,0.475,0.35,DEAM
+deam_1499,DEAM_song_1499,,0.475,0.4375,DEAM
+deam_1500,DEAM_song_1500,,0.35,0.275,DEAM
+deam_1501,DEAM_song_1501,,0.5,0.4875,DEAM
+deam_1502,DEAM_song_1502,,0.775,0.75,DEAM
+deam_1503,DEAM_song_1503,,0.6125,0.3874999999999999,DEAM
+deam_1504,DEAM_song_1504,,0.625,0.6125,DEAM
+deam_1505,DEAM_song_1505,,0.4,0.4875,DEAM
+deam_1506,DEAM_song_1506,,0.5,0.475,DEAM
+deam_1507,DEAM_song_1507,,0.5625,0.5875,DEAM
+deam_1508,DEAM_song_1508,,0.6125,0.5375,DEAM
+deam_1509,DEAM_song_1509,,0.6125,0.55,DEAM
+deam_1510,DEAM_song_1510,,0.3874999999999999,0.575,DEAM
+deam_1511,DEAM_song_1511,,0.5625,0.575,DEAM
+deam_1512,DEAM_song_1512,,0.35,0.525,DEAM
+deam_1513,DEAM_song_1513,,0.6375,0.6625,DEAM
+deam_1514,DEAM_song_1514,,0.4499999999999999,0.55,DEAM
+deam_1515,DEAM_song_1515,,0.425,0.475,DEAM
+deam_1516,DEAM_song_1516,,0.575,0.4875,DEAM
+deam_1517,DEAM_song_1517,,0.625,0.5,DEAM
+deam_1518,DEAM_song_1518,,0.6375,0.6625,DEAM
+deam_1519,DEAM_song_1519,,0.5,0.575,DEAM
+deam_1520,DEAM_song_1520,,0.5375,0.5375,DEAM
+deam_1521,DEAM_song_1521,,0.475,0.4875,DEAM
+deam_1522,DEAM_song_1522,,0.525,0.5875,DEAM
+deam_1523,DEAM_song_1523,,0.7375,0.475,DEAM
+deam_1524,DEAM_song_1524,,0.575,0.425,DEAM
+deam_1525,DEAM_song_1525,,0.4375,0.4375,DEAM
+deam_1526,DEAM_song_1526,,0.6125,0.6125,DEAM
+deam_1527,DEAM_song_1527,,0.4375,0.4625,DEAM
+deam_1528,DEAM_song_1528,,0.5625,0.4499999999999999,DEAM
+deam_1529,DEAM_song_1529,,0.55,0.5875,DEAM
+deam_1530,DEAM_song_1530,,0.65,0.4,DEAM
+deam_1531,DEAM_song_1531,,0.5125,0.475,DEAM
+deam_1532,DEAM_song_1532,,0.6,0.575,DEAM
+deam_1533,DEAM_song_1533,,0.525,0.5375,DEAM
+deam_1534,DEAM_song_1534,,0.5875,0.5875,DEAM
+deam_1535,DEAM_song_1535,,0.55,0.5375,DEAM
+deam_1536,DEAM_song_1536,,0.475,0.3,DEAM
+deam_1537,DEAM_song_1537,,0.6125,0.3,DEAM
+deam_1538,DEAM_song_1538,,0.6625,0.4625,DEAM
+deam_1539,DEAM_song_1539,,0.425,0.4625,DEAM
+deam_1540,DEAM_song_1540,,0.5875,0.5125,DEAM
+deam_1541,DEAM_song_1541,,0.525,0.4499999999999999,DEAM
+deam_1542,DEAM_song_1542,,0.5625,0.5625,DEAM
+deam_1543,DEAM_song_1543,,0.6375,0.55,DEAM
+deam_1544,DEAM_song_1544,,0.675,0.55,DEAM
+deam_1545,DEAM_song_1545,,0.475,0.475,DEAM
+deam_1546,DEAM_song_1546,,0.5375,0.425,DEAM
+deam_1547,DEAM_song_1547,,0.375,0.6,DEAM
+deam_1548,DEAM_song_1548,,0.4499999999999999,0.3375,DEAM
+deam_1549,DEAM_song_1549,,0.4875,0.525,DEAM
+deam_1550,DEAM_song_1550,,0.475,0.3375,DEAM
+deam_1551,DEAM_song_1551,,0.575,0.55,DEAM
+deam_1552,DEAM_song_1552,,0.575,0.575,DEAM
+deam_1553,DEAM_song_1553,,0.575,0.6125,DEAM
+deam_1554,DEAM_song_1554,,0.6,0.4375,DEAM
+deam_1555,DEAM_song_1555,,0.425,0.2375,DEAM
+deam_1556,DEAM_song_1556,,0.4625,0.6375,DEAM
+deam_1557,DEAM_song_1557,,0.5625,0.6625,DEAM
+deam_1558,DEAM_song_1558,,0.3,0.6125,DEAM
+deam_1559,DEAM_song_1559,,0.6,0.525,DEAM
+deam_1560,DEAM_song_1560,,0.525,0.525,DEAM
+deam_1561,DEAM_song_1561,,0.5,0.625,DEAM
+deam_1562,DEAM_song_1562,,0.475,0.6625,DEAM
+deam_1563,DEAM_song_1563,,0.5125,0.5875,DEAM
+deam_1564,DEAM_song_1564,,0.6375,0.675,DEAM
+deam_1565,DEAM_song_1565,,0.4499999999999999,0.4875,DEAM
+deam_1566,DEAM_song_1566,,0.65,0.5375,DEAM
+deam_1567,DEAM_song_1567,,0.375,0.5,DEAM
+deam_1568,DEAM_song_1568,,0.55,0.625,DEAM
+deam_1569,DEAM_song_1569,,0.575,0.6,DEAM
+deam_1570,DEAM_song_1570,,0.525,0.4499999999999999,DEAM
+deam_1571,DEAM_song_1571,,0.425,0.7375,DEAM
+deam_1572,DEAM_song_1572,,0.5625,0.5,DEAM
+deam_1573,DEAM_song_1573,,0.4875,0.325,DEAM
+deam_1574,DEAM_song_1574,,0.6125,0.55,DEAM
+deam_1575,DEAM_song_1575,,0.525,0.5125,DEAM
+deam_1576,DEAM_song_1576,,0.55,0.3625,DEAM
+deam_1577,DEAM_song_1577,,0.525,0.4625,DEAM
+deam_1578,DEAM_song_1578,,0.6125,0.475,DEAM
+deam_1579,DEAM_song_1579,,0.6,0.4875,DEAM
+deam_1580,DEAM_song_1580,,0.6375,0.525,DEAM
+deam_1581,DEAM_song_1581,,0.6875,0.6375,DEAM
+deam_1582,DEAM_song_1582,,0.6125,0.55,DEAM
+deam_1583,DEAM_song_1583,,0.575,0.525,DEAM
+deam_1584,DEAM_song_1584,,0.4875,0.4499999999999999,DEAM
+deam_1585,DEAM_song_1585,,0.5,0.3625,DEAM
+deam_1586,DEAM_song_1586,,0.4125,0.5,DEAM
+deam_1587,DEAM_song_1587,,0.5,0.5625,DEAM
+deam_1588,DEAM_song_1588,,0.4875,0.6,DEAM
+deam_1589,DEAM_song_1589,,0.6,0.6375,DEAM
+deam_1590,DEAM_song_1590,,0.4,0.65,DEAM
+deam_1591,DEAM_song_1591,,0.6125,0.4625,DEAM
+deam_1592,DEAM_song_1592,,0.6375,0.675,DEAM
+deam_1593,DEAM_song_1593,,0.4625,0.3125,DEAM
+deam_1594,DEAM_song_1594,,0.575,0.55,DEAM
+deam_1595,DEAM_song_1595,,0.575,0.6125,DEAM
+deam_1596,DEAM_song_1596,,0.5625,0.5125,DEAM
+deam_1597,DEAM_song_1597,,0.5625,0.5,DEAM
+deam_1598,DEAM_song_1598,,0.4125,0.5625,DEAM
+deam_1599,DEAM_song_1599,,0.325,0.3874999999999999,DEAM
+deam_1600,DEAM_song_1600,,0.575,0.575,DEAM
+deam_1601,DEAM_song_1601,,0.5,0.5375,DEAM
+deam_1602,DEAM_song_1602,,0.5,0.3375,DEAM
+deam_1603,DEAM_song_1603,,0.55,0.3625,DEAM
+deam_1604,DEAM_song_1604,,0.4375,0.325,DEAM
+deam_1605,DEAM_song_1605,,0.575,0.375,DEAM
+deam_1606,DEAM_song_1606,,0.575,0.4875,DEAM
+deam_1607,DEAM_song_1607,,0.4375,0.25,DEAM
+deam_1608,DEAM_song_1608,,0.4375,0.75,DEAM
+deam_1609,DEAM_song_1609,,0.675,0.6875,DEAM
+deam_1610,DEAM_song_1610,,0.675,0.3874999999999999,DEAM
+deam_1611,DEAM_song_1611,,0.5875,0.65,DEAM
+deam_1612,DEAM_song_1612,,0.35,0.2625,DEAM
+deam_1613,DEAM_song_1613,,0.65,0.7,DEAM
+deam_1614,DEAM_song_1614,,0.7,0.4499999999999999,DEAM
+deam_1615,DEAM_song_1615,,0.5875,0.4499999999999999,DEAM
+deam_1616,DEAM_song_1616,,0.475,0.5625,DEAM
+deam_1617,DEAM_song_1617,,0.6375,0.6125,DEAM
+deam_1618,DEAM_song_1618,,0.6375,0.3625,DEAM
+deam_1619,DEAM_song_1619,,0.525,0.5375,DEAM
+deam_1620,DEAM_song_1620,,0.6625,0.5875,DEAM
+deam_1621,DEAM_song_1621,,0.6375,0.625,DEAM
+deam_1622,DEAM_song_1622,,0.625,0.6125,DEAM
+deam_1623,DEAM_song_1623,,0.575,0.5375,DEAM
+deam_1624,DEAM_song_1624,,0.5875,0.675,DEAM
+deam_1625,DEAM_song_1625,,0.4875,0.425,DEAM
+deam_1626,DEAM_song_1626,,0.6375,0.625,DEAM
+deam_1627,DEAM_song_1627,,0.425,0.3625,DEAM
+deam_1628,DEAM_song_1628,,0.4625,0.475,DEAM
+deam_1629,DEAM_song_1629,,0.675,0.6625,DEAM
+deam_1630,DEAM_song_1630,,0.625,0.55,DEAM
+deam_1631,DEAM_song_1631,,0.5875,0.475,DEAM
+deam_1632,DEAM_song_1632,,0.525,0.3,DEAM
+deam_1633,DEAM_song_1633,,0.6875,0.6625,DEAM
+deam_1634,DEAM_song_1634,,0.5625,0.6375,DEAM
+deam_1635,DEAM_song_1635,,0.725,0.6375,DEAM
+deam_1636,DEAM_song_1636,,0.4499999999999999,0.525,DEAM
+deam_1637,DEAM_song_1637,,0.5625,0.325,DEAM
+deam_1638,DEAM_song_1638,,0.6125,0.3625,DEAM
+deam_1639,DEAM_song_1639,,0.5375,0.5375,DEAM
+deam_1640,DEAM_song_1640,,0.7,0.6375,DEAM
+deam_1641,DEAM_song_1641,,0.4499999999999999,0.5375,DEAM
+deam_1642,DEAM_song_1642,,0.5125,0.4875,DEAM
+deam_1643,DEAM_song_1643,,0.425,0.4125,DEAM
+deam_1644,DEAM_song_1644,,0.5,0.6125,DEAM
+deam_1645,DEAM_song_1645,,0.6,0.5875,DEAM
+deam_1646,DEAM_song_1646,,0.4375,0.3375,DEAM
+deam_1647,DEAM_song_1647,,0.7625,0.6,DEAM
+deam_1648,DEAM_song_1648,,0.3625,0.1875,DEAM
+deam_1649,DEAM_song_1649,,0.6375,0.625,DEAM
+deam_1650,DEAM_song_1650,,0.6125,0.4625,DEAM
+deam_1651,DEAM_song_1651,,0.475,0.625,DEAM
+deam_1652,DEAM_song_1652,,0.775,0.6625,DEAM
+deam_1653,DEAM_song_1653,,0.4125,0.2625,DEAM
+deam_1654,DEAM_song_1654,,0.475,0.2625,DEAM
+deam_1655,DEAM_song_1655,,0.6375,0.6375,DEAM
+deam_1656,DEAM_song_1656,,0.4625,0.375,DEAM
+deam_1657,DEAM_song_1657,,0.575,0.5875,DEAM
+deam_1658,DEAM_song_1658,,0.65,0.6125,DEAM
+deam_1659,DEAM_song_1659,,0.4499999999999999,0.4499999999999999,DEAM
+deam_1660,DEAM_song_1660,,0.525,0.5625,DEAM
+deam_1661,DEAM_song_1661,,0.5875,0.6625,DEAM
+deam_1662,DEAM_song_1662,,0.6375,0.625,DEAM
+deam_1663,DEAM_song_1663,,0.4499999999999999,0.4875,DEAM
+deam_1664,DEAM_song_1664,,0.4,0.375,DEAM
+deam_1665,DEAM_song_1665,,0.575,0.5875,DEAM
+deam_1666,DEAM_song_1666,,0.35,0.2875,DEAM
+deam_1667,DEAM_song_1667,,0.625,0.8125,DEAM
+deam_1668,DEAM_song_1668,,0.5625,0.5625,DEAM
+deam_1669,DEAM_song_1669,,0.5625,0.4875,DEAM
+deam_1670,DEAM_song_1670,,0.6125,0.55,DEAM
+deam_1671,DEAM_song_1671,,0.4,0.2875,DEAM
+deam_1672,DEAM_song_1672,,0.425,0.2,DEAM
+deam_1673,DEAM_song_1673,,0.6375,0.6125,DEAM
+deam_1674,DEAM_song_1674,,0.5,0.5375,DEAM
+deam_1675,DEAM_song_1675,,0.5625,0.5875,DEAM
+deam_1676,DEAM_song_1676,,0.575,0.4875,DEAM
+deam_1677,DEAM_song_1677,,0.725,0.675,DEAM
+deam_1678,DEAM_song_1678,,0.5125,0.4,DEAM
+deam_1679,DEAM_song_1679,,0.55,0.575,DEAM
+deam_1680,DEAM_song_1680,,0.725,0.6375,DEAM
+deam_1681,DEAM_song_1681,,0.5,0.3125,DEAM
+deam_1682,DEAM_song_1682,,0.6375,0.6,DEAM
+deam_1683,DEAM_song_1683,,0.625,0.475,DEAM
+deam_1684,DEAM_song_1684,,0.5125,0.5,DEAM
+deam_1685,DEAM_song_1685,,0.55,0.4375,DEAM
+deam_1686,DEAM_song_1686,,0.3375,0.2875,DEAM
+deam_1687,DEAM_song_1687,,0.5125,0.4625,DEAM
+deam_1688,DEAM_song_1688,,0.525,0.4625,DEAM
+deam_1689,DEAM_song_1689,,0.7625,0.675,DEAM
+deam_1690,DEAM_song_1690,,0.55,0.4499999999999999,DEAM
+deam_1691,DEAM_song_1691,,0.3375,0.325,DEAM
+deam_1692,DEAM_song_1692,,0.35,0.2875,DEAM
+deam_1693,DEAM_song_1693,,0.425,0.35,DEAM
+deam_1694,DEAM_song_1694,,0.4375,0.6375,DEAM
+deam_1695,DEAM_song_1695,,0.5875,0.575,DEAM
+deam_1696,DEAM_song_1696,,0.35,0.2875,DEAM
+deam_1697,DEAM_song_1697,,0.2875,0.2249999999999999,DEAM
+deam_1698,DEAM_song_1698,,0.4375,0.4375,DEAM
+deam_1699,DEAM_song_1699,,0.5125,0.5,DEAM
+deam_1700,DEAM_song_1700,,0.575,0.5,DEAM
+deam_1701,DEAM_song_1701,,0.375,0.2625,DEAM
+deam_1702,DEAM_song_1702,,0.3874999999999999,0.3625,DEAM
+deam_1703,DEAM_song_1703,,0.5375,0.7125,DEAM
+deam_1704,DEAM_song_1704,,0.5375,0.675,DEAM
+deam_1705,DEAM_song_1705,,0.375,0.425,DEAM
+deam_1706,DEAM_song_1706,,0.4875,0.375,DEAM
+deam_1707,DEAM_song_1707,,0.3125,0.375,DEAM
+deam_1708,DEAM_song_1708,,0.4,0.325,DEAM
+deam_1709,DEAM_song_1709,,0.375,0.35,DEAM
+deam_1710,DEAM_song_1710,,0.325,0.2375,DEAM
+deam_1711,DEAM_song_1711,,0.5,0.275,DEAM
+deam_1712,DEAM_song_1712,,0.425,0.2375,DEAM
+deam_1713,DEAM_song_1713,,0.65,0.5875,DEAM
+deam_1714,DEAM_song_1714,,0.6375,0.375,DEAM
+deam_1715,DEAM_song_1715,,0.6125,0.575,DEAM
+deam_1716,DEAM_song_1716,,0.6,0.55,DEAM
+deam_1717,DEAM_song_1717,,0.625,0.475,DEAM
+deam_1718,DEAM_song_1718,,0.4625,0.3125,DEAM
+deam_1719,DEAM_song_1719,,0.5,0.2875,DEAM
+deam_1720,DEAM_song_1720,,0.8125,0.625,DEAM
+deam_1721,DEAM_song_1721,,0.4,0.2375,DEAM
+deam_1722,DEAM_song_1722,,0.5,0.2625,DEAM
+deam_1723,DEAM_song_1723,,0.4125,0.3,DEAM
+deam_1724,DEAM_song_1724,,0.3375,0.2875,DEAM
+deam_1725,DEAM_song_1725,,0.525,0.425,DEAM
+deam_1726,DEAM_song_1726,,0.4499999999999999,0.275,DEAM
+deam_1727,DEAM_song_1727,,0.4875,0.4625,DEAM
+deam_1728,DEAM_song_1728,,0.2625,0.4625,DEAM
+deam_1729,DEAM_song_1729,,0.5125,0.55,DEAM
+deam_1730,DEAM_song_1730,,0.5375,0.3625,DEAM
+deam_1731,DEAM_song_1731,,0.4,0.325,DEAM
+deam_1732,DEAM_song_1732,,0.4,0.25,DEAM
+deam_1733,DEAM_song_1733,,0.35,0.2875,DEAM
+deam_1734,DEAM_song_1734,,0.5125,0.525,DEAM
+deam_1735,DEAM_song_1735,,0.4625,0.25,DEAM
+deam_1736,DEAM_song_1736,,0.4625,0.2625,DEAM
+deam_1737,DEAM_song_1737,,0.325,0.325,DEAM
+deam_1738,DEAM_song_1738,,0.2249999999999999,0.475,DEAM
+deam_1739,DEAM_song_1739,,0.3375,0.2249999999999999,DEAM
+deam_1740,DEAM_song_1740,,0.5375,0.4125,DEAM
+deam_1741,DEAM_song_1741,,0.2875,0.3125,DEAM
+deam_1742,DEAM_song_1742,,0.725,0.5125,DEAM
+deam_1743,DEAM_song_1743,,0.725,0.6875,DEAM
+deam_1744,DEAM_song_1744,,0.4875,0.4125,DEAM
+deam_1745,DEAM_song_1745,,0.7625,0.6125,DEAM
+deam_1746,DEAM_song_1746,,0.5875,0.475,DEAM
+deam_1747,DEAM_song_1747,,0.4125,0.2375,DEAM
+deam_1748,DEAM_song_1748,,0.55,0.3874999999999999,DEAM
+deam_1749,DEAM_song_1749,,0.7125,0.4499999999999999,DEAM
+deam_1750,DEAM_song_1750,,0.4625,0.5375,DEAM
+deam_1751,DEAM_song_1751,,0.3874999999999999,0.4125,DEAM
+deam_1752,DEAM_song_1752,,0.5625,0.6375,DEAM
+deam_1753,DEAM_song_1753,,0.275,0.3,DEAM
+deam_1754,DEAM_song_1754,,0.4,0.175,DEAM
+deam_1755,DEAM_song_1755,,0.675,0.5875,DEAM
+deam_1756,DEAM_song_1756,,0.425,0.3625,DEAM
+deam_1757,DEAM_song_1757,,0.5,0.2625,DEAM
+deam_1758,DEAM_song_1758,,0.55,0.25,DEAM
+deam_1759,DEAM_song_1759,,0.55,0.4625,DEAM
+deam_1760,DEAM_song_1760,,0.4125,0.3874999999999999,DEAM
+deam_1761,DEAM_song_1761,,0.8625,0.7625,DEAM
+deam_1762,DEAM_song_1762,,0.6375,0.55,DEAM
+deam_1763,DEAM_song_1763,,0.425,0.3125,DEAM
+deam_1764,DEAM_song_1764,,0.4875,0.375,DEAM
+deam_1765,DEAM_song_1765,,0.6,0.4499999999999999,DEAM
+deam_1766,DEAM_song_1766,,0.3375,0.25,DEAM
+deam_1767,DEAM_song_1767,,0.35,0.175,DEAM
+deam_1768,DEAM_song_1768,,0.3874999999999999,0.2625,DEAM
+deam_1769,DEAM_song_1769,,0.6125,0.5375,DEAM
+deam_1770,DEAM_song_1770,,0.4375,0.2375,DEAM
+deam_1771,DEAM_song_1771,,0.4875,0.5375,DEAM
+deam_1772,DEAM_song_1772,,0.575,0.4125,DEAM
+deam_1773,DEAM_song_1773,,0.55,0.3874999999999999,DEAM
+deam_1774,DEAM_song_1774,,0.4875,0.475,DEAM
+deam_1775,DEAM_song_1775,,0.4499999999999999,0.25,DEAM
+deam_1776,DEAM_song_1776,,0.475,0.35,DEAM
+deam_1777,DEAM_song_1777,,0.5375,0.425,DEAM
+deam_1778,DEAM_song_1778,,0.425,0.275,DEAM
+deam_1779,DEAM_song_1779,,0.5875,0.2375,DEAM
+deam_1780,DEAM_song_1780,,0.475,0.3125,DEAM
+deam_1781,DEAM_song_1781,,0.4,0.2125,DEAM
+deam_1782,DEAM_song_1782,,0.4625,0.525,DEAM
+deam_1783,DEAM_song_1783,,0.4,0.2875,DEAM
+deam_1784,DEAM_song_1784,,0.5625,0.5125,DEAM
+deam_1785,DEAM_song_1785,,0.575,0.525,DEAM
+deam_1786,DEAM_song_1786,,0.4,0.2625,DEAM
+deam_1787,DEAM_song_1787,,0.3625,0.3,DEAM
+deam_1788,DEAM_song_1788,,0.325,0.625,DEAM
+deam_1789,DEAM_song_1789,,0.6125,0.5125,DEAM
+deam_1790,DEAM_song_1790,,0.35,0.2875,DEAM
+deam_1791,DEAM_song_1791,,0.5375,0.2875,DEAM
+deam_1792,DEAM_song_1792,,0.6375,0.5125,DEAM
+deam_1793,DEAM_song_1793,,0.5125,0.4,DEAM
+deam_1794,DEAM_song_1794,,0.4,0.3375,DEAM
+deam_1795,DEAM_song_1795,,0.3625,0.25,DEAM
+deam_1796,DEAM_song_1796,,0.6,0.625,DEAM
+deam_1797,DEAM_song_1797,,0.325,0.3874999999999999,DEAM
+deam_1798,DEAM_song_1798,,0.5875,0.375,DEAM
+deam_1799,DEAM_song_1799,,0.6,0.4375,DEAM
+deam_1800,DEAM_song_1800,,0.3,0.2,DEAM
+deam_1801,DEAM_song_1801,,0.3,0.2249999999999999,DEAM
+deam_1802,DEAM_song_1802,,0.5875,0.7,DEAM
+deam_1803,DEAM_song_1803,,0.3874999999999999,0.325,DEAM
+deam_1804,DEAM_song_1804,,0.5875,0.6125,DEAM
+deam_1805,DEAM_song_1805,,0.5875,0.4875,DEAM
+deam_1806,DEAM_song_1806,,0.6875,0.65,DEAM
+deam_1807,DEAM_song_1807,,0.5875,0.5375,DEAM
+deam_1808,DEAM_song_1808,,0.55,0.5375,DEAM
+deam_1809,DEAM_song_1809,,0.375,0.3874999999999999,DEAM
+deam_1810,DEAM_song_1810,,0.3874999999999999,0.375,DEAM
+deam_1811,DEAM_song_1811,,0.4499999999999999,0.4625,DEAM
+deam_1812,DEAM_song_1812,,0.5,0.5,DEAM
+deam_1813,DEAM_song_1813,,0.6375,0.5875,DEAM
+deam_1814,DEAM_song_1814,,0.625,0.6,DEAM
+deam_1815,DEAM_song_1815,,0.675,0.6,DEAM
+deam_1816,DEAM_song_1816,,0.5,0.4375,DEAM
+deam_1817,DEAM_song_1817,,0.7,0.625,DEAM
+deam_1818,DEAM_song_1818,,0.4125,0.275,DEAM
+deam_1819,DEAM_song_1819,,0.3874999999999999,0.3874999999999999,DEAM
+deam_1820,DEAM_song_1820,,0.4375,0.425,DEAM
+deam_1821,DEAM_song_1821,,0.65,0.7,DEAM
+deam_1822,DEAM_song_1822,,0.4625,0.3125,DEAM
+deam_1823,DEAM_song_1823,,0.2125,0.575,DEAM
+deam_1824,DEAM_song_1824,,0.65,0.5875,DEAM
+deam_1825,DEAM_song_1825,,0.475,0.4375,DEAM
+deam_1826,DEAM_song_1826,,0.5125,0.3375,DEAM
+deam_1827,DEAM_song_1827,,0.575,0.7125,DEAM
+deam_1828,DEAM_song_1828,,0.6,0.7,DEAM
+deam_1829,DEAM_song_1829,,0.475,0.325,DEAM
+deam_1830,DEAM_song_1830,,0.5875,0.5375,DEAM
+deam_1831,DEAM_song_1831,,0.65,0.575,DEAM
+deam_1832,DEAM_song_1832,,0.5875,0.525,DEAM
+deam_1833,DEAM_song_1833,,0.4375,0.275,DEAM
+deam_1834,DEAM_song_1834,,0.6625,0.5875,DEAM
+deam_1835,DEAM_song_1835,,0.5375,0.275,DEAM
+deam_1836,DEAM_song_1836,,0.575,0.4499999999999999,DEAM
+deam_1837,DEAM_song_1837,,0.4,0.2375,DEAM
+deam_1838,DEAM_song_1838,,0.4499999999999999,0.5,DEAM
+deam_1839,DEAM_song_1839,,0.625,0.5875,DEAM
+deam_1840,DEAM_song_1840,,0.475,0.55,DEAM
+deam_1841,DEAM_song_1841,,0.4499999999999999,0.2625,DEAM
+deam_1842,DEAM_song_1842,,0.6,0.6625,DEAM
+deam_1843,DEAM_song_1843,,0.4875,0.4625,DEAM
+deam_1844,DEAM_song_1844,,0.6375,0.5625,DEAM
+deam_1845,DEAM_song_1845,,0.6125,0.6125,DEAM
+deam_1846,DEAM_song_1846,,0.6,0.6,DEAM
+deam_1847,DEAM_song_1847,,0.275,0.2,DEAM
+deam_1848,DEAM_song_1848,,0.5625,0.5,DEAM
+deam_1849,DEAM_song_1849,,0.625,0.6,DEAM
+deam_1850,DEAM_song_1850,,0.3375,0.2125,DEAM
+deam_1851,DEAM_song_1851,,0.4499999999999999,0.2875,DEAM
+deam_1852,DEAM_song_1852,,0.3874999999999999,0.4625,DEAM
+deam_1853,DEAM_song_1853,,0.6875,0.5875,DEAM
+deam_1854,DEAM_song_1854,,0.525,0.4375,DEAM
+deam_1855,DEAM_song_1855,,0.55,0.625,DEAM
+deam_1856,DEAM_song_1856,,0.6375,0.7125,DEAM
+deam_1857,DEAM_song_1857,,0.5375,0.5,DEAM
+deam_1858,DEAM_song_1858,,0.525,0.575,DEAM
+deam_1859,DEAM_song_1859,,0.525,0.5,DEAM
+deam_1860,DEAM_song_1860,,0.3375,0.3125,DEAM
+deam_1861,DEAM_song_1861,,0.5125,0.5,DEAM
+deam_1862,DEAM_song_1862,,0.5125,0.4875,DEAM
+deam_1863,DEAM_song_1863,,0.675,0.5875,DEAM
+deam_1864,DEAM_song_1864,,0.6375,0.8,DEAM
+deam_1865,DEAM_song_1865,,0.725,0.6125,DEAM
+deam_1866,DEAM_song_1866,,0.475,0.4375,DEAM
+deam_1867,DEAM_song_1867,,0.4,0.375,DEAM
+deam_1868,DEAM_song_1868,,0.6,0.5,DEAM
+deam_1869,DEAM_song_1869,,0.3874999999999999,0.3375,DEAM
+deam_1870,DEAM_song_1870,,0.55,0.575,DEAM
+deam_1871,DEAM_song_1871,,0.675,0.7,DEAM
+deam_1872,DEAM_song_1872,,0.4375,0.4,DEAM
+deam_1873,DEAM_song_1873,,0.4625,0.3,DEAM
+deam_1874,DEAM_song_1874,,0.5,0.6625,DEAM
+deam_1875,DEAM_song_1875,,0.6625,0.65,DEAM
+deam_1876,DEAM_song_1876,,0.6625,0.5,DEAM
+deam_1877,DEAM_song_1877,,0.65,0.5625,DEAM
+deam_1878,DEAM_song_1878,,0.7125,0.6625,DEAM
+deam_1879,DEAM_song_1879,,0.55,0.675,DEAM
+deam_1880,DEAM_song_1880,,0.55,0.275,DEAM
+deam_1881,DEAM_song_1881,,0.5,0.525,DEAM
+deam_1882,DEAM_song_1882,,0.5625,0.65,DEAM
+deam_1883,DEAM_song_1883,,0.575,0.4375,DEAM
+deam_1884,DEAM_song_1884,,0.6875,0.575,DEAM
+deam_1885,DEAM_song_1885,,0.3625,0.3625,DEAM
+deam_1886,DEAM_song_1886,,0.3874999999999999,0.25,DEAM
+deam_1887,DEAM_song_1887,,0.625,0.6,DEAM
+deam_1888,DEAM_song_1888,,0.3,0.275,DEAM
+deam_1889,DEAM_song_1889,,0.575,0.5625,DEAM
+deam_1890,DEAM_song_1890,,0.625,0.6,DEAM
+deam_1891,DEAM_song_1891,,0.5,0.3125,DEAM
+deam_1892,DEAM_song_1892,,0.5125,0.6375,DEAM
+deam_1893,DEAM_song_1893,,0.6625,0.65,DEAM
+deam_1894,DEAM_song_1894,,0.475,0.475,DEAM
+deam_1895,DEAM_song_1895,,0.6875,0.6125,DEAM
+deam_1896,DEAM_song_1896,,0.4875,0.1375,DEAM
+deam_1897,DEAM_song_1897,,0.4,0.35,DEAM
+deam_1898,DEAM_song_1898,,0.5125,0.4,DEAM
+deam_1899,DEAM_song_1899,,0.5,0.3874999999999999,DEAM
+deam_1900,DEAM_song_1900,,0.6875,0.7125,DEAM
+deam_1901,DEAM_song_1901,,0.525,0.675,DEAM
+deam_1902,DEAM_song_1902,,0.425,0.7875,DEAM
+deam_1903,DEAM_song_1903,,0.275,0.7375,DEAM
+deam_1904,DEAM_song_1904,,0.3874999999999999,0.3,DEAM
+deam_1905,DEAM_song_1905,,0.3375,0.6875,DEAM
+deam_1906,DEAM_song_1906,,0.425,0.65,DEAM
+deam_1907,DEAM_song_1907,,0.4875,0.6875,DEAM
+deam_1908,DEAM_song_1908,,0.525,0.5125,DEAM
+deam_1909,DEAM_song_1909,,0.4875,0.5,DEAM
+deam_1910,DEAM_song_1910,,0.35,0.2875,DEAM
+deam_1911,DEAM_song_1911,,0.4125,0.55,DEAM
+deam_1912,DEAM_song_1912,,0.55,0.5625,DEAM
+deam_1913,DEAM_song_1913,,0.625,0.6875,DEAM
+deam_1914,DEAM_song_1914,,0.5375,0.6625,DEAM
+deam_1915,DEAM_song_1915,,0.6625,0.6875,DEAM
+deam_1916,DEAM_song_1916,,0.55,0.6625,DEAM
+deam_1917,DEAM_song_1917,,0.3874999999999999,0.4499999999999999,DEAM
+deam_1918,DEAM_song_1918,,0.3,0.4499999999999999,DEAM
+deam_1919,DEAM_song_1919,,0.4375,0.55,DEAM
+deam_1920,DEAM_song_1920,,0.5875,0.675,DEAM
+deam_1921,DEAM_song_1921,,0.425,0.6875,DEAM
+deam_1922,DEAM_song_1922,,0.575,0.6,DEAM
+deam_1923,DEAM_song_1923,,0.675,0.65,DEAM
+deam_1924,DEAM_song_1924,,0.5375,0.5875,DEAM
+deam_1925,DEAM_song_1925,,0.4875,0.4375,DEAM
+deam_1926,DEAM_song_1926,,0.525,0.6375,DEAM
+deam_1927,DEAM_song_1927,,0.575,0.4499999999999999,DEAM
+deam_1928,DEAM_song_1928,,0.3375,0.575,DEAM
+deam_1929,DEAM_song_1929,,0.5125,0.7125,DEAM
+deam_1930,DEAM_song_1930,,0.4499999999999999,0.375,DEAM
+deam_1931,DEAM_song_1931,,0.4625,0.5625,DEAM
+deam_1932,DEAM_song_1932,,0.475,0.625,DEAM
+deam_1933,DEAM_song_1933,,0.525,0.75,DEAM
+deam_1934,DEAM_song_1934,,0.6,0.35,DEAM
+deam_1935,DEAM_song_1935,,0.4625,0.425,DEAM
+deam_1936,DEAM_song_1936,,0.2375,0.25,DEAM
+deam_1937,DEAM_song_1937,,0.4125,0.3625,DEAM
+deam_1938,DEAM_song_1938,,0.575,0.75,DEAM
+deam_1939,DEAM_song_1939,,0.425,0.275,DEAM
+deam_1940,DEAM_song_1940,,0.5125,0.575,DEAM
+deam_1941,DEAM_song_1941,,0.525,0.425,DEAM
+deam_1942,DEAM_song_1942,,0.675,0.725,DEAM
+deam_1943,DEAM_song_1943,,0.4,0.425,DEAM
+deam_1944,DEAM_song_1944,,0.6375,0.5125,DEAM
+deam_1945,DEAM_song_1945,,0.625,0.6375,DEAM
+deam_1946,DEAM_song_1946,,0.375,0.625,DEAM
+deam_1947,DEAM_song_1947,,0.5,0.8,DEAM
+deam_1948,DEAM_song_1948,,0.375,0.7125,DEAM
+deam_1949,DEAM_song_1949,,0.15,0.5125,DEAM
+deam_1950,DEAM_song_1950,,0.35,0.3,DEAM
+deam_1951,DEAM_song_1951,,0.4499999999999999,0.375,DEAM
+deam_1952,DEAM_song_1952,,0.3874999999999999,0.425,DEAM
+deam_1953,DEAM_song_1953,,0.5125,0.425,DEAM
+deam_1954,DEAM_song_1954,,0.7125,0.5875,DEAM
+deam_1955,DEAM_song_1955,,0.5625,0.6875,DEAM
+deam_1956,DEAM_song_1956,,0.55,0.6125,DEAM
+deam_1957,DEAM_song_1957,,0.475,0.475,DEAM
+deam_1958,DEAM_song_1958,,0.475,0.5125,DEAM
+deam_1959,DEAM_song_1959,,0.4625,0.6,DEAM
+deam_1960,DEAM_song_1960,,0.4375,0.7125,DEAM
+deam_1961,DEAM_song_1961,,0.6125,0.5375,DEAM
+deam_1962,DEAM_song_1962,,0.425,0.5,DEAM
+deam_1963,DEAM_song_1963,,0.3625,0.5625,DEAM
+deam_1964,DEAM_song_1964,,0.325,0.7125,DEAM
+deam_1965,DEAM_song_1965,,0.2875,0.3125,DEAM
+deam_1966,DEAM_song_1966,,0.325,0.5,DEAM
+deam_1967,DEAM_song_1967,,0.4625,0.7375,DEAM
+deam_1968,DEAM_song_1968,,0.4499999999999999,0.6475,DEAM
+deam_1969,DEAM_song_1969,,0.3375,0.5875,DEAM
+deam_1970,DEAM_song_1970,,0.6125,0.7625,DEAM
+deam_1971,DEAM_song_1971,,0.5625,0.5625,DEAM
+deam_1972,DEAM_song_1972,,0.625,0.6125,DEAM
+deam_1973,DEAM_song_1973,,0.4125,0.4125,DEAM
+deam_1974,DEAM_song_1974,,0.3,0.4625,DEAM
+deam_1975,DEAM_song_1975,,0.4625,0.575,DEAM
+deam_1976,DEAM_song_1976,,0.4875,0.55,DEAM
+deam_1977,DEAM_song_1977,,0.4625,0.525,DEAM
+deam_1978,DEAM_song_1978,,0.6875,0.6875,DEAM
+deam_1979,DEAM_song_1979,,0.5625,0.775,DEAM
+deam_1980,DEAM_song_1980,,0.5625,0.55,DEAM
+deam_1981,DEAM_song_1981,,0.5125,0.6,DEAM
+deam_1982,DEAM_song_1982,,0.4375,0.4375,DEAM
+deam_1983,DEAM_song_1983,,0.2375,0.3,DEAM
+deam_1984,DEAM_song_1984,,0.3375,0.2375,DEAM
+deam_1985,DEAM_song_1985,,0.475,0.575,DEAM
+deam_1986,DEAM_song_1986,,0.375,0.5125,DEAM
+deam_1987,DEAM_song_1987,,0.6875,0.6625,DEAM
+deam_1988,DEAM_song_1988,,0.5625,0.6,DEAM
+deam_1989,DEAM_song_1989,,0.5,0.5875,DEAM
+deam_1990,DEAM_song_1990,,0.4,0.3874999999999999,DEAM
+deam_1991,DEAM_song_1991,,0.5,0.625,DEAM
+deam_1992,DEAM_song_1992,,0.4875,0.725,DEAM
+deam_1993,DEAM_song_1993,,0.3125,0.75,DEAM
+deam_1994,DEAM_song_1994,,0.35,0.3125,DEAM
+deam_1995,DEAM_song_1995,,0.4625,0.4625,DEAM
+deam_1996,DEAM_song_1996,,0.3625,0.6125,DEAM
+deam_1997,DEAM_song_1997,,0.5375,0.3625,DEAM
+deam_1998,DEAM_song_1998,,0.675,0.65,DEAM
+deam_1999,DEAM_song_1999,,0.4499999999999999,0.55,DEAM
+deam_2000,DEAM_song_2000,,0.6,0.625,DEAM
+deam_2001,DEAM_song_2001,,0.275,0.7,DEAM
+deam_2002,DEAM_song_2002,,0.675,0.525,DEAM
+deam_2003,DEAM_song_2003,,0.55,0.4499999999999999,DEAM
+deam_2004,DEAM_song_2004,,0.5,0.475,DEAM
+deam_2005,DEAM_song_2005,,0.35,0.525,DEAM
+deam_2006,DEAM_song_2006,,0.5,0.275,DEAM
+deam_2007,DEAM_song_2007,,0.3,0.425,DEAM
+deam_2008,DEAM_song_2008,,0.575,0.325,DEAM
+deam_2009,DEAM_song_2009,,0.525,0.4,DEAM
+deam_2010,DEAM_song_2010,,0.625,0.475,DEAM
+deam_2011,DEAM_song_2011,,0.4,0.5,DEAM
+deam_2012,DEAM_song_2012,,0.27125,0.52125,DEAM
+deam_2013,DEAM_song_2013,,0.55,0.575,DEAM
+deam_2014,DEAM_song_2014,,0.25,0.7,DEAM
+deam_2015,DEAM_song_2015,,0.7,0.55,DEAM
+deam_2016,DEAM_song_2016,,0.775,0.575,DEAM
+deam_2017,DEAM_song_2017,,0.70875,0.6875,DEAM
+deam_2018,DEAM_song_2018,,0.6875,0.66625,DEAM
+deam_2019,DEAM_song_2019,,0.725,0.725,DEAM
+deam_2020,DEAM_song_2020,,0.725,0.6,DEAM
+deam_2021,DEAM_song_2021,,0.4,0.425,DEAM
+deam_2022,DEAM_song_2022,,0.35,0.425,DEAM
+deam_2023,DEAM_song_2023,,0.575,0.25,DEAM
+deam_2024,DEAM_song_2024,,0.675,0.425,DEAM
+deam_2025,DEAM_song_2025,,0.625,0.475,DEAM
+deam_2026,DEAM_song_2026,,0.575,0.375,DEAM
+deam_2027,DEAM_song_2027,,0.6,0.55,DEAM
+deam_2028,DEAM_song_2028,,0.3,0.65,DEAM
+deam_2029,DEAM_song_2029,,0.39625,0.375,DEAM
+deam_2030,DEAM_song_2030,,0.4,0.65,DEAM
+deam_2031,DEAM_song_2031,,0.4499999999999999,0.3,DEAM
+deam_2032,DEAM_song_2032,,0.525,0.425,DEAM
+deam_2033,DEAM_song_2033,,0.27125,0.72875,DEAM
+deam_2034,DEAM_song_2034,,0.65,0.4499999999999999,DEAM
+deam_2035,DEAM_song_2035,,0.3,0.4499999999999999,DEAM
+deam_2036,DEAM_song_2036,,0.35375,0.45875,DEAM
+deam_2037,DEAM_song_2037,,0.675,0.425,DEAM
+deam_2038,DEAM_song_2038,,0.375,0.35,DEAM
+deam_2039,DEAM_song_2039,,0.55,0.4499999999999999,DEAM
+deam_2040,DEAM_song_2040,,0.325,0.75,DEAM
+deam_2041,DEAM_song_2041,,0.425,0.25,DEAM
+deam_2042,DEAM_song_2042,,0.475,0.4499999999999999,DEAM
+deam_2043,DEAM_song_2043,,0.575,0.425,DEAM
+deam_2044,DEAM_song_2044,,0.675,0.525,DEAM
+deam_2045,DEAM_song_2045,,0.475,0.275,DEAM
+deam_2046,DEAM_song_2046,,0.5625,0.52125,DEAM
+deam_2047,DEAM_song_2047,,0.65,0.5,DEAM
+deam_2048,DEAM_song_2048,,0.65,0.325,DEAM
+deam_2049,DEAM_song_2049,,0.425,0.35,DEAM
+deam_2050,DEAM_song_2050,,0.425,0.325,DEAM
+deam_2051,DEAM_song_2051,,0.275,0.4499999999999999,DEAM
+deam_2052,DEAM_song_2052,,0.275,0.525,DEAM
+deam_2053,DEAM_song_2053,,0.35,0.35,DEAM
+deam_2054,DEAM_song_2054,,0.55,0.325,DEAM
+deam_2055,DEAM_song_2055,,0.5,0.525,DEAM
+deam_2056,DEAM_song_2056,,0.5,0.4499999999999999,DEAM
+deam_2057,DEAM_song_2057,,0.27125,0.72875,DEAM
+deam_2058,DEAM_song_2058,,0.35,0.6,DEAM
+emotify_1,classical_track_1,,0.5875,0.301,Emotify
+emotify_2,classical_track_2,,0.660752688172043,0.2494623655913979,Emotify
+emotify_3,classical_track_3,,0.6192307692307693,0.5818681318681319,Emotify
+emotify_4,classical_track_4,,0.6472826086956522,0.242391304347826,Emotify
+emotify_5,classical_track_5,,0.524731182795699,0.3354838709677419,Emotify
+emotify_6,classical_track_6,,0.6351648351648351,0.3747252747252747,Emotify
+emotify_7,classical_track_7,,0.7630434782608696,0.6951086956521739,Emotify
+emotify_8,classical_track_8,,0.6172043010752688,0.3575268817204301,Emotify
+emotify_9,classical_track_9,,0.5728260869565217,0.2956521739130435,Emotify
+emotify_10,classical_track_10,,0.7190217391304348,0.7445652173913043,Emotify
+emotify_11,classical_track_11,,0.5181318681318682,0.3203296703296703,Emotify
+emotify_12,classical_track_12,,0.7642857142857142,0.6379120879120879,Emotify
+emotify_13,classical_track_13,,0.5153846153846154,0.3648351648351647,Emotify
+emotify_14,classical_track_14,,0.6137362637362638,0.384065934065934,Emotify
+emotify_15,classical_track_15,,0.5123655913978494,0.2951612903225806,Emotify
+emotify_16,classical_track_16,,0.521978021978022,0.6978021978021978,Emotify
+emotify_17,classical_track_17,,0.6279569892473118,0.2424731182795698,Emotify
+emotify_18,classical_track_18,,0.7884615384615385,0.6730769230769231,Emotify
+emotify_19,classical_track_19,,0.5934065934065934,0.3071428571428571,Emotify
+emotify_20,classical_track_20,,0.5420212765957447,0.3367021276595744,Emotify
+emotify_21,classical_track_21,,0.6824175824175824,0.3241758241758242,Emotify
+emotify_22,classical_track_22,,0.712087912087912,0.4263736263736264,Emotify
+emotify_23,classical_track_23,,0.6868131868131868,0.621978021978022,Emotify
+emotify_24,classical_track_24,,0.629891304347826,0.7190217391304348,Emotify
+emotify_25,classical_track_25,,0.5895604395604396,0.4428571428571428,Emotify
+emotify_26,classical_track_26,,0.6760869565217391,0.6782608695652174,Emotify
+emotify_27,classical_track_27,,0.5401098901098901,0.5945054945054945,Emotify
+emotify_28,classical_track_28,,0.7989247311827956,0.5376344086021505,Emotify
+emotify_29,classical_track_29,,0.5774193548387097,0.3387096774193548,Emotify
+emotify_30,classical_track_30,,0.7706521739130435,0.6733695652173913,Emotify
+emotify_31,classical_track_31,,0.5630434782608695,0.2945652173913043,Emotify
+emotify_32,classical_track_32,,0.5679487179487179,0.308974358974359,Emotify
+emotify_33,classical_track_33,,0.5798507462686567,0.2425373134328358,Emotify
+emotify_34,classical_track_34,,0.7488095238095238,0.5761904761904761,Emotify
+emotify_35,classical_track_35,,0.6267857142857143,0.2928571428571428,Emotify
+emotify_36,classical_track_36,,0.5875,0.3421875,Emotify
+emotify_37,classical_track_37,,0.5581081081081081,0.3554054054054053,Emotify
+emotify_38,classical_track_38,,0.5606060606060606,0.2727272727272727,Emotify
+emotify_39,classical_track_39,,0.7538461538461538,0.7602564102564102,Emotify
+emotify_40,classical_track_40,,0.6757142857142857,0.7414285714285714,Emotify
+emotify_41,classical_track_41,,0.6028571428571429,0.3814285714285714,Emotify
+emotify_42,classical_track_42,,0.64,0.3316666666666666,Emotify
+emotify_43,classical_track_43,,0.5712121212121213,0.5393939393939394,Emotify
+emotify_44,classical_track_44,,0.6514705882352941,0.3897058823529411,Emotify
+emotify_45,classical_track_45,,0.5152777777777778,0.2958333333333333,Emotify
+emotify_46,classical_track_46,,0.6609375,0.2796875,Emotify
+emotify_47,classical_track_47,,0.4802631578947368,0.3197368421052631,Emotify
+emotify_48,classical_track_48,,0.4779411764705882,0.4220588235294117,Emotify
+emotify_49,classical_track_49,,0.424390243902439,0.4609756097560976,Emotify
+emotify_50,classical_track_50,,0.6825000000000001,0.6637500000000001,Emotify
+emotify_51,classical_track_51,,0.4972222222222222,0.3097222222222222,Emotify
+emotify_52,classical_track_52,,0.6279411764705882,0.6647058823529411,Emotify
+emotify_53,classical_track_53,,0.5236842105263158,0.6776315789473684,Emotify
+emotify_54,classical_track_54,,0.7451219512195122,0.5817073170731707,Emotify
+emotify_55,classical_track_55,,0.63,0.4071428571428571,Emotify
+emotify_56,classical_track_56,,0.6666666666666666,0.2944444444444444,Emotify
+emotify_57,classical_track_57,,0.5162162162162162,0.4054054054054054,Emotify
+emotify_58,classical_track_58,,0.527027027027027,0.5716216216216217,Emotify
+emotify_59,classical_track_59,,0.6514285714285714,0.7128571428571429,Emotify
+emotify_60,classical_track_60,,0.5121951219512195,0.2890243902439025,Emotify
+emotify_61,classical_track_61,,0.614516129032258,0.6258064516129032,Emotify
+emotify_62,classical_track_62,,0.6948275862068966,0.7241379310344828,Emotify
+emotify_63,classical_track_63,,0.5242424242424243,0.296969696969697,Emotify
+emotify_64,classical_track_64,,0.7222222222222223,0.6648148148148149,Emotify
+emotify_65,classical_track_65,,0.7222222222222222,0.8203703703703703,Emotify
+emotify_66,classical_track_66,,0.5230769230769231,0.6403846153846153,Emotify
+emotify_67,classical_track_67,,0.667741935483871,0.4532258064516129,Emotify
+emotify_68,classical_track_68,,0.5700000000000001,0.2857142857142857,Emotify
+emotify_69,classical_track_69,,0.6623655913978495,0.2709677419354839,Emotify
+emotify_70,classical_track_70,,0.531578947368421,0.356578947368421,Emotify
+emotify_71,classical_track_71,,0.71875,0.5859375,Emotify
+emotify_72,classical_track_72,,0.6012820512820513,0.5512820512820512,Emotify
+emotify_73,classical_track_73,,0.6129629629629629,0.4444444444444444,Emotify
+emotify_74,classical_track_74,,0.5918918918918918,0.6054054054054054,Emotify
+emotify_75,classical_track_75,,0.5887096774193549,0.6451612903225806,Emotify
+emotify_76,classical_track_76,,0.49375,0.5515625,Emotify
+emotify_77,classical_track_77,,0.6696969696969697,0.3924242424242424,Emotify
+emotify_78,classical_track_78,,0.646969696969697,0.6803030303030303,Emotify
+emotify_79,classical_track_79,,0.6621212121212121,0.5818181818181818,Emotify
+emotify_80,classical_track_80,,0.725,0.5441176470588235,Emotify
+emotify_81,classical_track_81,,0.7140625,0.6625,Emotify
+emotify_82,classical_track_82,,0.63,0.2157142857142857,Emotify
+emotify_83,classical_track_83,,0.5602564102564103,0.4653846153846154,Emotify
+emotify_84,classical_track_84,,0.5824324324324325,0.3216216216216216,Emotify
+emotify_85,classical_track_85,,0.6387096774193548,0.6564516129032258,Emotify
+emotify_86,classical_track_86,,0.5514285714285715,0.5228571428571428,Emotify
+emotify_87,classical_track_87,,0.5578125,0.2374999999999999,Emotify
+emotify_88,classical_track_88,,0.5803030303030303,0.6863636363636364,Emotify
+emotify_89,classical_track_89,,0.65,0.2133333333333333,Emotify
+emotify_90,classical_track_90,,0.63,0.662,Emotify
+emotify_91,classical_track_91,,0.4681818181818182,0.2772727272727272,Emotify
+emotify_92,classical_track_92,,0.615625,0.3062499999999999,Emotify
+emotify_93,classical_track_93,,0.7046875,0.2703124999999999,Emotify
+emotify_94,classical_track_94,,0.6097222222222223,0.4902777777777777,Emotify
+emotify_95,classical_track_95,,0.7279411764705883,0.5882352941176471,Emotify
+emotify_96,classical_track_96,,0.6890625,0.3796875,Emotify
+emotify_97,classical_track_97,,0.4534482758620689,0.3844827586206896,Emotify
+emotify_98,classical_track_98,,0.5485714285714286,0.2514285714285714,Emotify
+emotify_99,classical_track_99,,0.6743589743589744,0.3128205128205128,Emotify
+emotify_100,classical_track_100,,0.5787878787878787,0.5666666666666667,Emotify
+emotify_101,rock_track_101,,0.5279569892473118,0.4849462365591397,Emotify
+emotify_102,rock_track_102,,0.64,0.3455555555555555,Emotify
+emotify_103,rock_track_103,,0.6629213483146067,0.6634831460674158,Emotify
+emotify_104,rock_track_104,,0.5784090909090909,0.3994318181818181,Emotify
+emotify_105,rock_track_105,,0.4775280898876404,0.4404494382022472,Emotify
+emotify_106,rock_track_106,,0.521978021978022,0.3142857142857143,Emotify
+emotify_107,rock_track_107,,0.6314606741573033,0.4595505617977528,Emotify
+emotify_108,rock_track_108,,0.535,0.4627777777777778,Emotify
+emotify_109,rock_track_109,,0.6432584269662921,0.6938202247191011,Emotify
+emotify_110,rock_track_110,,0.4960674157303371,0.5904494382022472,Emotify
+emotify_111,rock_track_111,,0.7296703296703297,0.7208791208791209,Emotify
+emotify_112,rock_track_112,,0.545,0.4933333333333333,Emotify
+emotify_113,rock_track_113,,0.554945054945055,0.2631868131868131,Emotify
+emotify_114,rock_track_114,,0.5318681318681319,0.5164835164835164,Emotify
+emotify_115,rock_track_115,,0.5266666666666667,0.5449999999999999,Emotify
+emotify_116,rock_track_116,,0.6155555555555555,0.4605555555555555,Emotify
+emotify_117,rock_track_117,,0.5835227272727272,0.2869318181818182,Emotify
+emotify_118,rock_track_118,,0.615,0.2518749999999999,Emotify
+emotify_119,rock_track_119,,0.7131578947368421,0.7289473684210527,Emotify
+emotify_120,rock_track_120,,0.5974358974358974,0.4551282051282051,Emotify
+emotify_121,rock_track_121,,0.5362068965517242,0.7672413793103448,Emotify
+emotify_122,rock_track_122,,0.6585714285714286,0.3742857142857143,Emotify
+emotify_123,rock_track_123,,0.7166666666666667,0.7791666666666666,Emotify
+emotify_124,rock_track_124,,0.5,0.4613636363636363,Emotify
+emotify_125,rock_track_125,,0.58125,0.634375,Emotify
+emotify_126,rock_track_126,,0.7166666666666667,0.7805555555555556,Emotify
+emotify_127,rock_track_127,,0.5119047619047619,0.7142857142857143,Emotify
+emotify_128,rock_track_128,,0.6896551724137931,0.6603448275862068,Emotify
+emotify_129,rock_track_129,,0.7462962962962963,0.674074074074074,Emotify
+emotify_130,rock_track_130,,0.5870967741935484,0.6241935483870968,Emotify
+emotify_131,rock_track_131,,0.3410714285714286,0.4196428571428571,Emotify
+emotify_132,rock_track_132,,0.6187499999999999,0.51875,Emotify
+emotify_133,rock_track_133,,0.5844827586206897,0.2741379310344827,Emotify
+emotify_134,rock_track_134,,0.5703703703703704,0.337037037037037,Emotify
+emotify_135,rock_track_135,,0.6,0.4611111111111111,Emotify
+emotify_136,rock_track_136,,0.5907407407407408,0.6703703703703704,Emotify
+emotify_137,rock_track_137,,0.644,0.754,Emotify
+emotify_138,rock_track_138,,0.73125,0.7375,Emotify
+emotify_139,rock_track_139,,0.5290322580645161,0.6258064516129032,Emotify
+emotify_140,rock_track_140,,0.7153846153846154,0.725,Emotify
+emotify_141,rock_track_141,,0.4413043478260869,0.4978260869565217,Emotify
+emotify_142,rock_track_142,,0.4407407407407407,0.3925925925925926,Emotify
+emotify_143,rock_track_143,,0.65,0.4379310344827586,Emotify
+emotify_144,rock_track_144,,0.6826923076923077,0.7615384615384615,Emotify
+emotify_145,rock_track_145,,0.5351851851851852,0.2629629629629629,Emotify
+emotify_146,rock_track_146,,0.5919354838709677,0.4096774193548387,Emotify
+emotify_147,rock_track_147,,0.5866666666666667,0.4316666666666666,Emotify
+emotify_148,rock_track_148,,0.664,0.614,Emotify
+emotify_149,rock_track_149,,0.5750000000000001,0.2535714285714285,Emotify
+emotify_150,rock_track_150,,0.5410714285714285,0.425,Emotify
+emotify_151,rock_track_151,,0.6410714285714285,0.5,Emotify
+emotify_152,rock_track_152,,0.5296875,0.6187499999999999,Emotify
+emotify_153,rock_track_153,,0.4907407407407407,0.3407407407407407,Emotify
+emotify_154,rock_track_154,,0.587037037037037,0.4555555555555555,Emotify
+emotify_155,rock_track_155,,0.5780000000000001,0.43,Emotify
+emotify_156,rock_track_156,,0.8240000000000001,0.8140000000000001,Emotify
+emotify_157,rock_track_157,,0.536,0.478,Emotify
+emotify_158,rock_track_158,,0.6388888888888888,0.4930555555555555,Emotify
+emotify_159,rock_track_159,,0.6166666666666667,0.4729166666666666,Emotify
+emotify_160,rock_track_160,,0.5195652173913043,0.5521739130434783,Emotify
+emotify_161,rock_track_161,,0.375,0.6416666666666667,Emotify
+emotify_162,rock_track_162,,0.6192307692307693,0.7423076923076923,Emotify
+emotify_163,rock_track_163,,0.5928571428571429,0.5035714285714286,Emotify
+emotify_164,rock_track_164,,0.5793103448275863,0.3586206896551724,Emotify
+emotify_165,rock_track_165,,0.6293103448275862,0.2068965517241379,Emotify
+emotify_166,rock_track_166,,0.6116666666666667,0.4833333333333333,Emotify
+emotify_167,rock_track_167,,0.618421052631579,0.5210526315789473,Emotify
+emotify_168,rock_track_168,,0.52,0.358,Emotify
+emotify_169,rock_track_169,,0.7333333333333334,0.79375,Emotify
+emotify_170,rock_track_170,,0.5884615384615385,0.325,Emotify
+emotify_171,rock_track_171,,0.5203703703703704,0.6462962962962963,Emotify
+emotify_172,rock_track_172,,0.6724137931034483,0.4086206896551724,Emotify
+emotify_173,rock_track_173,,0.6945945945945946,0.5635135135135135,Emotify
+emotify_174,rock_track_174,,0.575,0.7173076923076923,Emotify
+emotify_175,rock_track_175,,0.6172413793103448,0.3551724137931034,Emotify
+emotify_176,rock_track_176,,0.4,0.2795454545454545,Emotify
+emotify_177,rock_track_177,,0.6338709677419354,0.3516129032258065,Emotify
+emotify_178,rock_track_178,,0.6875,0.3910714285714285,Emotify
+emotify_179,rock_track_179,,0.6456521739130435,0.6652173913043478,Emotify
+emotify_180,rock_track_180,,0.5173076923076924,0.4865384615384615,Emotify
+emotify_181,rock_track_181,,0.725,0.5884615384615385,Emotify
+emotify_182,rock_track_182,,0.6166666666666667,0.2277777777777777,Emotify
+emotify_183,rock_track_183,,0.5769230769230769,0.2653846153846154,Emotify
+emotify_184,rock_track_184,,0.644,0.368,Emotify
+emotify_185,rock_track_185,,0.6045454545454546,0.7295454545454546,Emotify
+emotify_186,rock_track_186,,0.6211538461538462,0.5153846153846153,Emotify
+emotify_187,rock_track_187,,0.5111111111111111,0.2962962962962963,Emotify
+emotify_188,rock_track_188,,0.515625,0.378125,Emotify
+emotify_189,rock_track_189,,0.6933333333333332,0.4983333333333333,Emotify
+emotify_190,rock_track_190,,0.525,0.2859375,Emotify
+emotify_191,rock_track_191,,0.6344827586206896,0.3431034482758621,Emotify
+emotify_192,rock_track_192,,0.6206896551724138,0.3672413793103448,Emotify
+emotify_193,rock_track_193,,0.4983333333333333,0.255,Emotify
+emotify_194,rock_track_194,,0.6466666666666667,0.4499999999999999,Emotify
+emotify_195,rock_track_195,,0.5575757575757576,0.2212121212121212,Emotify
+emotify_196,rock_track_196,,0.5741379310344827,0.4396551724137931,Emotify
+emotify_197,rock_track_197,,0.6545454545454545,0.6522727272727272,Emotify
+emotify_198,rock_track_198,,0.8043478260869565,0.7347826086956522,Emotify
+emotify_199,rock_track_199,,0.7,0.6846153846153846,Emotify
+emotify_200,rock_track_200,,0.6888888888888889,0.4916666666666667,Emotify
+emotify_201,electronic_track_201,,0.5560439560439561,0.7104395604395604,Emotify
+emotify_202,electronic_track_202,,0.7065934065934066,0.5203296703296703,Emotify
+emotify_203,electronic_track_203,,0.4972527472527472,0.5879120879120879,Emotify
+emotify_204,electronic_track_204,,0.4912087912087912,0.6697802197802197,Emotify
+emotify_205,electronic_track_205,,0.6608695652173913,0.3271739130434782,Emotify
+emotify_206,electronic_track_206,,0.6228260869565218,0.7445652173913043,Emotify
+emotify_207,electronic_track_207,,0.5365591397849463,0.646236559139785,Emotify
+emotify_208,electronic_track_208,,0.5853260869565218,0.4358695652173913,Emotify
+emotify_209,electronic_track_209,,0.6107526881720431,0.7666666666666666,Emotify
+emotify_210,electronic_track_210,,0.5401098901098901,0.5043956043956044,Emotify
+emotify_211,electronic_track_211,,0.5130208333333334,0.6317708333333333,Emotify
+emotify_212,electronic_track_212,,0.6451612903225806,0.6301075268817204,Emotify
+emotify_213,electronic_track_213,,0.6516666666666666,0.535,Emotify
+emotify_214,electronic_track_214,,0.6494565217391305,0.6472826086956521,Emotify
+emotify_215,electronic_track_215,,0.6831521739130435,0.6201086956521739,Emotify
+emotify_216,electronic_track_216,,0.6256410256410256,0.65,Emotify
+emotify_217,electronic_track_217,,0.5763888888888888,0.2395833333333333,Emotify
+emotify_218,electronic_track_218,,0.6211538461538462,0.4653846153846154,Emotify
+emotify_219,electronic_track_219,,0.575,0.3875,Emotify
+emotify_220,electronic_track_220,,0.6611111111111111,0.5033333333333333,Emotify
+emotify_221,electronic_track_221,,0.5461538461538461,0.5512820512820513,Emotify
+emotify_222,electronic_track_222,,0.5209677419354839,0.8112903225806452,Emotify
+emotify_223,electronic_track_223,,0.663888888888889,0.7722222222222221,Emotify
+emotify_224,electronic_track_224,,0.6857142857142857,0.3309523809523809,Emotify
+emotify_225,electronic_track_225,,0.4120689655172413,0.5362068965517242,Emotify
+emotify_226,electronic_track_226,,0.512962962962963,0.3,Emotify
+emotify_227,electronic_track_227,,0.6823529411764706,0.3617647058823529,Emotify
+emotify_228,electronic_track_228,,0.7475,0.79,Emotify
+emotify_229,electronic_track_229,,0.4972222222222222,0.7805555555555556,Emotify
+emotify_230,electronic_track_230,,0.5978260869565217,0.6608695652173913,Emotify
+emotify_231,electronic_track_231,,0.5852941176470589,0.6558823529411765,Emotify
+emotify_232,electronic_track_232,,0.6545454545454545,0.5113636363636364,Emotify
+emotify_233,electronic_track_233,,0.45,0.69,Emotify
+emotify_234,electronic_track_234,,0.53,0.53,Emotify
+emotify_235,electronic_track_235,,0.5975,0.4649999999999999,Emotify
+emotify_236,electronic_track_236,,0.6055555555555556,0.7222222222222222,Emotify
+emotify_237,electronic_track_237,,0.505,0.3974999999999999,Emotify
+emotify_238,electronic_track_238,,0.4982142857142857,0.3732142857142857,Emotify
+emotify_239,electronic_track_239,,0.5617647058823529,0.6705882352941176,Emotify
+emotify_240,electronic_track_240,,0.4647058823529412,0.4970588235294117,Emotify
+emotify_241,electronic_track_241,,0.6456521739130435,0.3934782608695652,Emotify
+emotify_242,electronic_track_242,,0.5134615384615385,0.3288461538461538,Emotify
+emotify_243,electronic_track_243,,0.5052631578947369,0.6710526315789473,Emotify
+emotify_244,electronic_track_244,,0.425,0.4225,Emotify
+emotify_245,electronic_track_245,,0.43125,0.5187499999999999,Emotify
+emotify_246,electronic_track_246,,0.5604166666666667,0.5395833333333333,Emotify
+emotify_247,electronic_track_247,,0.5541666666666667,0.4395833333333333,Emotify
+emotify_248,electronic_track_248,,0.5860000000000001,0.724,Emotify
+emotify_249,electronic_track_249,,0.66875,0.2791666666666667,Emotify
+emotify_250,electronic_track_250,,0.6318181818181818,0.7659090909090909,Emotify
+emotify_251,electronic_track_251,,0.5981481481481482,0.6277777777777778,Emotify
+emotify_252,electronic_track_252,,0.468,0.39,Emotify
+emotify_253,electronic_track_253,,0.5547619047619048,0.6047619047619047,Emotify
+emotify_254,electronic_track_254,,0.575,0.6392857142857142,Emotify
+emotify_255,electronic_track_255,,0.6018518518518519,0.7074074074074074,Emotify
+emotify_256,electronic_track_256,,0.4738095238095238,0.7,Emotify
+emotify_257,electronic_track_257,,0.6147058823529412,0.6323529411764706,Emotify
+emotify_258,electronic_track_258,,0.5933333333333334,0.3999999999999999,Emotify
+emotify_259,electronic_track_259,,0.6761904761904762,0.4880952380952381,Emotify
+emotify_260,electronic_track_260,,0.5339285714285714,0.6946428571428571,Emotify
+emotify_261,electronic_track_261,,0.448,0.5,Emotify
+emotify_262,electronic_track_262,,0.2941176470588235,0.6058823529411764,Emotify
+emotify_263,electronic_track_263,,0.4458333333333333,0.4041666666666667,Emotify
+emotify_264,electronic_track_264,,0.63,0.7775,Emotify
+emotify_265,electronic_track_265,,0.5846153846153846,0.4307692307692308,Emotify
+emotify_266,electronic_track_266,,0.5423076923076924,0.6384615384615384,Emotify
+emotify_267,electronic_track_267,,0.5076923076923077,0.3903846153846154,Emotify
+emotify_268,electronic_track_268,,0.565625,0.7749999999999999,Emotify
+emotify_269,electronic_track_269,,0.7749999999999999,0.736111111111111,Emotify
+emotify_270,electronic_track_270,,0.6394736842105263,0.2842105263157894,Emotify
+emotify_271,electronic_track_271,,0.55,0.71,Emotify
+emotify_272,electronic_track_272,,0.6531250000000001,0.7281249999999999,Emotify
+emotify_273,electronic_track_273,,0.6782608695652175,0.6652173913043479,Emotify
+emotify_274,electronic_track_274,,0.618421052631579,0.3789473684210526,Emotify
+emotify_275,electronic_track_275,,0.465,0.5775,Emotify
+emotify_276,electronic_track_276,,0.5850000000000001,0.7075,Emotify
+emotify_277,electronic_track_277,,0.625,0.7575,Emotify
+emotify_278,electronic_track_278,,0.6906249999999999,0.671875,Emotify
+emotify_279,electronic_track_279,,0.4854166666666666,0.40625,Emotify
+emotify_280,electronic_track_280,,0.5750000000000001,0.5325,Emotify
+emotify_281,electronic_track_281,,0.7428571428571429,0.7357142857142858,Emotify
+emotify_282,electronic_track_282,,0.6239130434782609,0.6521739130434783,Emotify
+emotify_283,electronic_track_283,,0.5775862068965517,0.3689655172413794,Emotify
+emotify_284,electronic_track_284,,0.6472222222222223,0.4277777777777777,Emotify
+emotify_285,electronic_track_285,,0.55,0.3770833333333333,Emotify
+emotify_286,electronic_track_286,,0.515,0.6599999999999999,Emotify
+emotify_287,electronic_track_287,,0.7285714285714286,0.5238095238095238,Emotify
+emotify_288,electronic_track_288,,0.6555555555555556,0.4574074074074074,Emotify
+emotify_289,electronic_track_289,,0.5769230769230769,0.3826923076923076,Emotify
+emotify_290,electronic_track_290,,0.6333333333333333,0.5729166666666666,Emotify
+emotify_291,electronic_track_291,,0.5791666666666667,0.3666666666666666,Emotify
+emotify_292,electronic_track_292,,0.6785714285714286,0.680952380952381,Emotify
+emotify_293,electronic_track_293,,0.6476190476190476,0.6976190476190476,Emotify
+emotify_294,electronic_track_294,,0.6823529411764706,0.4529411764705882,Emotify
+emotify_295,electronic_track_295,,0.5294117647058824,0.3117647058823529,Emotify
+emotify_296,electronic_track_296,,0.6541666666666667,0.4958333333333333,Emotify
+emotify_297,electronic_track_297,,0.4904761904761905,0.530952380952381,Emotify
+emotify_298,electronic_track_298,,0.6543478260869565,0.5152173913043478,Emotify
+emotify_299,electronic_track_299,,0.5023809523809524,0.4333333333333333,Emotify
+emotify_300,electronic_track_300,,0.6342105263157896,0.7157894736842105,Emotify
+emotify_301,pop_track_301,,0.6684466019417477,0.4509708737864077,Emotify
+emotify_302,pop_track_302,,0.6583333333333333,0.36,Emotify
+emotify_303,pop_track_303,,0.4623655913978495,0.3387096774193548,Emotify
+emotify_304,pop_track_304,,0.5473118279569893,0.4983870967741935,Emotify
+emotify_305,pop_track_305,,0.646236559139785,0.4091397849462365,Emotify
+emotify_306,pop_track_306,,0.6021739130434782,0.3907608695652174,Emotify
+emotify_307,pop_track_307,,0.5357142857142857,0.2703296703296703,Emotify
+emotify_308,pop_track_308,,0.5565934065934066,0.2439560439560439,Emotify
+emotify_309,pop_track_309,,0.4994505494505494,0.3329670329670329,Emotify
+emotify_310,pop_track_310,,0.6070652173913044,0.3146739130434782,Emotify
+emotify_311,pop_track_311,,0.5379120879120879,0.3835164835164835,Emotify
+emotify_312,pop_track_312,,0.5172043010752688,0.3827956989247312,Emotify
+emotify_313,pop_track_313,,0.6271739130434782,0.7222826086956522,Emotify
+emotify_314,pop_track_314,,0.6133333333333333,0.2977777777777778,Emotify
+emotify_315,pop_track_315,,0.5622222222222222,0.3199999999999999,Emotify
+emotify_316,pop_track_316,,0.6398648648648648,0.3918918918918919,Emotify
+emotify_317,pop_track_317,,0.6105633802816901,0.252112676056338,Emotify
+emotify_318,pop_track_318,,0.5915094339622642,0.570754716981132,Emotify
+emotify_319,pop_track_319,,0.3916666666666666,0.5166666666666666,Emotify
+emotify_320,pop_track_320,,0.5773809523809523,0.3190476190476191,Emotify
+emotify_321,pop_track_321,,0.6910714285714286,0.7339285714285714,Emotify
+emotify_322,pop_track_322,,0.548076923076923,0.2596153846153846,Emotify
+emotify_323,pop_track_323,,0.558,0.46,Emotify
+emotify_324,pop_track_324,,0.5,0.3125,Emotify
+emotify_325,pop_track_325,,0.512962962962963,0.2537037037037036,Emotify
+emotify_326,pop_track_326,,0.4727272727272727,0.3795454545454546,Emotify
+emotify_327,pop_track_327,,0.6130434782608696,0.2304347826086956,Emotify
+emotify_328,pop_track_328,,0.6416666666666666,0.75,Emotify
+emotify_329,pop_track_329,,0.5041666666666667,0.4604166666666666,Emotify
+emotify_330,pop_track_330,,0.6833333333333333,0.3583333333333333,Emotify
+emotify_331,pop_track_331,,0.4038461538461538,0.4442307692307692,Emotify
+emotify_332,pop_track_332,,0.59375,0.3645833333333333,Emotify
+emotify_333,pop_track_333,,0.5413043478260869,0.2413043478260869,Emotify
+emotify_334,pop_track_334,,0.6386363636363637,0.4227272727272727,Emotify
+emotify_335,pop_track_335,,0.7305555555555555,0.7138888888888889,Emotify
+emotify_336,pop_track_336,,0.7238095238095238,0.7595238095238095,Emotify
+emotify_337,pop_track_337,,0.5425,0.3249999999999999,Emotify
+emotify_338,pop_track_338,,0.6038461538461538,0.3384615384615384,Emotify
+emotify_339,pop_track_339,,0.417391304347826,0.4478260869565217,Emotify
+emotify_340,pop_track_340,,0.5270833333333333,0.4916666666666666,Emotify
+emotify_341,pop_track_341,,0.5958333333333333,0.4291666666666667,Emotify
+emotify_342,pop_track_342,,0.555,0.2675,Emotify
+emotify_343,pop_track_343,,0.5775,0.71,Emotify
+emotify_344,pop_track_344,,0.5472222222222223,0.6722222222222223,Emotify
+emotify_345,pop_track_345,,0.6021739130434782,0.4521739130434782,Emotify
+emotify_346,pop_track_346,,0.5525,0.4375,Emotify
+emotify_347,pop_track_347,,0.6717391304347826,0.467391304347826,Emotify
+emotify_348,pop_track_348,,0.4722222222222222,0.4777777777777777,Emotify
+emotify_349,pop_track_349,,0.5578947368421052,0.7473684210526316,Emotify
+emotify_350,pop_track_350,,0.6068181818181818,0.2454545454545454,Emotify
+emotify_351,pop_track_351,,0.5541666666666667,0.2312499999999999,Emotify
+emotify_352,pop_track_352,,0.6115384615384616,0.3096153846153846,Emotify
+emotify_353,pop_track_353,,0.5365384615384615,0.3153846153846154,Emotify
+emotify_354,pop_track_354,,0.6519230769230769,0.2615384615384615,Emotify
+emotify_355,pop_track_355,,0.6479166666666666,0.4,Emotify
+emotify_356,pop_track_356,,0.6545454545454545,0.4363636363636363,Emotify
+emotify_357,pop_track_357,,0.6910714285714286,0.4,Emotify
+emotify_358,pop_track_358,,0.6133333333333334,0.685,Emotify
+emotify_359,pop_track_359,,0.5113636363636364,0.3272727272727272,Emotify
+emotify_360,pop_track_360,,0.5185185185185185,0.4111111111111111,Emotify
+emotify_361,pop_track_361,,0.484,0.506,Emotify
+emotify_362,pop_track_362,,0.8,0.7904761904761903,Emotify
+emotify_363,pop_track_363,,0.6739130434782609,0.5152173913043478,Emotify
+emotify_364,pop_track_364,,0.4833333333333333,0.325,Emotify
+emotify_365,pop_track_365,,0.5895833333333333,0.31875,Emotify
+emotify_366,pop_track_366,,0.4571428571428571,0.3166666666666666,Emotify
+emotify_367,pop_track_367,,0.402,0.5519999999999999,Emotify
+emotify_368,pop_track_368,,0.7807692307692309,0.4961538461538461,Emotify
+emotify_369,pop_track_369,,0.6637931034482758,0.35,Emotify
+emotify_370,pop_track_370,,0.3788135593220339,0.2838983050847458,Emotify
+emotify_371,pop_track_371,,0.6478260869565218,0.8217391304347826,Emotify
+emotify_372,pop_track_372,,0.648,0.3099999999999999,Emotify
+emotify_373,pop_track_373,,0.6543478260869565,0.3369565217391304,Emotify
+emotify_374,pop_track_374,,0.5555555555555556,0.3203703703703703,Emotify
+emotify_375,pop_track_375,,0.692,0.512,Emotify
+emotify_376,pop_track_376,,0.6875,0.2833333333333333,Emotify
+emotify_377,pop_track_377,,0.7018518518518517,0.5944444444444444,Emotify
+emotify_378,pop_track_378,,0.7657894736842106,0.5789473684210527,Emotify
+emotify_379,pop_track_379,,0.6333333333333333,0.6476190476190475,Emotify
+emotify_380,pop_track_380,,0.5289473684210526,0.5973684210526315,Emotify
+emotify_381,pop_track_381,,0.5978260869565217,0.2739130434782608,Emotify
+emotify_382,pop_track_382,,0.63125,0.6520833333333333,Emotify
+emotify_383,pop_track_383,,0.8037037037037037,0.6111111111111112,Emotify
+emotify_384,pop_track_384,,0.695,0.4875,Emotify
+emotify_385,pop_track_385,,0.7181818181818183,0.665909090909091,Emotify
+emotify_386,pop_track_386,,0.5605263157894738,0.5789473684210527,Emotify
+emotify_387,pop_track_387,,0.5590909090909091,0.7727272727272727,Emotify
+emotify_388,pop_track_388,,0.7041666666666666,0.5583333333333333,Emotify
+emotify_389,pop_track_389,,0.6208333333333333,0.3729166666666666,Emotify
+emotify_390,pop_track_390,,0.6476190476190476,0.5904761904761905,Emotify
+emotify_391,pop_track_391,,0.7250000000000001,0.7090909090909091,Emotify
+emotify_392,pop_track_392,,0.6230769230769231,0.2519230769230769,Emotify
+emotify_393,pop_track_393,,0.5724137931034483,0.3862068965517241,Emotify
+emotify_394,pop_track_394,,0.6017241379310345,0.7103448275862069,Emotify
+emotify_395,pop_track_395,,0.7909090909090909,0.6931818181818181,Emotify
+emotify_396,pop_track_396,,0.6108695652173913,0.3847826086956522,Emotify
+emotify_397,pop_track_397,,0.4428571428571429,0.5071428571428571,Emotify
+emotify_398,pop_track_398,,0.6375000000000001,0.6125,Emotify
+emotify_399,pop_track_399,,0.6575757575757576,0.3393939393939393,Emotify
+emotify_400,pop_track_400,,0.4659999999999999,0.542,Emotify
