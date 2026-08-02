@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iso-mood-planner"
+version = "0.1.0"
+description = "AI-driven music-based mood regulation via the iso principle, with per-user and cross-user personalization"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=1.5",
+    "numpy>=1.23",
+    "matplotlib>=3.6",
+]
+
+[tool.setuptools]
+packages = ["iso_planner"]
