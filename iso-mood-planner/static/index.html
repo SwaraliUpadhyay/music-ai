@@ -1,0 +1,1029 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iso·mood — music that meets you where you are</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='44' fill='%23FFF0B3' stroke='%234A3F3A' stroke-width='5'/%3E%3Ccircle cx='35' cy='45' r='5' fill='%234A3F3A'/%3E%3Ccircle cx='65' cy='45' r='5' fill='%234A3F3A'/%3E%3Cpath d='M36 62 Q50 76 64 62' fill='none' stroke='%234A3F3A' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FFF8EE;
+    --card:#FFFDF8;
+    --ink:#4A3F3A;
+    --ink-soft:#7D6E66;
+    --line:#E9DCCB;
+
+    --peach:#FFDCC8;  --peach-d:#EBA383;
+    --butter:#FFF1B8; --butter-d:#E3C45A;
+    --mint:#D2F0DC;   --mint-d:#7CC49C;
+    --sky:#D5EBF9;    --sky-d:#84BADF;
+    --blush:#FFD8E0;  --blush-d:#EE98AC;
+    --cloud:#EAE4DA;  --cloud-d:#BDB2A3;
+
+    --radius:22px;
+    --font-head:"Fredoka","Nunito",ui-rounded,"SF Pro Rounded","Segoe UI",system-ui,sans-serif;
+    --font-body:"Nunito",ui-rounded,"SF Pro Rounded","Segoe UI",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--cream); color:var(--ink);
+    font-family:var(--font-body); font-weight:600; font-size:16px; line-height:1.45;
+  }
+  h1,h2,h3{font-family:var(--font-head); font-weight:600; margin:0; line-height:1.15}
+  button{font:inherit; color:inherit; cursor:pointer}
+  :focus-visible{outline:3px solid var(--ink); outline-offset:3px}
+
+  .wrap{max-width:980px; margin:0 auto; padding:20px 16px 64px}
+
+  /* ---------- header ---------- */
+  header{display:flex; align-items:center; gap:14px; padding:6px 0 18px}
+  .logo{width:56px; height:56px; flex:none}
+  header h1{font-size:clamp(26px,5vw,36px)}
+  header p{margin:2px 0 0; color:var(--ink-soft); font-weight:700}
+
+  /* ---------- cards ---------- */
+  .card{
+    background:var(--card); border:2.5px solid var(--ink); border-radius:var(--radius);
+    padding:20px; margin-bottom:18px; box-shadow:0 5px 0 var(--line);
+  }
+  .card.peach{background:var(--peach)} .card.mint{background:var(--mint)}
+  .card.sky{background:var(--sky)}     .card.butter{background:var(--butter)}
+  .card.blush{background:var(--blush)}
+  .step{display:flex; align-items:center; gap:10px; margin-bottom:4px}
+  .badge{
+    width:32px; height:32px; border-radius:50%; flex:none; display:grid; place-items:center;
+    background:var(--butter); border:2.5px solid var(--ink); font-family:var(--font-head); font-size:17px;
+  }
+  .card h2{font-size:22px}
+  .hint{margin:2px 0 14px; color:var(--ink-soft); font-weight:700; font-size:15px}
+
+  /* ---------- tabs ---------- */
+  .tabs{display:flex; flex-wrap:wrap; gap:8px; margin:0 0 16px; padding:0; list-style:none}
+  .tab{
+    border:2.5px solid var(--ink); background:var(--card); border-radius:999px; padding:7px 15px;
+    font-weight:800; font-size:15px; transition:transform .12s;
+  }
+  .tab:hover{transform:translateY(-2px)}
+  .tab[aria-selected="true"]{background:var(--peach); box-shadow:0 3px 0 var(--peach-d)}
+
+  .panel[hidden]{display:none}
+
+  /* ---------- option buttons (faces / words / weather / colours) ---------- */
+  .grid{display:grid; gap:10px}
+  .faces{grid-template-columns:repeat(3,1fr)}
+  .weather{grid-template-columns:repeat(2,1fr)}
+  .colors{grid-template-columns:repeat(3,1fr)}
+  @media (min-width:700px){
+    .faces{grid-template-columns:repeat(5,1fr)}
+    .weather{grid-template-columns:repeat(4,1fr)}
+    .colors{grid-template-columns:repeat(5,1fr)}
+  }
+  .opt{
+    display:flex; flex-direction:column; align-items:center; gap:4px; padding:10px 6px 9px;
+    background:var(--card); border:2.5px solid var(--ink); border-radius:18px; font-weight:800; font-size:14px;
+    transition:transform .12s, box-shadow .12s;
+  }
+  .opt:hover{transform:translateY(-3px)}
+  .opt[aria-pressed="true"]{background:var(--butter); box-shadow:0 4px 0 var(--butter-d); transform:translateY(-3px)}
+  .opt svg{width:58px; height:58px}
+  .opt .emoji{font-size:34px; line-height:58px; height:58px}
+  .opt .sub{font-weight:700; color:var(--ink-soft); font-size:12.5px; text-align:center; line-height:1.2}
+  .swatch{width:58px; height:58px; border-radius:50%; border:2.5px solid var(--ink)}
+
+  .chips{display:flex; flex-wrap:wrap; gap:8px}
+  .chip{
+    border:2.5px solid var(--ink); background:var(--card); border-radius:999px; padding:6px 14px;
+    font-weight:800; font-size:15px; transition:transform .12s;
+  }
+  .chip:hover{transform:translateY(-2px)}
+  .chip[aria-pressed="true"]{background:var(--mint); box-shadow:0 3px 0 var(--mint-d)}
+  .chip.static{cursor:default; background:var(--blush)}
+  .chip.static:hover{transform:none}
+
+  /* ---------- sliders ---------- */
+  .slider-row{margin:6px 0 22px}
+  .slider-row label{display:flex; justify-content:space-between; font-weight:800; margin-bottom:6px; gap:8px}
+  .slider-row label span:last-child{color:var(--ink-soft)}
+  input[type=range]{
+    -webkit-appearance:none; appearance:none; width:100%; height:18px; border-radius:999px;
+    border:2.5px solid var(--ink); background:linear-gradient(90deg,var(--sky),var(--butter),var(--peach));
+    margin:0;
+  }
+  input[type=range].v{background:linear-gradient(90deg,var(--sky),var(--cloud),var(--mint),var(--butter))}
+  input[type=range].a{background:linear-gradient(90deg,var(--sky),var(--mint),var(--butter),var(--peach))}
+  input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance:none; width:34px; height:34px; border-radius:50%; background:var(--blush);
+    border:2.5px solid var(--ink); box-shadow:0 3px 0 var(--blush-d); cursor:grab;
+  }
+  input[type=range]::-moz-range-thumb{
+    width:30px; height:30px; border-radius:50%; background:var(--blush);
+    border:2.5px solid var(--ink); box-shadow:0 3px 0 var(--blush-d); cursor:grab;
+  }
+
+  /* ---------- mood map ---------- */
+  .map-wrap{max-width:460px; margin:0 auto}
+  svg.map{width:100%; height:auto; display:block; border:2.5px solid var(--ink); border-radius:20px; touch-action:none; background:var(--card)}
+  svg.map.live{cursor:crosshair}
+  .axis{font-family:var(--font-body); font-weight:800; font-size:3.1px; fill:var(--ink-soft)}
+  .maplabel{font-family:var(--font-body); font-weight:700; font-size:3.1px; fill:#8D7F76; pointer-events:none}
+
+  /* ---------- write-it ---------- */
+  textarea{
+    width:100%; min-height:110px; resize:vertical; padding:12px 14px; font:inherit; font-weight:700; color:var(--ink);
+    background:var(--card); border:2.5px solid var(--ink); border-radius:18px;
+  }
+  textarea::placeholder{color:#A99B91}
+  .heard{display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; min-height:38px; align-items:center}
+
+  /* ---------- live mood summary ---------- */
+  .summary{display:flex; gap:16px; align-items:center; margin-top:20px; padding:14px 16px; background:var(--cream); border:2.5px dashed var(--ink-soft); border-radius:20px}
+  .summary svg{width:76px; height:76px; flex:none}
+  .summary .txt{flex:1; min-width:0}
+  .summary h3{font-size:20px; margin-bottom:6px}
+  .meter{display:flex; align-items:center; gap:8px; font-size:13.5px; font-weight:800; margin-top:4px}
+  .meter b{width:92px; flex:none; color:var(--ink-soft); font-weight:800}
+  .bar{flex:1; height:12px; border:2px solid var(--ink); border-radius:99px; background:var(--card); overflow:hidden}
+  .bar i{display:block; height:100%; border-right:2px solid var(--ink); background:var(--mint); transition:width .25s}
+  .bar.a i{background:var(--peach)}
+  .empty-note{color:var(--ink-soft); font-weight:700}
+
+  /* ---------- buttons ---------- */
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    border:2.5px solid var(--ink); background:var(--peach); border-radius:999px; padding:12px 24px;
+    font-family:var(--font-head); font-weight:600; font-size:19px;
+    box-shadow:0 5px 0 var(--peach-d); transition:transform .1s, box-shadow .1s;
+  }
+  .btn:hover:not(:disabled){transform:translateY(-2px); box-shadow:0 7px 0 var(--peach-d)}
+  .btn:active:not(:disabled){transform:translateY(4px); box-shadow:0 1px 0 var(--peach-d)}
+  .btn:disabled{background:var(--cloud); box-shadow:0 5px 0 var(--cloud-d); color:#8D8176; cursor:not-allowed}
+  .btn.mint{background:var(--mint); box-shadow:0 5px 0 var(--mint-d)}
+  .btn.sky{background:var(--sky); box-shadow:0 5px 0 var(--sky-d)}
+  .btn.blush{background:var(--blush); box-shadow:0 5px 0 var(--blush-d)}
+  .btn.small{font-size:16px; padding:8px 16px}
+  .cta{display:flex; flex-direction:column; align-items:center; gap:10px; margin-top:6px}
+  .cta .note{color:var(--ink-soft); font-weight:700; min-height:22px; text-align:center}
+
+  .seg{display:flex; flex-wrap:wrap; gap:8px}
+
+  .error{
+    background:var(--blush); border:2.5px solid var(--ink); border-radius:18px; padding:12px 16px;
+    margin-bottom:16px; font-weight:800;
+  }
+  .error code{background:var(--card); padding:1px 7px; border-radius:8px; border:2px solid var(--ink)}
+  .error[hidden]{display:none}
+
+  /* ---------- playing screen ---------- */
+  .play-grid{display:grid; grid-template-columns:1fr 1fr; gap:18px; align-items:start}
+  @media (max-width:760px){ .play-grid{grid-template-columns:1fr} }
+  .now{display:flex; flex-direction:column; gap:14px}
+  .now .disc{
+    width:104px; height:104px; border-radius:50%; background:var(--butter); border:2.5px solid var(--ink);
+    display:grid; place-items:center; position:relative; flex:none;
+  }
+  .now .disc::after{content:""; width:26px; height:26px; border-radius:50%; background:var(--cream); border:2.5px solid var(--ink)}
+  .now .disc.spin{animation:spin 6s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .now h2{font-size:26px; overflow-wrap:anywhere}
+  .now .artist{color:var(--ink-soft); font-weight:800}
+  .tag{display:inline-block; font-size:13px; font-weight:800; padding:3px 11px; border:2px solid var(--ink); border-radius:99px; background:var(--card)}
+  .tag.clip{background:var(--cloud)}
+  .dots{display:flex; gap:6px; flex-wrap:wrap}
+  .dots i{width:14px; height:14px; border-radius:50%; border:2px solid var(--ink); background:var(--card)}
+  .dots i.done{background:var(--mint)} .dots i.skip{background:var(--peach)} .dots i.love{background:var(--blush)}
+  .dots i.cur{background:var(--butter); transform:scale(1.25)}
+  .bubble{
+    background:var(--butter); border:2.5px solid var(--ink); border-radius:18px; padding:9px 14px; font-weight:800; font-size:15px;
+  }
+  .bubble[hidden]{display:none}
+  .actions{display:flex; flex-wrap:wrap; gap:10px}
+  .audio-note{font-size:13.5px; color:var(--ink-soft); font-weight:700}
+  .tracklist{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:6px}
+  .tracklist li{display:flex; gap:10px; align-items:center; font-size:14.5px}
+  .tracklist .n{width:24px; height:24px; border-radius:50%; border:2px solid var(--ink); display:grid; place-items:center; font-size:12px; font-weight:800; flex:none; background:var(--card)}
+  .tracklist li.skip .n{background:var(--peach)} .tracklist li.love .n{background:var(--blush)} .tracklist li.ok .n{background:var(--mint)}
+  .tracklist .t{flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .legend{display:flex; gap:14px; flex-wrap:wrap; font-size:13px; font-weight:800; color:var(--ink-soft); margin-top:10px}
+  .legend span::before{content:""; display:inline-block; width:12px; height:12px; border-radius:50%; border:2px solid var(--ink); margin-right:6px; vertical-align:-1px}
+  .legend .l-you::before{background:var(--sky)} .legend .l-goal::before{background:var(--butter)}
+  .legend .l-song::before{background:var(--mint)} .legend .l-ideal::before{background:var(--cloud)}
+
+  /* ---------- done screen ---------- */
+  .stars{display:flex; gap:6px}
+  .star{background:none; border:none; padding:2px; line-height:0}
+  .star svg{width:42px; height:42px}
+  .star path{fill:var(--card); stroke:var(--ink); stroke-width:2.5; stroke-linejoin:round; transition:fill .12s}
+  .star.on path{fill:var(--butter)}
+  .result-faces .opt svg{width:48px; height:48px}
+  .stat-row{display:flex; flex-wrap:wrap; gap:10px; margin:12px 0}
+  .stat{background:var(--card); border:2.5px solid var(--ink); border-radius:16px; padding:8px 14px; min-width:120px}
+  .stat b{display:block; font-family:var(--font-head); font-size:24px}
+  .stat span{font-size:13px; color:var(--ink-soft); font-weight:800}
+
+  .pop{animation:pop .28s ease-out}
+  @keyframes pop{0%{transform:scale(.94)} 60%{transform:scale(1.03)} 100%{transform:scale(1)}}
+  .sr{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap}
+
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none !important; transition:none !important}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <svg class="logo" viewBox="0 0 100 100" aria-hidden="true">
+      <circle cx="50" cy="52" r="40" fill="#FFF1B8" stroke="#4A3F3A" stroke-width="4"/>
+      <circle cx="36" cy="48" r="4.5" fill="#4A3F3A"/><circle cx="64" cy="48" r="4.5" fill="#4A3F3A"/>
+      <ellipse cx="27" cy="60" rx="6" ry="4" fill="#FFB7C3"/><ellipse cx="73" cy="60" rx="6" ry="4" fill="#FFB7C3"/>
+      <path d="M40 62 Q50 72 60 62" fill="none" stroke="#4A3F3A" stroke-width="4" stroke-linecap="round"/>
+      <path d="M72 14 v18 M72 14 q10 2 10 8" fill="none" stroke="#4A3F3A" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="66" cy="33" r="5.5" fill="#D2F0DC" stroke="#4A3F3A" stroke-width="3.5"/>
+    </svg>
+    <div>
+      <h1>iso·mood</h1>
+      <p>Music that meets you where you are, then walks you somewhere gentler.</p>
+    </div>
+  </header>
+
+  <div id="error" class="error" role="alert" hidden></div>
+
+  <!-- =================== SCREEN 1: pick moods =================== -->
+  <main id="screen-mood">
+
+    <section class="card" aria-labelledby="h-now">
+      <div class="step"><span class="badge">1</span><h2 id="h-now">How are you feeling right now?</h2></div>
+      <p class="hint">Pick whichever way feels easiest. They all point at the same place, so switch any time.</p>
+
+      <ul class="tabs" role="tablist" aria-label="Ways to say how you feel" id="tabs"></ul>
+
+      <div id="panel-faces" class="panel" role="tabpanel"><div class="grid faces" id="faces"></div></div>
+
+      <div id="panel-words" class="panel" role="tabpanel" hidden>
+        <div class="chips" id="words"></div>
+      </div>
+
+      <div id="panel-map" class="panel" role="tabpanel" hidden>
+        <p class="hint" style="margin-top:0">Tap or drag anywhere. Left to right is how pleasant, bottom to top is how much energy.</p>
+        <div class="map-wrap"><svg id="pickmap" class="map live" viewBox="0 0 100 100" tabindex="0" role="application"
+          aria-label="Mood map. Use arrow keys to move the marker. Horizontal is pleasantness, vertical is energy."></svg></div>
+      </div>
+
+      <div id="panel-sliders" class="panel" role="tabpanel" hidden>
+        <div class="slider-row">
+          <label for="sl-v"><span>How pleasant?</span><span id="sl-v-out"></span></label>
+          <input type="range" id="sl-v" class="v" min="0" max="100" value="50">
+          <label style="font-size:13px; margin:6px 0 0"><span>🌧️ yucky</span><span>lovely 🌼</span></label>
+        </div>
+        <div class="slider-row">
+          <label for="sl-a"><span>How much energy?</span><span id="sl-a-out"></span></label>
+          <input type="range" id="sl-a" class="a" min="0" max="100" value="40">
+          <label style="font-size:13px; margin:6px 0 0"><span>🌙 sleepy</span><span>buzzing ⚡</span></label>
+        </div>
+      </div>
+
+      <div id="panel-weather" class="panel" role="tabpanel" hidden>
+        <p class="hint" style="margin-top:0">If your mood were the weather inside you…</p>
+        <div class="grid weather" id="weather"></div>
+      </div>
+
+      <div id="panel-colors" class="panel" role="tabpanel" hidden>
+        <p class="hint" style="margin-top:0">Which colour feels most like today?</p>
+        <div class="grid colors" id="colors"></div>
+      </div>
+
+      <div id="panel-write" class="panel" role="tabpanel" hidden>
+        <label for="free" class="hint" style="display:block; margin-top:0">Say it in your own words. I'll listen for feeling words.</label>
+        <textarea id="free" placeholder="e.g. so tired and a little anxious about tomorrow…"></textarea>
+        <div class="heard" id="heard" aria-live="polite"></div>
+      </div>
+
+      <div class="summary" id="summary" aria-live="polite"></div>
+    </section>
+
+    <section class="card" aria-labelledby="h-want">
+      <div class="step"><span class="badge">2</span><h2 id="h-want">How would you like to feel?</h2></div>
+      <p class="hint">I won't jump you there. I'll start with music that matches how you feel now, then ease across.</p>
+      <div class="grid faces" id="targets"></div>
+    </section>
+
+    <section class="card" aria-labelledby="h-len">
+      <div class="step"><span class="badge">3</span><h2 id="h-len">How long should the journey be?</h2></div>
+      <p class="hint">Not sure? Let me pick. I learn your pace over time.</p>
+      <div class="seg" id="lengths"></div>
+    </section>
+
+    <div class="cta">
+      <button class="btn" id="go" disabled>Make my playlist 🎶</button>
+      <div class="note" id="go-note">Pick how you feel first ☝️</div>
+    </div>
+  </main>
+
+  <!-- =================== SCREEN 2: listening =================== -->
+  <main id="screen-play" hidden>
+    <div class="play-grid">
+      <section class="card peach now" aria-live="polite">
+        <div style="display:flex; gap:16px; align-items:center">
+          <div class="disc spin" id="disc" aria-hidden="true"></div>
+          <div style="min-width:0">
+            <div class="tag" id="phase">getting ready…</div>
+            <h2 id="song-title" style="margin-top:8px">…</h2>
+            <div class="artist" id="song-artist"></div>
+          </div>
+        </div>
+        <div class="dots" id="dots" aria-label="Playlist progress"></div>
+        <div class="bubble" id="bubble" hidden>🐾 Got it. Taking smaller, gentler steps from here.</div>
+        <div class="actions">
+          <button class="btn mint small" id="b-ok">▶ Next song</button>
+          <button class="btn blush small" id="b-love">💗 Loved it</button>
+          <button class="btn sky small" id="b-skip">⏭ Skip</button>
+        </div>
+        <div class="audio-note">Audio playback isn't connected yet. These buttons tell the planner how each song would have felt.</div>
+      </section>
+
+      <section class="card">
+        <h2 style="font-size:20px; margin-bottom:8px">Your mood path</h2>
+        <svg id="pathmap" class="map" viewBox="0 0 100 100" role="img" aria-label="Map of the planned mood path"></svg>
+        <div class="legend"><span class="l-you">you now</span><span class="l-goal">goal</span><span class="l-ideal">ideal path</span><span class="l-song">songs</span></div>
+      </section>
+    </div>
+
+    <section class="card">
+      <h2 style="font-size:20px; margin-bottom:10px">Playlist so far</h2>
+      <ol class="tracklist" id="tracklist"></ol>
+    </section>
+  </main>
+
+  <!-- =================== SCREEN 3: finished =================== -->
+  <main id="screen-done" hidden>
+    <section class="card mint" id="done-ask">
+      <h2>You made it to the end 🌱</h2>
+      <p class="hint">Two quick things, both optional, so I can learn what works for you.</p>
+
+      <h3 style="font-size:18px; margin:16px 0 8px">How do you feel now?</h3>
+      <div class="grid faces result-faces" id="end-faces"></div>
+
+      <h3 style="font-size:18px; margin:18px 0 8px">How was the journey?</h3>
+      <div class="stars" id="stars" role="radiogroup" aria-label="Rating"></div>
+
+      <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:20px">
+        <button class="btn" id="finish">Save &amp; finish</button>
+      </div>
+    </section>
+
+    <section class="card butter" id="done-result" hidden>
+      <h2 id="res-title">Thank you 💛</h2>
+      <p class="hint" id="res-sub"></p>
+      <div class="stat-row" id="res-stats"></div>
+      <p id="res-learn" style="margin:8px 0 16px; font-weight:700"></p>
+      <button class="btn" id="again">Another journey 🌤️</button>
+    </section>
+  </main>
+</div>
+
+<script>
+"use strict";
+
+/* ====================================================================
+   Mood vocabulary. Every entry is a point in valence–arousal space
+   (v: unpleasant 0 → pleasant 1,  a: sleepy 0 → energised 1),
+   the same space the planner works in.
+   ==================================================================== */
+
+const FACES = [
+  {k:"sad",     label:"sad",      v:.15, a:.25, eyes:"droop",  mouth:"frown",  fill:"#D5EBF9", extra:["tear"]},
+  {k:"tired",   label:"tired",    v:.40, a:.10, eyes:"flat",   mouth:"small",  fill:"#E3EEF3", extra:["zzz"]},
+  {k:"bored",   label:"meh",      v:.38, a:.28, eyes:"half",   mouth:"flat",   fill:"#EAE4DA", extra:[]},
+  {k:"calm",    label:"calm",     v:.78, a:.18, eyes:"arc",    mouth:"small",  fill:"#D2F0DC", extra:["cheeks"]},
+  {k:"content", label:"content",  v:.70, a:.38, eyes:"dot",    mouth:"smile",  fill:"#E2F4D8", extra:["cheeks"]},
+  {k:"happy",   label:"happy",    v:.86, a:.65, eyes:"big",    mouth:"open",   fill:"#FFF1B8", extra:["cheeks"]},
+  {k:"excited", label:"excited",  v:.88, a:.90, eyes:"spark",  mouth:"wide",   fill:"#FFE2B8", extra:["cheeks"]},
+  {k:"anxious", label:"anxious",  v:.22, a:.78, eyes:"wide",   mouth:"wavy",   fill:"#FFDCC8", extra:["sweat","worry"]},
+  {k:"angry",   label:"angry",    v:.12, a:.90, eyes:"dot",    mouth:"grr",    fill:"#FFC9B8", extra:["angry"]},
+];
+
+const WORDS = [
+  ["sad",.15,.25,"sad"],["gloomy",.20,.20,"sad"],["lonely",.20,.30,"sad"],["tired",.40,.12,"tired"],["sleepy",.50,.08,"tired"],
+  ["bored",.35,.25,"bored"],["meh",.45,.35,"bored"],["calm",.78,.20,"calm"],["peaceful",.82,.15,"calm"],["cozy",.75,.25,"calm"],
+  ["content",.70,.35,"content"],["hopeful",.70,.50,"content"],["focused",.62,.50,"content"],["happy",.86,.65,"happy"],["cheerful",.85,.60,"happy"],
+  ["playful",.80,.75,"happy"],["excited",.88,.90,"excited"],["energetic",.72,.88,"excited"],["restless",.35,.70,"anxious"],
+  ["nervous",.30,.72,"anxious"],["anxious",.20,.78,"anxious"],["stressed",.18,.80,"anxious"],["frustrated",.20,.75,"angry"],
+  ["overwhelmed",.15,.85,"anxious"],["angry",.12,.90,"angry"],
+].map(([w,v,a,face])=>({w,v,a,face}));
+const faceOfWord = w => FACES.find(f => f.k === w.face);
+
+// Greedy placement so map labels never overlap each other, the axis captions or the centre lines.
+const LABELS = (() => {
+  const CW = 2.0, H = 3.8;
+  const placed = [{x0:3,x1:24,y0:94,y1:100},{x0:78,x1:98,y0:94,y1:100},{x0:3,x1:19,y0:2.5,y1:9}];
+  const fits = (x,y,len) => {
+    const hw = len*CW/2, b = {x0:x-hw, x1:x+hw, y0:y-H/2, y1:y+H/2};
+    if (b.x0<2 || b.x1>98 || b.y0<2 || b.y1>93) return null;
+    if (b.x0<50.8 && b.x1>49.2) return null;
+    if (b.y0<50.8 && b.y1>49.2) return null;
+    return placed.some(p => !(b.x1+.6<p.x0 || p.x1+.6<b.x0 || b.y1+.4<p.y0 || p.y1+.4<b.y0)) ? null : b;
+  };
+  const dirs = [[0,-1],[0,1],[1,0],[-1,0],[1,-1],[-1,-1],[1,1],[-1,1],[.5,-1],[-.5,-1],[.5,1],[-.5,1],[1,-.5],[-1,-.5],[1,.5],[-1,.5]];
+  const out = [];
+  for (const w of WORDS){
+    const x0 = w.v*100, y0 = (1-w.a)*100;
+    let spot = null;
+    for (const r of [0,3,6,9,12,16,20,24,28]){
+      for (const [dx,dy] of (r ? dirs : [[0,0]])){
+        const x = x0 + dx*r*1.6, y = y0 + dy*r, b = fits(x,y,w.w.length);
+        if (b){ placed.push(b); spot = {x,y}; break; }
+      }
+      if (spot) break;
+    }
+    if (spot) out.push({w:w.w, x:spot.x, y:spot.y});   // no room anywhere -> leave the label off the map (still a chip in Words)
+  }
+  return out;
+})();
+
+// extra ways people say the same thing → one of the WORDS above
+const SYNONYMS = {
+  exhausted:"tired", drained:"tired", worn:"tired", lazy:"tired", "burnt out":"tired", "burned out":"tired",
+  down:"sad", blue:"sad", depressed:"sad", upset:"sad", heartbroken:"sad", homesick:"lonely",
+  mad:"angry", furious:"angry", irritated:"frustrated", annoyed:"frustrated",
+  worried:"anxious", scared:"anxious", afraid:"anxious", panicky:"anxious", tense:"stressed", "stressed out":"stressed",
+  relaxed:"calm", chill:"calm", serene:"peaceful", comfy:"cozy", fine:"content", good:"content", okay:"meh", ok:"meh",
+  numb:"meh", whatever:"meh", joyful:"happy", great:"happy", glad:"happy", amazing:"excited", thrilled:"excited",
+  pumped:"energetic", hyper:"energetic", wired:"restless", jittery:"restless", drowsy:"sleepy",
+};
+
+const WEATHER = [
+  {e:"☀️", label:"sunny",        sub:"bright and easy",       v:.85, a:.62},
+  {e:"🌈", label:"rainbow-y",    sub:"light after rain",      v:.90, a:.72},
+  {e:"⛅", label:"a bit cloudy", sub:"mostly okay",            v:.60, a:.42},
+  {e:"☁️", label:"grey & heavy", sub:"low and slow",          v:.35, a:.22},
+  {e:"🌧️", label:"drizzly",      sub:"soft and sad",           v:.22, a:.28},
+  {e:"⛈️", label:"stormy",       sub:"loud inside",            v:.15, a:.90},
+  {e:"🌬️", label:"windy",        sub:"can't settle",           v:.42, a:.75},
+  {e:"🌫️", label:"foggy",        sub:"slow and blurry",        v:.45, a:.12},
+];
+
+const COLORS = [
+  {hex:"#FFE98A", label:"sunshine",  sub:"bright and bubbly",    v:.88, a:.72},
+  {hex:"#FFC9A8", label:"apricot",   sub:"warm and glowy",       v:.70, a:.52},
+  {hex:"#FF9E8A", label:"coral",     sub:"hot and fizzy",        v:.20, a:.88},
+  {hex:"#FFB8C6", label:"rose",      sub:"tender and fond",      v:.82, a:.40},
+  {hex:"#BFE8CB", label:"mint",      sub:"fresh and calm",       v:.78, a:.22},
+  {hex:"#CFE0A8", label:"sage",      sub:"steady and okay",      v:.60, a:.35},
+  {hex:"#A9D4F0", label:"sky",       sub:"open and quiet",       v:.55, a:.28},
+  {hex:"#8FB4D0", label:"denim",     sub:"blue and low",         v:.25, a:.22},
+  {hex:"#D8D0C2", label:"cloud",     sub:"flat and tired",       v:.38, a:.12},
+];
+
+const TARGETS = [
+  {k:"calm",    label:"calm",      v:.78, a:.20, face:"calm"},
+  {k:"cheerful",label:"cheerful",  v:.86, a:.62, face:"happy"},
+  {k:"energy",  label:"energised", v:.78, a:.88, face:"excited"},
+  {k:"focus",   label:"focused",   v:.62, a:.50, face:"content"},
+  {k:"sleepy",  label:"wound down",v:.62, a:.08, face:"tired"},
+];
+
+const LENGTHS = [
+  {label:"✨ Let me pick", n:null},
+  {label:"Short · 6",      n:6},
+  {label:"Medium · 10",    n:10},
+  {label:"Long · 15",      n:15},
+];
+
+const TABS = [
+  ["faces","Faces"],["words","Words"],["map","Mood map"],["sliders","Sliders"],
+  ["weather","Weather"],["colors","Colours"],["write","Write it"],
+];
+
+/* ====================================================================
+   Little helpers
+   ==================================================================== */
+const $ = (s, r=document) => r.querySelector(s);
+const clamp = (x, lo=0.03, hi=0.97) => Math.min(hi, Math.max(lo, x));
+const dist = (v1,a1,v2,a2) => Math.hypot(v1-v2, a1-a2);
+const nearest = (list, v, a) => list.reduce((b,x)=> dist(x.v,x.a,v,a) < dist(b.v,b.a,v,a) ? x : b);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const level = (x, words) => words[Math.min(words.length-1, Math.floor(x * words.length))];
+
+/* ---------- kawaii faces (inline SVG, 100×100 box) ---------- */
+const INK = "#4A3F3A";
+function faceInner(f){
+  const s = `stroke="${INK}" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"`;
+  let o = `<circle cx="50" cy="50" r="44" fill="${f.fill}" stroke="${INK}" stroke-width="3.6"/>`;
+  if (f.extra.includes("cheeks")) o += `<ellipse cx="24" cy="60" rx="7" ry="4.5" fill="#FFB7C3"/><ellipse cx="76" cy="60" rx="7" ry="4.5" fill="#FFB7C3"/>`;
+
+  const L=[34,46], R=[66,46];
+  const eye = (c,i) => {
+    switch(f.eyes){
+      case "dot":   return `<circle cx="${c[0]}" cy="${c[1]}" r="4.6" fill="${INK}"/>`;
+      case "big":   return `<circle cx="${c[0]}" cy="${c[1]}" r="6" fill="${INK}"/><circle cx="${c[0]+2}" cy="${c[1]-2.2}" r="2" fill="#fff"/>`;
+      case "droop": return `<circle cx="${c[0]}" cy="${c[1]+2}" r="4.6" fill="${INK}"/><circle cx="${c[0]+1.6}" cy="${c[1]}" r="1.5" fill="#fff"/>`;
+      case "flat":  return `<path d="M${c[0]-7} ${c[1]+1} H${c[0]+7}" fill="none" ${s}/>`;
+      case "arc":   return `<path d="M${c[0]-7} ${c[1]+2} Q${c[0]} ${c[1]-7} ${c[0]+7} ${c[1]+2}" fill="none" ${s}/>`;
+      case "half":  return `<circle cx="${c[0]}" cy="${c[1]+2}" r="3.6" fill="${INK}"/><path d="M${c[0]-7} ${c[1]-1.5} H${c[0]+7}" fill="none" ${s}/>`;
+      case "wide":  return `<circle cx="${c[0]}" cy="${c[1]}" r="7.4" fill="#fff" stroke="${INK}" stroke-width="3"/><circle cx="${c[0]}" cy="${c[1]+.5}" r="2.6" fill="${INK}"/>`;
+      case "spark": { const x=c[0], y=c[1];
+        return `<path d="M${x} ${y-8} L${x+2.6} ${y-2.6} L${x+8} ${y} L${x+2.6} ${y+2.6} L${x} ${y+8} L${x-2.6} ${y+2.6} L${x-8} ${y} L${x-2.6} ${y-2.6} Z" fill="${INK}"/>`; }
+    }
+    return "";
+  };
+  o += eye(L,0) + eye(R,1);
+
+  if (f.extra.includes("angry")) o += `<path d="M24 35 L43 41 M76 35 L57 41" fill="none" ${s}/>`;
+  if (f.extra.includes("worry")) o += `<path d="M25 37 L42 31 M75 37 L58 31" fill="none" ${s}/>`;
+  if (f.extra.includes("tear"))  o += `<path d="M30 55 q-4 7 0 10 q4 -3 0 -10z" fill="#A9D4F0" stroke="${INK}" stroke-width="2.2" stroke-linejoin="round"/>`;
+  if (f.extra.includes("sweat")) o += `<path d="M80 26 q-5 8 0 11 q5 -3 0 -11z" fill="#A9D4F0" stroke="${INK}" stroke-width="2.2" stroke-linejoin="round"/>`;
+  if (f.extra.includes("zzz"))   o += `<text x="74" y="30" font-family="Fredoka,Nunito,sans-serif" font-weight="600" font-size="17" fill="${INK}">z</text><text x="82" y="20" font-family="Fredoka,Nunito,sans-serif" font-weight="600" font-size="11" fill="${INK}">z</text>`;
+
+  switch(f.mouth){
+    case "smile": o += `<path d="M38 63 Q50 74 62 63" fill="none" ${s}/>`; break;
+    case "small": o += `<path d="M43 64 Q50 69 57 64" fill="none" ${s}/>`; break;
+    case "flat":  o += `<path d="M41 67 H59" fill="none" ${s}/>`; break;
+    case "frown": o += `<path d="M39 70 Q50 59 61 70" fill="none" ${s}/>`; break;
+    case "wavy":  o += `<path d="M36 67 Q42 61 47 67 T58 67 T64 67" fill="none" ${s}/>`; break;
+    case "grr":   o += `<path d="M39 69 Q50 62 61 69" fill="none" ${s}/>`; break;
+    case "open":  o += `<path d="M36 60 Q50 80 64 60 Z" fill="${INK}" ${s}/><path d="M43 70 Q50 66 57 70 Q50 76 43 70Z" fill="#FF9DB0"/>`; break;
+    case "wide":  o += `<path d="M33 58 Q50 86 67 58 Z" fill="${INK}" ${s}/><path d="M41 72 Q50 66 59 72 Q50 80 41 72Z" fill="#FF9DB0"/>`; break;
+  }
+  return o;
+}
+const faceSVG = (f, cls="") => `<svg viewBox="0 0 100 100" class="${cls}" aria-hidden="true">${faceInner(f)}</svg>`;
+
+/* ====================================================================
+   State
+   ==================================================================== */
+const state = {
+  mood: {v:.5, a:.4}, hasMood:false, tab:"faces", pick:null,
+  target: TARGETS[0], n: null,
+  sid:null, plan:null, picks:[], current:null, busy:false,
+  endMood:null, rating:null,
+};
+
+function userId(){
+  try{
+    let id = localStorage.getItem("isomood_uid");
+    if (!id){
+      const b = new Uint8Array(9); crypto.getRandomValues(b);
+      id = "u-" + Array.from(b, x=>x.toString(16).padStart(2,"0")).join("");
+      localStorage.setItem("isomood_uid", id);
+    }
+    return id;
+  }catch(e){ return "u-" + Math.random().toString(16).slice(2,14); }
+}
+
+function showError(html){ const e=$("#error"); e.innerHTML=html; e.hidden=false; e.scrollIntoView({behavior:"smooth",block:"nearest"}); }
+function clearError(){ $("#error").hidden = true; }
+
+async function api(path, body){
+  let res;
+  try{
+    res = await fetch(path, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(body||{})});
+  }catch(e){
+    throw new Error("Can't reach the planner. Is <code>python webapp/app.py</code> running?");
+  }
+  let data = {};
+  try{ data = await res.json(); }catch(e){}
+  if (!res.ok) throw new Error(data.error || ("Something went wrong (" + res.status + ")"));
+  return data;
+}
+
+/* ====================================================================
+   Screen 1: mood input
+   ==================================================================== */
+function setMood(v, a, pick=null){
+  state.mood = {v:clamp(v), a:clamp(a)};
+  state.hasMood = true;
+  state.pick = pick;       // {tab, key} so only the control that was used shows as selected
+  renderPressed();
+  renderSummary();
+  syncSliders();
+  drawPickMap();
+  updateGo();
+}
+
+function renderTabs(){
+  const ul = $("#tabs");
+  ul.innerHTML = TABS.map(([k,l]) =>
+    `<li role="presentation"><button class="tab" role="tab" id="tab-${k}" aria-controls="panel-${k}"
+      aria-selected="${state.tab===k}" tabindex="${state.tab===k?0:-1}" data-tab="${k}">${l}</button></li>`).join("");
+  ul.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => selectTab(b.dataset.tab)));
+  ul.addEventListener("keydown", e => {
+    if (!["ArrowLeft","ArrowRight"].includes(e.key)) return;
+    const keys = TABS.map(t=>t[0]);
+    const i = keys.indexOf(state.tab);
+    const j = (i + (e.key==="ArrowRight"?1:-1) + keys.length) % keys.length;
+    selectTab(keys[j]); $("#tab-"+keys[j]).focus();
+  });
+}
+function selectTab(k){
+  state.tab = k;
+  TABS.forEach(([key]) => {
+    $("#panel-"+key).hidden = key !== k;
+    const t = $("#tab-"+key); t.setAttribute("aria-selected", key===k); t.tabIndex = key===k?0:-1;
+  });
+  if (k==="map") drawPickMap();
+}
+
+function buildOptions(){
+  $("#faces").innerHTML = FACES.map(f =>
+    `<button class="opt" data-pick="faces:${f.k}" aria-pressed="false">${faceSVG(f)}<span>${f.label}</span></button>`).join("");
+  $("#faces").addEventListener("click", e => {
+    const b = e.target.closest("[data-pick]"); if(!b) return;
+    const f = FACES.find(x => "faces:"+x.k === b.dataset.pick);
+    setMood(f.v, f.a, {tab:"faces", key:f.k});
+  });
+
+  $("#words").innerHTML = WORDS.map(w =>
+    `<button class="chip" data-pick="words:${w.w}" aria-pressed="false">${w.w}</button>`).join("");
+  $("#words").addEventListener("click", e => {
+    const b = e.target.closest("[data-pick]"); if(!b) return;
+    const w = WORDS.find(x => "words:"+x.w === b.dataset.pick);
+    setMood(w.v, w.a, {tab:"words", key:w.w});
+  });
+
+  $("#weather").innerHTML = WEATHER.map(w =>
+    `<button class="opt" data-pick="weather:${w.label}" aria-pressed="false"><span class="emoji" aria-hidden="true">${w.e}</span><span>${w.label}</span><span class="sub">${w.sub}</span></button>`).join("");
+  $("#weather").addEventListener("click", e => {
+    const b = e.target.closest("[data-pick]"); if(!b) return;
+    const w = WEATHER.find(x => "weather:"+x.label === b.dataset.pick);
+    setMood(w.v, w.a, {tab:"weather", key:w.label});
+  });
+
+  $("#colors").innerHTML = COLORS.map(c =>
+    `<button class="opt" data-pick="colors:${c.label}" aria-pressed="false"><span class="swatch" style="background:${c.hex}" aria-hidden="true"></span><span>${c.label}</span><span class="sub">${c.sub}</span></button>`).join("");
+  $("#colors").addEventListener("click", e => {
+    const b = e.target.closest("[data-pick]"); if(!b) return;
+    const c = COLORS.find(x => "colors:"+x.label === b.dataset.pick);
+    setMood(c.v, c.a, {tab:"colors", key:c.label});
+  });
+
+  // targets
+  $("#targets").innerHTML = TARGETS.map(t => {
+    const f = FACES.find(x => x.k === t.face);
+    return `<button class="opt" data-target="${t.k}" aria-pressed="${state.target.k===t.k}">${faceSVG(f)}<span>${t.label}</span></button>`;
+  }).join("");
+  $("#targets").addEventListener("click", e => {
+    const b = e.target.closest("[data-target]"); if(!b) return;
+    state.target = TARGETS.find(t => t.k === b.dataset.target);
+    $("#targets").querySelectorAll(".opt").forEach(x => x.setAttribute("aria-pressed", x.dataset.target === state.target.k));
+  });
+
+  // lengths
+  $("#lengths").innerHTML = LENGTHS.map((l,i) =>
+    `<button class="chip" data-len="${i}" aria-pressed="${l.n===state.n}">${l.label}</button>`).join("");
+  $("#lengths").addEventListener("click", e => {
+    const b = e.target.closest("[data-len]"); if(!b) return;
+    state.n = LENGTHS[+b.dataset.len].n;
+    $("#lengths").querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", LENGTHS[+x.dataset.len].n === state.n));
+  });
+}
+
+function renderPressed(){
+  const p = state.pick;
+  document.querySelectorAll("[data-pick]").forEach(b =>
+    b.setAttribute("aria-pressed", !!p && b.dataset.pick === p.tab + ":" + p.key));
+}
+
+/* ---------- live summary ---------- */
+const PLEASANT = ["very low","low","so-so","pleasant","very pleasant"];
+const ENERGY   = ["very sleepy","low energy","steady","lively","buzzing"];
+
+function renderSummary(){
+  const box = $("#summary");
+  if (!state.hasMood){
+    box.innerHTML = `<div class="empty-note">Your mood will show up here as you choose 🌼</div>`;
+    return;
+  }
+  const {v,a} = state.mood;
+  const w = nearest(WORDS, v, a), f = faceOfWord(w);
+  box.innerHTML = `
+    ${faceSVG(f, "pop")}
+    <div class="txt">
+      <h3>Sounds like: ${esc(w.w)}</h3>
+      <div class="meter"><b>pleasantness</b><div class="bar"><i style="width:${Math.round(v*100)}%"></i></div></div>
+      <div class="meter"><b>energy</b><div class="bar a"><i style="width:${Math.round(a*100)}%"></i></div></div>
+      <span class="sr">${level(v,PLEASANT)} pleasantness, ${level(a,ENERGY)}</span>
+    </div>`;
+}
+
+/* ---------- sliders ---------- */
+function syncSliders(){
+  const sv=$("#sl-v"), sa=$("#sl-a");
+  if (document.activeElement !== sv) sv.value = Math.round(state.mood.v*100);
+  if (document.activeElement !== sa) sa.value = Math.round(state.mood.a*100);
+  $("#sl-v-out").textContent = level(state.mood.v, PLEASANT);
+  $("#sl-a-out").textContent = level(state.mood.a, ENERGY);
+}
+function wireSliders(){
+  const onInput = () => setMood($("#sl-v").value/100, $("#sl-a").value/100, null);
+  $("#sl-v").addEventListener("input", onInput);
+  $("#sl-a").addEventListener("input", onInput);
+}
+
+/* ---------- mood map (interactive) ---------- */
+function mapBase(){
+  // quadrants: x = valence, y = arousal (top = high)
+  return `
+    <rect x="0"  y="0"  width="50" height="50" fill="#FFDCC8"/>
+    <rect x="50" y="0"  width="50" height="50" fill="#FFF1B8"/>
+    <rect x="0"  y="50" width="50" height="50" fill="#D5EBF9"/>
+    <rect x="50" y="50" width="50" height="50" fill="#D2F0DC"/>
+    <path d="M50 0 V100 M0 50 H100" stroke="#BDB2A3" stroke-width=".5" stroke-dasharray="1.4 1.4" fill="none"/>`;
+}
+function wordLabels(){
+  return LABELS.map(l => `<text class="maplabel" x="${l.x.toFixed(1)}" y="${l.y.toFixed(1)}" text-anchor="middle" dominant-baseline="middle">${l.w}</text>`).join("");
+}
+function axisLabels(){
+  return `
+    <text class="axis" x="3" y="97">😔 unpleasant</text>
+    <text class="axis" x="97" y="97" text-anchor="end">pleasant 🌼</text>
+    <text class="axis" x="3" y="6.5">⚡ buzzing</text>`;
+}
+function drawPickMap(){
+  const svg = $("#pickmap");
+  const {v,a} = state.mood;
+  const f = faceOfWord(nearest(WORDS, v, a));
+  const dot = state.hasMood
+    ? `<g transform="translate(${v*100} ${(1-a)*100}) scale(.13) translate(-50 -50)">${faceInner(f)}</g>
+       <circle cx="${v*100}" cy="${(1-a)*100}" r="7.4" fill="none" stroke="${INK}" stroke-width=".7" stroke-dasharray="1.6 1.2"/>`
+    : "";
+  svg.innerHTML = mapBase() + wordLabels() + axisLabels() + dot;
+  svg.setAttribute("aria-valuetext", state.hasMood ? `${level(v,PLEASANT)} pleasantness, ${level(a,ENERGY)}` : "no mood chosen yet");
+}
+function wireMap(){
+  const svg = $("#pickmap");
+  const at = e => {
+    const r = svg.getBoundingClientRect();
+    setMood((e.clientX - r.left)/r.width, 1 - (e.clientY - r.top)/r.height, null);
+  };
+  let down = false;
+  svg.addEventListener("pointerdown", e => { down = true; svg.setPointerCapture(e.pointerId); at(e); });
+  svg.addEventListener("pointermove", e => { if (down) at(e); });
+  svg.addEventListener("pointerup",   () => down = false);
+  svg.addEventListener("pointercancel",() => down = false);
+  svg.addEventListener("keydown", e => {
+    const step = e.shiftKey ? .1 : .04;
+    const d = {ArrowLeft:[-step,0], ArrowRight:[step,0], ArrowUp:[0,step], ArrowDown:[0,-step]}[e.key];
+    if (!d) return;
+    e.preventDefault();
+    const base = state.hasMood ? state.mood : {v:.5, a:.5};
+    setMood(base.v + d[0], base.a + d[1], null);
+  });
+}
+
+/* ---------- write it ---------- */
+const NEG = new Set(["not","no","never","isn't","isnt","wasn't","wasnt","don't","dont","aint","ain't","hardly"]);
+const MORE = new Set(["very","so","really","super","extremely","totally","completely","too"]);
+const LESS = new Set(["slightly","kinda","kind","bit","little","somewhat","abit"]);
+
+function readText(text){
+  const t = text.toLowerCase().replace(/[^a-z' ]+/g, " ").replace(/\s+/g, " ").trim();
+  if (!t) return [];
+  // phrases first ("burnt out"), then single tokens
+  const lex = Object.fromEntries(WORDS.map(w => [w.w, w.w]));
+  Object.assign(lex, SYNONYMS);
+  const toks = t.split(" ");
+  const hits = [];
+  for (let i=0; i<toks.length; i++){
+    let key = null, len = 1;
+    if (i+1 < toks.length && lex[toks[i]+" "+toks[i+1]]) { key = toks[i]+" "+toks[i+1]; len = 2; }
+    else if (lex[toks[i]]) key = toks[i];
+    if (!key) continue;
+    const base = WORDS.find(w => w.w === lex[key]);
+    const prev = toks.slice(Math.max(0,i-2), i);
+    let v = base.v, a = base.a;
+    if (prev.some(p => NEG.has(p))){            // "not happy" → mirror, then soften (it's vague)
+      v = .5 + .5*(.5 - v); a = .5 + .5*(.5 - a);
+    }
+    let k = 1;
+    if (prev.some(p => MORE.has(p))) k = 1.3;
+    if (prev.some(p => LESS.has(p))) k = .7;
+    v = clamp(.5 + (v-.5)*k, .05, .95); a = clamp(.5 + (a-.5)*k, .05, .95);
+    hits.push({word:key, v, a});
+    i += len-1;
+  }
+  return hits;
+}
+function wireWrite(){
+  let timer;
+  $("#free").addEventListener("input", e => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      const hits = readText(e.target.value);
+      const box = $("#heard");
+      if (!hits.length){
+        box.innerHTML = e.target.value.trim()
+          ? `<span class="empty-note">I didn't catch a feeling word. Try tired, anxious, cozy, excited…</span>` : "";
+        return;
+      }
+      box.innerHTML = `<span class="empty-note">I heard:</span>` + hits.map(h => `<span class="chip static">${esc(h.word)}</span>`).join("");
+      const v = hits.reduce((s,h)=>s+h.v,0)/hits.length, a = hits.reduce((s,h)=>s+h.a,0)/hits.length;
+      setMood(v, a, null);
+    }, 250);
+  });
+}
+
+function updateGo(){
+  $("#go").disabled = !state.hasMood;
+  $("#go-note").textContent = state.hasMood ? "" : "Pick how you feel first ☝️";
+}
+
+/* ====================================================================
+   Screen 2: session
+   ==================================================================== */
+function show(screen){
+  ["mood","play","done"].forEach(s => $("#screen-"+s).hidden = s !== screen);
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+async function startSession(){
+  clearError();
+  const btn = $("#go"); btn.disabled = true; btn.textContent = "Planning…";
+  try{
+    const plan = await api("/api/session", {
+      user_id: userId(),
+      start: [state.mood.v, state.mood.a],
+      target: [state.target.v, state.target.a],
+      n_songs: state.n,
+      hour: new Date().getHours(),
+    });
+    state.sid = plan.session_id; state.plan = plan; state.picks = []; state.current = null;
+    buildTrackList(); drawPathMap(); renderDots();
+    show("play");
+    await loadNext();
+  }catch(err){
+    showError(err.message);
+  }finally{
+    btn.textContent = "Make my playlist 🎶"; updateGo();
+  }
+}
+
+function buildTrackList(){ $("#tracklist").innerHTML = ""; }
+
+function renderDots(){
+  const n = state.plan.n_songs;
+  const cur = state.current ? state.current.index : -1;
+  $("#dots").innerHTML = Array.from({length:n}, (_,i) => {
+    const p = state.picks[i];
+    const cls = p && p.fb ? (p.fb==="skip" ? "skip" : p.fb==="replay" ? "love" : "done") : (i===cur ? "cur" : "");
+    return `<i class="${cls}"></i>`;
+  }).join("");
+}
+
+function drawPathMap(){
+  const svg = $("#pathmap"), plan = state.plan; if (!plan) return;
+  const X = v => v*100, Y = a => (1-a)*100;
+  const ideal = plan.waypoints.map(([v,a]) => `${X(v)},${Y(a)}`).join(" ");
+  const s = state.mood, t = state.target;
+  const pts = state.picks.map(p => `${X(p.song.valence)},${Y(p.song.arousal)}`);
+  const trail = pts.length > 1 ? `<polyline points="${pts.join(" ")}" fill="none" stroke="${INK}" stroke-width=".9"/>` : "";
+  const dots = state.picks.map((p,i) => {
+    const cur = state.current && state.current.index === i;
+    return `<circle cx="${X(p.song.valence)}" cy="${Y(p.song.arousal)}" r="${cur?4.3:3.4}" fill="${cur?"#FFF1B8":"#D2F0DC"}" stroke="${INK}" stroke-width=".9"/>
+            <text x="${X(p.song.valence)}" y="${Y(p.song.arousal)+.2}" text-anchor="middle" dominant-baseline="middle" font-size="3.2" font-weight="800" font-family="Nunito,sans-serif" fill="${INK}">${i+1}</text>`;
+  }).join("");
+  const star = (cx,cy,r) => {
+    let d=""; for (let i=0;i<10;i++){ const rr = i%2?r*.45:r, ang = -Math.PI/2 + i*Math.PI/5; d += (i?"L":"M") + (cx+rr*Math.cos(ang)).toFixed(2) + " " + (cy+rr*Math.sin(ang)).toFixed(2); }
+    return d+"Z";
+  };
+  svg.innerHTML = mapBase() + axisLabels() +
+    `<polyline points="${ideal}" fill="none" stroke="#BDB2A3" stroke-width="1.4" stroke-dasharray="1.2 2" stroke-linecap="round"/>` +
+    trail + dots +
+    `<circle cx="${X(s.v)}" cy="${Y(s.a)}" r="3.6" fill="#D5EBF9" stroke="${INK}" stroke-width=".9"/>
+     <text x="${X(s.v)}" y="${Y(s.a)-5.4}" text-anchor="middle" class="axis" style="fill:${INK}">you</text>
+     <path d="${star(X(t.v),Y(t.a),5.6)}" fill="#FFF1B8" stroke="${INK}" stroke-width=".9" stroke-linejoin="round"/>
+     <text x="${X(t.v)}" y="${Y(t.a)-7}" text-anchor="middle" class="axis" style="fill:${INK}">${esc(t.label)}</text>`;
+}
+
+function renderTracklist(){
+  $("#tracklist").innerHTML = state.picks.map((p,i) => {
+    const cls = p.fb==="skip" ? "skip" : p.fb==="replay" ? "love" : p.fb ? "ok" : "";
+    return `<li class="${cls}"><span class="n">${i+1}</span><span class="t">${esc(p.song.display_title)} · <span style="color:var(--ink-soft)">${esc(p.song.display_artist)}</span></span></li>`;
+  }).join("");
+}
+
+async function loadNext(){
+  state.busy = true; setActionsEnabled(false);
+  try{
+    const r = await api(`/api/session/${state.sid}/next`);
+    if (r.done){ openDone(); return; }
+    state.current = r;
+    state.picks.push({song:r.song, fb:null});
+    $("#song-title").textContent = r.song.display_title;
+    $("#song-artist").innerHTML = esc(r.song.display_artist) + (r.song.placeholder ? ` &nbsp;<span class="tag clip">dataset clip</span>` : "");
+    $("#phase").textContent = r.in_match_phase
+      ? `🤝 meeting you where you are · ${r.index+1}/${r.total}`
+      : `🌿 easing toward ${state.target.label} · ${r.index+1}/${r.total}`;
+    $("#bubble").hidden = !r.gentle_mode;
+    $("#disc").style.background = r.in_match_phase ? "var(--sky)" : "var(--mint)";
+    renderDots(); drawPathMap(); renderTracklist();
+    setActionsEnabled(true);
+    $("#b-ok").focus({preventScroll:true});
+  }catch(err){
+    showError(err.message);
+  }finally{
+    state.busy = false;
+  }
+}
+
+function setActionsEnabled(on){ ["b-ok","b-love","b-skip"].forEach(id => $("#"+id).disabled = !on); }
+
+async function sendFeedback(kind){
+  if (state.busy || !state.current) return;
+  state.busy = true; setActionsEnabled(false); clearError();
+  try{
+    const r = await api(`/api/session/${state.sid}/feedback`, {feedback:kind});
+    state.picks[state.picks.length-1].fb = kind;
+    $("#bubble").hidden = !r.gentle_mode;
+    renderDots(); renderTracklist();
+    state.busy = false;
+    await loadNext();
+  }catch(err){
+    state.busy = false; setActionsEnabled(true); showError(err.message);
+  }
+}
+
+/* ====================================================================
+   Screen 3: how do you feel now?
+   ==================================================================== */
+function openDone(){
+  state.endMood = null; state.rating = null;
+  $("#done-ask").hidden = false; $("#done-result").hidden = true;
+  $("#end-faces").innerHTML = FACES.map(f =>
+    `<button class="opt" data-end="${f.k}" aria-pressed="false">${faceSVG(f)}<span>${f.label}</span></button>`).join("");
+  renderStars();
+  show("done");
+}
+function renderStars(){
+  const star = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.7 6.1 20.8l1.2-6.5L2.5 9.7l6.6-.9z"/></svg>`;
+  $("#stars").innerHTML = [1,2,3,4,5].map(i =>
+    `<button class="star ${state.rating>=i?"on":""}" role="radio" aria-checked="${state.rating===i}" aria-label="${i} of 5" data-r="${i}">${star}</button>`).join("");
+}
+function wireDone(){
+  $("#end-faces").addEventListener("click", e => {
+    const b = e.target.closest("[data-end]"); if (!b) return;
+    const f = FACES.find(x => x.k === b.dataset.end);
+    const same = state.endMood && state.endMood.k === f.k;
+    state.endMood = same ? null : f;       // click again to un-pick
+    $("#end-faces").querySelectorAll(".opt").forEach(x => x.setAttribute("aria-pressed", !!state.endMood && x.dataset.end === state.endMood.k));
+  });
+  $("#stars").addEventListener("click", e => {
+    const b = e.target.closest("[data-r]"); if (!b) return;
+    const r = +b.dataset.r; state.rating = state.rating === r ? null : r; renderStars();
+  });
+  $("#finish").addEventListener("click", finishSession);
+  $("#again").addEventListener("click", () => { show("mood"); });
+}
+
+const pct = x => Math.round(x*100) + "%";
+
+async function finishSession(){
+  const btn = $("#finish"); btn.disabled = true; clearError();
+  try{
+    const r = await api(`/api/session/${state.sid}/finish`, {
+      rating: state.rating,
+      end_mood: state.endMood ? [state.endMood.v, state.endMood.a] : null,
+    });
+    $("#done-ask").hidden = true; $("#done-result").hidden = false;
+    const stats = [];
+    if (r.mood_progress != null) stats.push(`<div class="stat"><b>${pct(r.mood_progress)}</b><span>of the way to ${esc(state.target.label)}</span></div>`);
+    stats.push(`<div class="stat"><b>${r.played}</b><span>songs played</span></div>`);
+    stats.push(`<div class="stat"><b>${pct(r.skip_rate)}</b><span>skipped</span></div>`);
+    stats.push(`<div class="stat"><b>${pct(r.replay_rate)}</b><span>loved</span></div>`);
+    $("#res-stats").innerHTML = stats.join("");
+    if (!r.learned){
+      $("#res-title").textContent = "No songs played"; $("#res-sub").textContent = "Nothing to learn from this time.";
+      $("#res-learn").textContent = "";
+    } else {
+      $("#res-title").textContent = r.mood_progress != null && r.mood_progress >= .5 ? "That sounds like a good shift 🌤️" : "Thank you 💛";
+      $("#res-sub").textContent = r.mood_progress == null ? "No end mood this time, so I learned from your skips and loves only." : "";
+      const b = r.best_arm;
+      $("#res-learn").textContent =
+        `That was journey ${r.sessions_done} for you. So far I think you do best with about ${b.n_songs} songs, ` +
+        `${b.max_jump <= .1 ? "very small" : b.max_jump <= .15 ? "gentle" : "bigger"} steps between songs, ` +
+        `and ${b.match_fraction <= .1 ? "a short" : b.match_fraction <= .25 ? "a medium" : "a long"} warm-up that matches your mood first.`;
+    }
+  }catch(err){
+    showError(err.message);
+  }finally{
+    btn.disabled = false;
+  }
+}
+
+/* ====================================================================
+   Boot
+   ==================================================================== */
+renderTabs(); buildOptions(); wireSliders(); wireMap(); wireWrite(); wireDone();
+selectTab("faces"); renderSummary(); syncSliders(); drawPickMap(); updateGo();
+
+$("#go").addEventListener("click", startSession);
+$("#b-ok").addEventListener("click",   () => sendFeedback("neutral"));
+$("#b-love").addEventListener("click", () => sendFeedback("replay"));
+$("#b-skip").addEventListener("click", () => sendFeedback("skip"));
+</script>
+</body>
+</html>
