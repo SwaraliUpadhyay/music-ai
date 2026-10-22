@@ -19,6 +19,7 @@ from .contextual_bandit import (
     mood_category_of, time_bucket_of,
 )
 from .reward import SessionSignals, compute_reward
+from .implicit import classify_listening, SKIP_BELOW
 from .data_utils import stratified_train_test_split, stratum_coverage_report
 
 __all__ = [
@@ -30,5 +31,6 @@ __all__ = [
     "build_context_features", "FEATURE_NAMES", "MOOD_CATEGORIES", "TIME_BUCKETS",
     "mood_category_of", "time_bucket_of",
     "SessionSignals", "compute_reward",
+    "classify_listening", "SKIP_BELOW",
     "stratified_train_test_split", "stratum_coverage_report",
 ]

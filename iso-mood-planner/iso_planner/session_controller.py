@@ -120,6 +120,34 @@ class SessionController:
         if self.log:
             self.log[-1]['feedback'] = feedback
 
+    def guardrail_triggers(self) -> int:
+        """How many songs so far were skipped, i.e. how many times the
+        guardrail was told to tighten."""
+        return sum(1 for e in self.log if e.get("feedback") == "skip")
+
+    def guardrail_load(self) -> float:
+        """
+        How far, on average, the guardrail held the step cap below its base
+        value while this session's songs were being chosen, scaled to [0, 1].
+
+            0.0  the cap was never tightened
+            1.0  the cap sat at its floor for every song
+
+        This is the quantity the reward penalises. It is highly correlated with
+        the skip count but time-aware: a skip only matters for the songs chosen
+        after it, so a skip on the last song scores 0, an early skip scores
+        more than a late one, and replays after a skip let the cap recover
+        sooner. (Two skips back to back and two far apart score about the same.)
+        """
+        if not self.log:
+            return 0.0
+        g = self.guardrail
+        span = 1.0 - g.floor_ratio
+        if span <= 0 or g.base_max_jump <= 0:
+            return 0.0
+        tight = [max(0.0, 1.0 - e["cap_requested"] / g.base_max_jump) for e in self.log]
+        return min(1.0, (sum(tight) / len(tight)) / span)
+
     def run_full(self, feedback_fn):
         """
         Convenience driver: repeatedly calls next_song(), asks feedback_fn(song)

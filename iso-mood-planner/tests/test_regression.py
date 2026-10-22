@@ -102,6 +102,46 @@ def test_linear_context_model_updates_and_shrinks_variance():
     assert var_after < var_before  # more data -> less uncertainty about this arm's reward here
 
 
+def test_classify_listening_thresholds():
+    from iso_planner import classify_listening, SKIP_BELOW
+    assert classify_listening(0.05) == "skip"
+    assert classify_listening(SKIP_BELOW - 0.01) == "skip"
+    assert classify_listening(SKIP_BELOW) == "neutral"
+    assert classify_listening(1.0) == "neutral"
+    assert classify_listening(0.1, replays=1) == "replay"   # played again beats leaving early
+    assert classify_listening(7.0) == "neutral"             # clamped, not an error
+
+
+def test_reward_guardrail_term_penalises_load_and_is_backward_compatible():
+    base = SessionSignals(mood_progress=0.6, skip_rate=0.1, replay_rate=0.2, rating=4)
+    r_old = compute_reward(base)
+    calm = SessionSignals(0.6, 0.1, 0.2, 4, guardrail_load=0.0)
+    stormy = SessionSignals(0.6, 0.1, 0.2, 4, guardrail_load=0.9)
+    assert compute_reward(stormy) < compute_reward(calm)
+    assert compute_reward(SessionSignals(0.6, 0.1, 0.2, 4, guardrail_load=None)) == r_old
+    assert -1.0 <= compute_reward(stormy) <= 1.0
+
+
+def test_session_controller_guardrail_load_and_triggers():
+    pool = _toy_pool(200, seed=1)
+
+    def run(fb):
+        sc = SessionController(pool, (0.2, 0.3), (0.8, 0.6), n_songs=8, max_jump=0.3)
+        for f in fb:
+            sc.next_song(); sc.submit_feedback(f)
+        return sc
+
+    clean = run(["neutral"] * 8)
+    early = run(["skip"] + ["neutral"] * 7)
+    last = run(["neutral"] * 7 + ["skip"])
+    allskip = run(["skip"] * 8)
+    assert clean.guardrail_load() == 0.0 and clean.guardrail_triggers() == 0
+    assert last.guardrail_load() == 0.0 and last.guardrail_triggers() == 1  # nothing after it to affect
+    assert early.guardrail_load() > 0.0
+    assert allskip.guardrail_load() > early.guardrail_load()
+    assert allskip.guardrail_load() <= 1.0
+
+
 if __name__ == "__main__":
     import sys
     tests = [v for k, v in list(globals().items()) if k.startswith("test_")]

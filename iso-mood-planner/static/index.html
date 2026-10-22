@@ -201,7 +201,16 @@
   }
   .bubble[hidden]{display:none}
   .actions{display:flex; flex-wrap:wrap; gap:10px}
-  .audio-note{font-size:13.5px; color:var(--ink-soft); font-weight:700}
+  .audio-note{font-size:13.5px; color:var(--ink-soft); font-weight:700; min-height:20px}
+  .auto{display:flex; align-items:center; gap:10px; font-size:14px; font-weight:700; color:var(--ink-soft); cursor:pointer}
+  .auto input{width:20px; height:20px; accent-color:var(--mint-d); cursor:pointer}
+  .player{display:flex; align-items:center; gap:12px; background:var(--card); border:2.5px solid var(--ink); border-radius:999px; padding:6px 16px 6px 6px}
+  .player[hidden]{display:none}
+  .pp{width:42px; height:42px; border-radius:50%; border:2.5px solid var(--ink); background:var(--butter); box-shadow:0 3px 0 var(--butter-d); font-size:16px; flex:none; display:grid; place-items:center; padding:0}
+  .pp:active{transform:translateY(2px); box-shadow:0 1px 0 var(--butter-d)}
+  .prog{flex:1; height:12px; border:2px solid var(--ink); border-radius:99px; background:var(--cream); overflow:hidden}
+  .prog i{display:block; height:100%; width:0; background:var(--mint); border-right:2px solid var(--ink); transition:width .25s linear}
+  .time{font-size:13px; font-weight:800; color:var(--ink-soft); min-width:34px; text-align:right}
   .tracklist{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:6px}
   .tracklist li{display:flex; gap:10px; align-items:center; font-size:14.5px}
   .tracklist .n{width:24px; height:24px; border-radius:50%; border:2px solid var(--ink); display:grid; place-items:center; font-size:12px; font-weight:800; flex:none; background:var(--card)}
@@ -343,7 +352,14 @@
           <button class="btn blush small" id="b-love">💗 Loved it</button>
           <button class="btn sky small" id="b-skip">⏭ Skip</button>
         </div>
-        <div class="audio-note">Audio playback isn't connected yet. These buttons tell the planner how each song would have felt.</div>
+        <div class="player" id="player-box" hidden>
+          <button class="pp" id="pp" aria-label="Play">▶</button>
+          <div class="prog" role="progressbar" aria-label="Preview progress" aria-valuemin="0" aria-valuemax="100"><i id="prog-i"></i></div>
+          <span class="time" id="time">0:00</span>
+        </div>
+        <div class="audio-note" id="audio-note" aria-live="polite"></div>
+        <label class="auto"><input type="checkbox" id="auto" checked> Move on by itself when a preview ends</label>
+        <audio id="player" preload="none"></audio>
       </section>
 
       <section class="card">
@@ -836,6 +852,7 @@ function updateGo(){
    Screen 2: session
    ==================================================================== */
 function show(screen){
+  if (screen !== "play") stopAudio();
   ["mood","play","done"].forEach(s => $("#screen-"+s).hidden = s !== screen);
   window.scrollTo({top:0, behavior:"smooth"});
 }
@@ -902,7 +919,8 @@ function drawPathMap(){
 function renderTracklist(){
   $("#tracklist").innerHTML = state.picks.map((p,i) => {
     const cls = p.fb==="skip" ? "skip" : p.fb==="replay" ? "love" : p.fb ? "ok" : "";
-    return `<li class="${cls}"><span class="n">${i+1}</span><span class="t">${esc(p.song.display_title)} · <span style="color:var(--ink-soft)">${esc(p.song.display_artist)}</span></span></li>`;
+    const heard = p.frac != null ? ` · heard ${Math.round(p.frac*100)}%` : "";
+    return `<li class="${cls}"><span class="n">${i+1}</span><span class="t">${esc(p.song.display_title)} · <span style="color:var(--ink-soft)">${esc(p.song.display_artist)}${heard}</span></span></li>`;
   }).join("");
 }
 
@@ -922,6 +940,7 @@ async function loadNext(){
     $("#disc").style.background = r.in_match_phase ? "var(--sky)" : "var(--mint)";
     renderDots(); drawPathMap(); renderTracklist();
     setActionsEnabled(true);
+    startPreview(r.song);
     $("#b-ok").focus({preventScroll:true});
   }catch(err){
     showError(err.message);
@@ -932,12 +951,30 @@ async function loadNext(){
 
 function setActionsEnabled(on){ ["b-ok","b-love","b-skip"].forEach(id => $("#"+id).disabled = !on); }
 
+/* What the listener actually did with the current preview. Null when nothing was
+   heard (no audio for this song, or autoplay was blocked and they never pressed
+   play), in which case there is no behaviour to read and the button decides. */
+function listenStats(){
+  if (!listen.hasAudio || !listen.started) return null;
+  const d = listen.dur || audio.duration || 30;
+  return {listened_fraction: Math.max(0, Math.min(1, listen.maxT / d)), replays: listen.replays};
+}
+
+/* kind: "skip" | "replay" | "neutral".  With listening data, "neutral" (the Next
+   button, or a clip that ended on its own) sends only the behaviour and lets the
+   server decide: left early = skip, played it again = replay, heard it = neutral.
+   Skip and Loved are always explicit. */
 async function sendFeedback(kind){
   if (state.busy || !state.current) return;
   state.busy = true; setActionsEnabled(false); clearError();
+  clearTimeout(autoTimer);
+  const stats = listenStats();
+  stopAudio();
+  const body = (kind === "neutral" && stats) ? stats : Object.assign({feedback: kind}, stats || {});
   try{
-    const r = await api(`/api/session/${state.sid}/feedback`, {feedback:kind});
-    state.picks[state.picks.length-1].fb = kind;
+    const r = await api(`/api/session/${state.sid}/feedback`, body);
+    const pick = state.picks[state.picks.length-1];
+    pick.fb = r.feedback; pick.frac = r.listened_fraction;
     $("#bubble").hidden = !r.gentle_mode;
     renderDots(); renderTracklist();
     state.busy = false;
@@ -946,6 +983,85 @@ async function sendFeedback(kind){
     state.busy = false; setActionsEnabled(true); showError(err.message);
   }
 }
+
+/* ====================================================================
+   Audio previews (30-second clips found by the backend; some songs have none)
+   ==================================================================== */
+const audio = $("#player");
+let audioToken = 0;
+let autoTimer = null;
+const freshListen = () => ({hasAudio:false, started:false, maxT:0, dur:0, replays:0, ended:false});
+let listen = freshListen();   // furthest point heard, replays after the end, etc. for the current song
+
+const fmt = t => { t = Math.max(0, Math.floor(t || 0)); return Math.floor(t/60) + ":" + String(t%60).padStart(2,"0"); };
+const audioNote = txt => { $("#audio-note").textContent = txt; };
+function setPP(playing){
+  const b = $("#pp"); b.textContent = playing ? "❚❚" : "▶"; b.setAttribute("aria-label", playing ? "Pause" : "Play");
+  $("#disc").classList.toggle("spin", playing || $("#player-box").hidden);
+}
+function stopAudio(){
+  audioToken++; clearTimeout(autoTimer);
+  listen = freshListen();
+  audio.pause(); audio.removeAttribute("src"); audio.load();
+  $("#player-box").hidden = true; $("#prog-i").style.width = "0"; $("#time").textContent = "0:00";
+  setPP(false);
+}
+async function startPreview(song){
+  stopAudio();
+  const token = audioToken;
+  if (song.placeholder){
+    audioNote("No audio for dataset clips yet. Use the buttons to say how it would have felt.");
+    return;
+  }
+  audioNote("🔎 Looking for a 30-second preview…");
+  let info = {url:null};
+  try{ info = await (await fetch("/api/preview/" + encodeURIComponent(song.song_id))).json(); }catch(e){}
+  if (token !== audioToken) return;                 // the listener already moved on
+  if (!info.url){
+    audioNote("No preview found for this one. Use the buttons to say how it would have felt.");
+    return;
+  }
+  audio.src = info.url;
+  listen.hasAudio = true;
+  $("#player-box").hidden = false;
+  audioNote("🎧 30-second preview" + (info.source ? " via " + info.source : "") + ". Leaving early counts as a skip, letting it play counts as OK.");
+  try{ await audio.play(); }
+  catch(e){ if (token === audioToken){ setPP(false); audioNote("Tap ▶ to listen. Your browser blocked autoplay."); } }
+}
+$("#pp").addEventListener("click", () => {
+  if (audio.ended) audio.currentTime = 0;
+  if (audio.paused) audio.play().catch(()=>{}); else audio.pause();
+});
+audio.addEventListener("play",  () => {
+  setPP(true); clearTimeout(autoTimer);
+  if (!listen.hasAudio) return;
+  listen.started = true;
+  if (listen.ended){ listen.replays++; listen.ended = false; }   // pressed ↺ after it finished
+});
+audio.addEventListener("pause", () => { if (!audio.ended) setPP(false); });
+audio.addEventListener("loadedmetadata", () => { if (Number.isFinite(audio.duration)) listen.dur = audio.duration; });
+audio.addEventListener("timeupdate", () => {
+  const d = audio.duration || 30;
+  if (listen.hasAudio) listen.maxT = Math.max(listen.maxT, audio.currentTime);
+  $("#prog-i").style.width = Math.min(100, audio.currentTime / d * 100) + "%";
+  $("#time").textContent = fmt(audio.currentTime);
+});
+audio.addEventListener("ended", () => {
+  setPP(false); $("#pp").textContent = "↺";
+  if (!listen.hasAudio) return;
+  listen.ended = true; listen.maxT = listen.dur || audio.duration || listen.maxT;
+  if ($("#auto").checked){
+    audioNote("Finished. Moving on in a moment. Tap ↺ to hear it again.");
+    autoTimer = setTimeout(() => sendFeedback("neutral"), 1800);
+  } else {
+    audioNote("Preview finished. Tap ↺ to hear it again, or Next song.");
+  }
+});
+audio.addEventListener("error", () => {
+  if (!audio.getAttribute("src")) return;
+  $("#player-box").hidden = true; setPP(false);
+  audioNote("Couldn't play that preview. Use the buttons to say how it would have felt.");
+});
 
 /* ====================================================================
    Screen 3: how do you feel now?
@@ -994,13 +1110,14 @@ async function finishSession(){
     stats.push(`<div class="stat"><b>${r.played}</b><span>songs played</span></div>`);
     stats.push(`<div class="stat"><b>${pct(r.skip_rate)}</b><span>skipped</span></div>`);
     stats.push(`<div class="stat"><b>${pct(r.replay_rate)}</b><span>loved</span></div>`);
+    if (r.from_listening > 0) stats.push(`<div class="stat"><b>${r.from_listening}/${r.played}</b><span>read from listening</span></div>`);
     $("#res-stats").innerHTML = stats.join("");
     if (!r.learned){
       $("#res-title").textContent = "No songs played"; $("#res-sub").textContent = "Nothing to learn from this time.";
       $("#res-learn").textContent = "";
     } else {
       $("#res-title").textContent = r.mood_progress != null && r.mood_progress >= .5 ? "That sounds like a good shift 🌤️" : "Thank you 💛";
-      $("#res-sub").textContent = r.mood_progress == null ? "No end mood this time, so I learned from your skips and loves only." : "";
+      $("#res-sub").textContent = r.mood_progress == null ? "No end mood this time, so I learned from how you listened and what you pressed." : "";
       const b = r.best_arm;
       $("#res-learn").textContent =
         `That was journey ${r.sessions_done} for you. So far I think you do best with about ${b.n_songs} songs, ` +
